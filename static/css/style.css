@@ -586,26 +586,29 @@ footer {
 }
 
 .solutions-card-text {
-    background: rgba(0, 0, 0, 0.03);
-    padding: 40px 50px; /* 增大内边距 */
-    border-radius: 0;
-    box-shadow: none;
+    background: rgba(0, 0, 0, 0.3); /* 从 0.03 改为 0.3，增加不透明度 */
+    padding: 40px 50px;
+    border-radius: 8px; /* 添加圆角让外观更好看 */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* 添加阴影增强层次感 */
     text-align: left;
+    backdrop-filter: blur(10px); /* 添加毛玻璃效果，可选 */
 }
 
 .solutions-card-title h3 {
-    font-size: 3rem;  /* 显著增大标题 */
+    font-size: 3rem;
     margin-bottom: 25px;
     color: #fff;
-    font-weight: 600; /* 加粗 */
-    line-height: 1.2; /* 调整行高 */
+    font-weight: 600;
+    line-height: 1.2;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
 }
 
 .solutions-card-desc {
-    font-size: 1.5rem;  /* 增大正文 */
+    font-size: 1.5rem;
     line-height: 1.8;
     margin-bottom: 30px;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .por-btn-large {

@@ -137,6 +137,35 @@ def contact():
     return render_template('contact.html')
 
 
+# ========== 案例详情页路由 ==========
+
+@app.route('/ethiotelecomcloud/')
+def ethiotelecomcloud():
+    return render_template('ethiotelecomcloud.html')
+
+@app.route('/xg/')
+def xg():
+    return render_template('xg.html')
+
+@app.route('/southwest/')
+def southwest():
+    return render_template('southwest.html')
+
+@app.route('/eerduosi/')
+def eerduosi():
+    return render_template('eerduosi.html')
+
+@app.route('/sanxia/')
+def sanxia():
+    return render_template('sanxia.html')
+
+@app.route('/shenzhenjichang/')
+def shenzhenjichang():
+    return render_template('shenzhenjichang.html')
+@app.route('/insight/')
+def insight():
+    return render_template('insight.html')
+
 # ========== 新闻详情页路由 ==========
 
 @app.route('/20250702/')

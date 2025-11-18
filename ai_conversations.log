@@ -1089,3 +1089,1060 @@ Let me know how I can help!
 2025-11-18 11:27:04,562 - Token使用: {'prompt_tokens': 428, 'total_tokens': 721, 'completion_tokens': 293}
 2025-11-18 11:27:04,562 - --------------------------------------------------
 2025-11-18 11:27:04,562 - 127.0.0.1 - - [18/Nov/2025 11:27:04] "POST /api/maas/chat HTTP/1.1" 200 -
+2025-11-18 12:10:32,721 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 12:10:32,721 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 12:10:32,721 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 12:10:32,722 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 12:10:33,343 -  * Restarting with watchdog (windowsapi)
+2025-11-18 12:10:34,900 -  * Debugger is active!
+2025-11-18 12:10:34,904 -  * Debugger PIN: 262-282-285
+2025-11-18 12:43:17,063 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1626
+ * Running on http://192.168.210.101:1626
+2025-11-18 12:43:17,064 - [33mPress CTRL+C to quit[0m
+2025-11-18 12:43:17,074 -  * Restarting with watchdog (windowsapi)
+2025-11-18 12:43:17,523 -  * Debugger is active!
+2025-11-18 12:43:17,526 -  * Debugger PIN: 262-282-285
+2025-11-18 12:43:19,270 - 127.0.0.1 - - [18/Nov/2025 12:43:19] "GET / HTTP/1.1" 200 -
+2025-11-18 12:43:19,382 - 127.0.0.1 - - [18/Nov/2025 12:43:19] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 12:43:19,384 - 127.0.0.1 - - [18/Nov/2025 12:43:19] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 12:43:19,385 - 127.0.0.1 - - [18/Nov/2025 12:43:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 12:43:19,451 - 127.0.0.1 - - [18/Nov/2025 12:43:19] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 12:43:19,453 - 127.0.0.1 - - [18/Nov/2025 12:43:19] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 12:43:19,456 - 127.0.0.1 - - [18/Nov/2025 12:43:19] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 12:43:19,458 - 127.0.0.1 - - [18/Nov/2025 12:43:19] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 12:43:20,945 - 127.0.0.1 - - [18/Nov/2025 12:43:20] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 12:43:20,974 - 127.0.0.1 - - [18/Nov/2025 12:43:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 12:43:20,978 - 127.0.0.1 - - [18/Nov/2025 12:43:20] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:43:05,375 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1626
+ * Running on http://192.168.210.101:1626
+2025-11-18 13:43:05,375 - [33mPress CTRL+C to quit[0m
+2025-11-18 13:43:05,390 -  * Restarting with watchdog (windowsapi)
+2025-11-18 13:43:06,009 -  * Debugger is active!
+2025-11-18 13:43:06,015 -  * Debugger PIN: 262-282-285
+2025-11-18 13:43:08,341 - 127.0.0.1 - - [18/Nov/2025 13:43:08] "GET / HTTP/1.1" 200 -
+2025-11-18 13:43:08,442 - 127.0.0.1 - - [18/Nov/2025 13:43:08] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:43:08,443 - 127.0.0.1 - - [18/Nov/2025 13:43:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:43:08,443 - 127.0.0.1 - - [18/Nov/2025 13:43:08] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:43:08,540 - 127.0.0.1 - - [18/Nov/2025 13:43:08] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:43:08,542 - 127.0.0.1 - - [18/Nov/2025 13:43:08] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:43:08,543 - 127.0.0.1 - - [18/Nov/2025 13:43:08] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:43:08,544 - 127.0.0.1 - - [18/Nov/2025 13:43:08] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:47:47,272 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1626
+ * Running on http://192.168.210.101:1626
+2025-11-18 13:47:47,272 - [33mPress CTRL+C to quit[0m
+2025-11-18 13:47:47,282 -  * Restarting with watchdog (windowsapi)
+2025-11-18 13:47:47,742 -  * Debugger is active!
+2025-11-18 13:47:47,746 -  * Debugger PIN: 262-282-285
+2025-11-18 13:47:49,959 - 127.0.0.1 - - [18/Nov/2025 13:47:49] "GET / HTTP/1.1" 200 -
+2025-11-18 13:47:50,055 - 127.0.0.1 - - [18/Nov/2025 13:47:50] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:47:50,061 - 127.0.0.1 - - [18/Nov/2025 13:47:50] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:47:50,064 - 127.0.0.1 - - [18/Nov/2025 13:47:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:47:50,145 - 127.0.0.1 - - [18/Nov/2025 13:47:50] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:47:50,147 - 127.0.0.1 - - [18/Nov/2025 13:47:50] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:47:50,148 - 127.0.0.1 - - [18/Nov/2025 13:47:50] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:47:50,149 - 127.0.0.1 - - [18/Nov/2025 13:47:50] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:47:58,279 - 127.0.0.1 - - [18/Nov/2025 13:47:58] "GET /gonc/ HTTP/1.1" 200 -
+2025-11-18 13:47:58,318 - 127.0.0.1 - - [18/Nov/2025 13:47:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:47:58,319 - 127.0.0.1 - - [18/Nov/2025 13:47:58] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:08,302 - 127.0.0.1 - - [18/Nov/2025 13:48:08] "GET / HTTP/1.1" 200 -
+2025-11-18 13:48:08,337 - 127.0.0.1 - - [18/Nov/2025 13:48:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:48:08,343 - 127.0.0.1 - - [18/Nov/2025 13:48:08] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:08,344 - 127.0.0.1 - - [18/Nov/2025 13:48:08] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:08,459 - 127.0.0.1 - - [18/Nov/2025 13:48:08] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:08,461 - 127.0.0.1 - - [18/Nov/2025 13:48:08] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:08,463 - 127.0.0.1 - - [18/Nov/2025 13:48:08] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:08,465 - 127.0.0.1 - - [18/Nov/2025 13:48:08] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:09,853 - 127.0.0.1 - - [18/Nov/2025 13:48:09] "GET / HTTP/1.1" 200 -
+2025-11-18 13:48:09,887 - 127.0.0.1 - - [18/Nov/2025 13:48:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:09,893 - 127.0.0.1 - - [18/Nov/2025 13:48:09] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:09,895 - 127.0.0.1 - - [18/Nov/2025 13:48:09] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:09,917 - 127.0.0.1 - - [18/Nov/2025 13:48:09] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:09,919 - 127.0.0.1 - - [18/Nov/2025 13:48:09] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:09,921 - 127.0.0.1 - - [18/Nov/2025 13:48:09] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:09,921 - 127.0.0.1 - - [18/Nov/2025 13:48:09] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:15,083 - 127.0.0.1 - - [18/Nov/2025 13:48:15] "GET / HTTP/1.1" 200 -
+2025-11-18 13:48:15,116 - 127.0.0.1 - - [18/Nov/2025 13:48:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:15,126 - 127.0.0.1 - - [18/Nov/2025 13:48:15] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:15,132 - 127.0.0.1 - - [18/Nov/2025 13:48:15] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:15,149 - 127.0.0.1 - - [18/Nov/2025 13:48:15] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:15,151 - 127.0.0.1 - - [18/Nov/2025 13:48:15] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:15,153 - 127.0.0.1 - - [18/Nov/2025 13:48:15] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:15,153 - 127.0.0.1 - - [18/Nov/2025 13:48:15] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:16,179 - 127.0.0.1 - - [18/Nov/2025 13:48:16] "GET / HTTP/1.1" 200 -
+2025-11-18 13:48:16,212 - 127.0.0.1 - - [18/Nov/2025 13:48:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:16,221 - 127.0.0.1 - - [18/Nov/2025 13:48:16] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:16,222 - 127.0.0.1 - - [18/Nov/2025 13:48:16] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:16,241 - 127.0.0.1 - - [18/Nov/2025 13:48:16] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:16,243 - 127.0.0.1 - - [18/Nov/2025 13:48:16] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:16,246 - 127.0.0.1 - - [18/Nov/2025 13:48:16] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:16,247 - 127.0.0.1 - - [18/Nov/2025 13:48:16] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:25,183 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "GET / HTTP/1.1" 200 -
+2025-11-18 13:48:25,214 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:48:25,225 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "GET /static/img/sixie.png HTTP/1.1" 200 -
+2025-11-18 13:48:25,228 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "GET /static/img/img.png HTTP/1.1" 200 -
+2025-11-18 13:48:25,253 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "GET /static/img/img_2.png HTTP/1.1" 200 -
+2025-11-18 13:48:25,254 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "GET /static/img/img_1.png HTTP/1.1" 200 -
+2025-11-18 13:48:25,255 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "GET /static/img/img_3.png HTTP/1.1" 200 -
+2025-11-18 13:48:25,256 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "GET /static/img/img_4.png HTTP/1.1" 200 -
+2025-11-18 13:48:25,434 - 127.0.0.1 - - [18/Nov/2025 13:48:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-18 13:48:39,798 - 127.0.0.1 - - [18/Nov/2025 13:48:39] "GET / HTTP/1.1" 200 -
+2025-11-18 13:48:39,839 - 127.0.0.1 - - [18/Nov/2025 13:48:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:39,843 - 127.0.0.1 - - [18/Nov/2025 13:48:39] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:39,844 - 127.0.0.1 - - [18/Nov/2025 13:48:39] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:39,870 - 127.0.0.1 - - [18/Nov/2025 13:48:39] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:39,871 - 127.0.0.1 - - [18/Nov/2025 13:48:39] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:39,873 - 127.0.0.1 - - [18/Nov/2025 13:48:39] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:39,875 - 127.0.0.1 - - [18/Nov/2025 13:48:39] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:42,442 - 127.0.0.1 - - [18/Nov/2025 13:48:42] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 13:48:42,477 - 127.0.0.1 - - [18/Nov/2025 13:48:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:42,481 - 127.0.0.1 - - [18/Nov/2025 13:48:42] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:45,082 - 127.0.0.1 - - [18/Nov/2025 13:48:45] "GET /service/ HTTP/1.1" 200 -
+2025-11-18 13:48:45,112 - 127.0.0.1 - - [18/Nov/2025 13:48:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:45,124 - 127.0.0.1 - - [18/Nov/2025 13:48:45] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:46,679 - 127.0.0.1 - - [18/Nov/2025 13:48:46] "GET /about/ HTTP/1.1" 200 -
+2025-11-18 13:48:46,707 - 127.0.0.1 - - [18/Nov/2025 13:48:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:46,714 - 127.0.0.1 - - [18/Nov/2025 13:48:46] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:48,264 - 127.0.0.1 - - [18/Nov/2025 13:48:48] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 13:48:48,314 - 127.0.0.1 - - [18/Nov/2025 13:48:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:48,315 - 127.0.0.1 - - [18/Nov/2025 13:48:48] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:54,468 - 127.0.0.1 - - [18/Nov/2025 13:48:54] "GET / HTTP/1.1" 200 -
+2025-11-18 13:48:54,506 - 127.0.0.1 - - [18/Nov/2025 13:48:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:48:54,510 - 127.0.0.1 - - [18/Nov/2025 13:48:54] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:54,511 - 127.0.0.1 - - [18/Nov/2025 13:48:54] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:54,533 - 127.0.0.1 - - [18/Nov/2025 13:48:54] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:54,535 - 127.0.0.1 - - [18/Nov/2025 13:48:54] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:54,538 - 127.0.0.1 - - [18/Nov/2025 13:48:54] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:48:54,539 - 127.0.0.1 - - [18/Nov/2025 13:48:54] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:10,151 - 127.0.0.1 - - [18/Nov/2025 13:49:10] "GET / HTTP/1.1" 200 -
+2025-11-18 13:49:10,181 - 127.0.0.1 - - [18/Nov/2025 13:49:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:49:10,186 - 127.0.0.1 - - [18/Nov/2025 13:49:10] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:10,193 - 127.0.0.1 - - [18/Nov/2025 13:49:10] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:10,217 - 127.0.0.1 - - [18/Nov/2025 13:49:10] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:10,219 - 127.0.0.1 - - [18/Nov/2025 13:49:10] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:10,220 - 127.0.0.1 - - [18/Nov/2025 13:49:10] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:10,223 - 127.0.0.1 - - [18/Nov/2025 13:49:10] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:16,549 - 127.0.0.1 - - [18/Nov/2025 13:49:16] "GET / HTTP/1.1" 200 -
+2025-11-18 13:49:16,579 - 127.0.0.1 - - [18/Nov/2025 13:49:16] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:49:16,592 - 127.0.0.1 - - [18/Nov/2025 13:49:16] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:16,592 - 127.0.0.1 - - [18/Nov/2025 13:49:16] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:16,616 - 127.0.0.1 - - [18/Nov/2025 13:49:16] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:16,617 - 127.0.0.1 - - [18/Nov/2025 13:49:16] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:16,620 - 127.0.0.1 - - [18/Nov/2025 13:49:16] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:16,621 - 127.0.0.1 - - [18/Nov/2025 13:49:16] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:26,955 - 127.0.0.1 - - [18/Nov/2025 13:49:26] "GET / HTTP/1.1" 200 -
+2025-11-18 13:49:26,996 - 127.0.0.1 - - [18/Nov/2025 13:49:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:49:27,001 - 127.0.0.1 - - [18/Nov/2025 13:49:27] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:27,002 - 127.0.0.1 - - [18/Nov/2025 13:49:27] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:27,039 - 127.0.0.1 - - [18/Nov/2025 13:49:27] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:27,040 - 127.0.0.1 - - [18/Nov/2025 13:49:27] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:27,044 - 127.0.0.1 - - [18/Nov/2025 13:49:27] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:27,046 - 127.0.0.1 - - [18/Nov/2025 13:49:27] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:28,051 - 127.0.0.1 - - [18/Nov/2025 13:49:28] "GET / HTTP/1.1" 200 -
+2025-11-18 13:49:28,085 - 127.0.0.1 - - [18/Nov/2025 13:49:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:49:28,093 - 127.0.0.1 - - [18/Nov/2025 13:49:28] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:28,094 - 127.0.0.1 - - [18/Nov/2025 13:49:28] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:28,113 - 127.0.0.1 - - [18/Nov/2025 13:49:28] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:28,115 - 127.0.0.1 - - [18/Nov/2025 13:49:28] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:28,117 - 127.0.0.1 - - [18/Nov/2025 13:49:28] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:28,118 - 127.0.0.1 - - [18/Nov/2025 13:49:28] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:32,546 - 127.0.0.1 - - [18/Nov/2025 13:49:32] "GET / HTTP/1.1" 200 -
+2025-11-18 13:49:32,582 - 127.0.0.1 - - [18/Nov/2025 13:49:32] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:49:32,589 - 127.0.0.1 - - [18/Nov/2025 13:49:32] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:32,596 - 127.0.0.1 - - [18/Nov/2025 13:49:32] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:32,615 - 127.0.0.1 - - [18/Nov/2025 13:49:32] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:32,615 - 127.0.0.1 - - [18/Nov/2025 13:49:32] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:32,615 - 127.0.0.1 - - [18/Nov/2025 13:49:32] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:49:32,617 - 127.0.0.1 - - [18/Nov/2025 13:49:32] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:53:09,707 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1626
+ * Running on http://192.168.210.101:1626
+2025-11-18 13:53:09,707 - [33mPress CTRL+C to quit[0m
+2025-11-18 13:53:09,718 -  * Restarting with watchdog (windowsapi)
+2025-11-18 13:53:10,228 -  * Debugger is active!
+2025-11-18 13:53:10,234 -  * Debugger PIN: 262-282-285
+2025-11-18 13:53:13,139 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "GET / HTTP/1.1" 200 -
+2025-11-18 13:53:13,248 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:53:13,257 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:53:13,260 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:53:13,292 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:53:13,295 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:53:13,299 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:53:13,300 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 13:53:13,302 - 127.0.0.1 - - [18/Nov/2025 13:53:13] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:54:30,527 - 127.0.0.1 - - [18/Nov/2025 13:54:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:54:30,528 - 127.0.0.1 - - [18/Nov/2025 13:54:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-18 13:56:44,132 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "GET / HTTP/1.1" 200 -
+2025-11-18 13:56:44,181 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:56:44,182 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:56:44,184 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:56:44,286 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:56:44,287 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:56:44,290 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:56:44,293 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 13:56:44,295 - 127.0.0.1 - - [18/Nov/2025 13:56:44] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:15,083 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "GET / HTTP/1.1" 200 -
+2025-11-18 13:57:15,112 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:57:15,115 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:15,116 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:15,159 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 13:57:15,161 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:15,164 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:15,167 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:15,168 - 127.0.0.1 - - [18/Nov/2025 13:57:15] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:17,657 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "GET / HTTP/1.1" 200 -
+2025-11-18 13:57:17,680 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:57:17,681 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:17,685 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:17,719 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:17,720 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:17,724 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:57:17,726 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 13:57:17,727 - 127.0.0.1 - - [18/Nov/2025 13:57:17] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:58:03,291 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "GET / HTTP/1.1" 200 -
+2025-11-18 13:58:03,327 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 13:58:03,330 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:58:03,331 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:58:03,380 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:58:03,381 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 13:58:03,384 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:58:03,387 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 13:58:03,390 - 127.0.0.1 - - [18/Nov/2025 13:58:03] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:58:19,370 - 127.0.0.1 - - [18/Nov/2025 13:58:19] "GET /maas/ HTTP/1.1" 200 -
+2025-11-18 13:58:19,386 - 127.0.0.1 - - [18/Nov/2025 13:58:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:58:19,388 - 127.0.0.1 - - [18/Nov/2025 13:58:19] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:58:19,388 - 127.0.0.1 - - [18/Nov/2025 13:58:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 13:58:22,721 -  * Detected change in 'D:\\APP\\py3\\py3\\Lib\\site-packages\\urllib3\\connectionpool.py', reloading
+2025-11-18 13:58:22,818 -  * Restarting with watchdog (windowsapi)
+2025-11-18 13:58:23,341 -  * Debugger is active!
+2025-11-18 13:58:23,347 -  * Debugger PIN: 262-282-285
+{"timestamp": "2025-11-18 13:58:43", "user_ip": "127.0.0.1", "user_message": "1", "ai_response": "It looks like there might be a small mistake in your response. Let's solve the problem together:\n\n**Question:** What is 2 + 2?  \n**Solution:**  \nWhen you add 2 and 2 together, you simply combine the two numbers:  \n2 + 2 = 4  \n\n**Correct Answer:** 4  \n\nIf you'd like to explore more math problems or need further clarification, feel free to ask! 😊", "api_data": {"status_code": 200, "request_data": {"model": "DeepSeek-V3", "messages": [{"role": "system", "content": "你是一个乐于助人的AI助手。"}, {"role": "system", "content": "你是一个乐于助人的AI助手。"}, {"role": "user", "content": "2+2"}, {"role": "user", "content": "1"}]}, "usage": {"prompt_tokens": 25, "total_tokens": 116, "completion_tokens": 91}, "response_id": "chat-5dc78867a33841db8e2795887e958e46"}}
+2025-11-18 13:58:43,226 - 用户消息: 1
+2025-11-18 13:58:43,227 - AI回复: It looks like there might be a small mistake in your response. Let's solve the problem together:
+
+**Question:** What is 2 + 2?  
+**Solution:**  
+When you add 2 and 2 together, you simply combine the two numbers:  
+2 + 2 = 4  
+
+**Correct Answer:** 4  
+
+If you'd like to explore more math problems or need further clarification, feel free to ask! 😊
+2025-11-18 13:58:43,227 - API状态码: 200
+2025-11-18 13:58:43,227 - Token使用: {'prompt_tokens': 25, 'total_tokens': 116, 'completion_tokens': 91}
+2025-11-18 13:58:43,227 - --------------------------------------------------
+2025-11-18 13:58:43,228 - 127.0.0.1 - - [18/Nov/2025 13:58:43] "POST /api/maas/chat HTTP/1.1" 200 -
+{"timestamp": "2025-11-18 13:58:50", "user_ip": "127.0.0.1", "user_message": "2+3=", "ai_response": "The correct answer is:  \n\n**2 + 3 = 5**  \n\nLet me know if you'd like help with any other math problems! 😊", "api_data": {"status_code": 200, "request_data": {"model": "DeepSeek-V3", "messages": [{"role": "system", "content": "你是一个乐于助人的AI助手。"}, {"role": "system", "content": "你是一个乐于助人的AI助手。"}, {"role": "user", "content": "2+2"}, {"role": "user", "content": "1"}, {"role": "assistant", "content": "It looks like there might be a small mistake in your response. Let's solve the problem together:\n\n**Question:** What is 2 + 2?  \n**Solution:**  \nWhen you add 2 and 2 together, you simply combine the two numbers:  \n2 + 2 = 4  \n\n**Correct Answer:** 4  \n\nIf you'd like to explore more math problems or need further clarification, feel free to ask! 😊"}, {"role": "user", "content": "2+3="}]}, "usage": {"prompt_tokens": 122, "total_tokens": 155, "completion_tokens": 33}, "response_id": "chat-a6ec9aaf625c4c00b77a592832b7e4fb"}}
+2025-11-18 13:58:50,237 - 用户消息: 2+3=
+2025-11-18 13:58:50,237 - AI回复: The correct answer is:  
+
+**2 + 3 = 5**  
+
+Let me know if you'd like help with any other math problems! 😊
+2025-11-18 13:58:50,237 - API状态码: 200
+2025-11-18 13:58:50,237 - Token使用: {'prompt_tokens': 122, 'total_tokens': 155, 'completion_tokens': 33}
+2025-11-18 13:58:50,237 - --------------------------------------------------
+2025-11-18 13:58:50,237 - 127.0.0.1 - - [18/Nov/2025 13:58:50] "POST /api/maas/chat HTTP/1.1" 200 -
+2025-11-18 13:59:07,402 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "GET / HTTP/1.1" 200 -
+2025-11-18 13:59:07,565 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 13:59:07,568 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 13:59:07,570 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 13:59:07,574 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 13:59:07,584 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 13:59:07,612 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 13:59:07,613 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 13:59:07,613 - 127.0.0.1 - - [18/Nov/2025 13:59:07] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 14:01:21,127 - 127.0.0.1 - - [18/Nov/2025 14:01:21] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:01:21,164 - 127.0.0.1 - - [18/Nov/2025 14:01:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:01:21,167 - 127.0.0.1 - - [18/Nov/2025 14:01:21] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:01:21,762 - 127.0.0.1 - - [18/Nov/2025 14:01:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:01:53,901 - 127.0.0.1 - - [18/Nov/2025 14:01:53] "[32mGET /20250529 HTTP/1.1[0m" 308 -
+2025-11-18 14:01:53,915 - 127.0.0.1 - - [18/Nov/2025 14:01:53] "GET /20250529/ HTTP/1.1" 200 -
+2025-11-18 14:01:53,936 - 127.0.0.1 - - [18/Nov/2025 14:01:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:01:53,938 - 127.0.0.1 - - [18/Nov/2025 14:01:53] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:01:55,032 - 127.0.0.1 - - [18/Nov/2025 14:01:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:15:37,015 - 127.0.0.1 - - [18/Nov/2025 14:15:37] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 14:15:37,051 - 127.0.0.1 - - [18/Nov/2025 14:15:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:15:37,055 - 127.0.0.1 - - [18/Nov/2025 14:15:37] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:15:37,566 - 127.0.0.1 - - [18/Nov/2025 14:15:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:15:38,702 - 127.0.0.1 - - [18/Nov/2025 14:15:38] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:15:38,748 - 127.0.0.1 - - [18/Nov/2025 14:15:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:15:38,750 - 127.0.0.1 - - [18/Nov/2025 14:15:38] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:15:38,907 - 127.0.0.1 - - [18/Nov/2025 14:15:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:15:41,181 - 127.0.0.1 - - [18/Nov/2025 14:15:41] "GET /20250529/ HTTP/1.1" 200 -
+2025-11-18 14:15:41,199 - 127.0.0.1 - - [18/Nov/2025 14:15:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:15:41,199 - 127.0.0.1 - - [18/Nov/2025 14:15:41] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:15:41,345 - 127.0.0.1 - - [18/Nov/2025 14:15:41] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:15:44,453 - 127.0.0.1 - - [18/Nov/2025 14:15:44] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:15:44,487 - 127.0.0.1 - - [18/Nov/2025 14:15:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:15:44,495 - 127.0.0.1 - - [18/Nov/2025 14:15:44] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:15:44,906 - 127.0.0.1 - - [18/Nov/2025 14:15:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:15:47,264 - 127.0.0.1 - - [18/Nov/2025 14:15:47] "GET /20250529/ HTTP/1.1" 200 -
+2025-11-18 14:15:47,282 - 127.0.0.1 - - [18/Nov/2025 14:15:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:15:47,289 - 127.0.0.1 - - [18/Nov/2025 14:15:47] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:15:47,426 - 127.0.0.1 - - [18/Nov/2025 14:15:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:16:10,246 - 127.0.0.1 - - [18/Nov/2025 14:16:10] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:16:10,283 - 127.0.0.1 - - [18/Nov/2025 14:16:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:16:10,286 - 127.0.0.1 - - [18/Nov/2025 14:16:10] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:16:10,338 - 127.0.0.1 - - [18/Nov/2025 14:16:10] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:19:38,138 - 127.0.0.1 - - [18/Nov/2025 14:19:38] "[32mGET /20250604 HTTP/1.1[0m" 308 -
+2025-11-18 14:19:38,151 - 127.0.0.1 - - [18/Nov/2025 14:19:38] "GET /20250604/ HTTP/1.1" 200 -
+2025-11-18 14:19:38,168 - 127.0.0.1 - - [18/Nov/2025 14:19:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:19:38,175 - 127.0.0.1 - - [18/Nov/2025 14:19:38] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:19:38,314 - 127.0.0.1 - - [18/Nov/2025 14:19:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:19:49,561 - 127.0.0.1 - - [18/Nov/2025 14:19:49] "[32mGET /20250612 HTTP/1.1[0m" 308 -
+2025-11-18 14:19:49,579 - 127.0.0.1 - - [18/Nov/2025 14:19:49] "GET /20250612/ HTTP/1.1" 200 -
+2025-11-18 14:19:49,599 - 127.0.0.1 - - [18/Nov/2025 14:19:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:19:49,603 - 127.0.0.1 - - [18/Nov/2025 14:19:49] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:19:50,555 - 127.0.0.1 - - [18/Nov/2025 14:19:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:19:58,888 - 127.0.0.1 - - [18/Nov/2025 14:19:58] "GET /20250529/ HTTP/1.1" 200 -
+2025-11-18 14:19:58,906 - 127.0.0.1 - - [18/Nov/2025 14:19:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:19:58,912 - 127.0.0.1 - - [18/Nov/2025 14:19:58] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:19:59,059 - 127.0.0.1 - - [18/Nov/2025 14:19:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:20:30,646 - 127.0.0.1 - - [18/Nov/2025 14:20:30] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:20:30,687 - 127.0.0.1 - - [18/Nov/2025 14:20:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:20:30,694 - 127.0.0.1 - - [18/Nov/2025 14:20:30] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:20:31,133 - 127.0.0.1 - - [18/Nov/2025 14:20:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:20:32,498 - 127.0.0.1 - - [18/Nov/2025 14:20:32] "GET /20250529/ HTTP/1.1" 200 -
+2025-11-18 14:20:32,523 - 127.0.0.1 - - [18/Nov/2025 14:20:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:20:32,525 - 127.0.0.1 - - [18/Nov/2025 14:20:32] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:20:33,185 - 127.0.0.1 - - [18/Nov/2025 14:20:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:21:04,324 - 127.0.0.1 - - [18/Nov/2025 14:21:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:21:04,336 - 127.0.0.1 - - [18/Nov/2025 14:21:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-18 14:22:28,607 - 127.0.0.1 - - [18/Nov/2025 14:22:28] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:22:28,653 - 127.0.0.1 - - [18/Nov/2025 14:22:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:22:28,655 - 127.0.0.1 - - [18/Nov/2025 14:22:28] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:22:29,064 - 127.0.0.1 - - [18/Nov/2025 14:22:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:23:00,484 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "GET / HTTP/1.1" 200 -
+2025-11-18 14:23:00,517 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:23:00,524 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:23:00,526 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 14:23:00,569 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 14:23:00,571 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 14:23:00,576 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 14:23:00,578 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:23:00,579 - 127.0.0.1 - - [18/Nov/2025 14:23:00] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 14:23:46,188 - 127.0.0.1 - - [18/Nov/2025 14:23:46] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:23:46,221 - 127.0.0.1 - - [18/Nov/2025 14:23:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:23:46,230 - 127.0.0.1 - - [18/Nov/2025 14:23:46] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:23:46,620 - 127.0.0.1 - - [18/Nov/2025 14:23:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:23:53,715 - 127.0.0.1 - - [18/Nov/2025 14:23:53] "[32mGET /contact HTTP/1.1[0m" 308 -
+2025-11-18 14:23:53,727 - 127.0.0.1 - - [18/Nov/2025 14:23:53] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 14:23:53,747 - 127.0.0.1 - - [18/Nov/2025 14:23:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:23:53,748 - 127.0.0.1 - - [18/Nov/2025 14:23:53] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:23:54,237 - 127.0.0.1 - - [18/Nov/2025 14:23:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:24:07,896 - 127.0.0.1 - - [18/Nov/2025 14:24:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-18 14:24:39,823 - 127.0.0.1 - - [18/Nov/2025 14:24:39] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 14:24:39,843 - 127.0.0.1 - - [18/Nov/2025 14:24:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:24:39,845 - 127.0.0.1 - - [18/Nov/2025 14:24:39] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:24:40,332 - 127.0.0.1 - - [18/Nov/2025 14:24:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:29:46,353 - 127.0.0.1 - - [18/Nov/2025 14:29:46] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:29:46,393 - 127.0.0.1 - - [18/Nov/2025 14:29:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:29:46,395 - 127.0.0.1 - - [18/Nov/2025 14:29:46] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:29:46,525 - 127.0.0.1 - - [18/Nov/2025 14:29:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:31:11,940 - 127.0.0.1 - - [18/Nov/2025 14:31:11] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:31:11,983 - 127.0.0.1 - - [18/Nov/2025 14:31:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:31:11,985 - 127.0.0.1 - - [18/Nov/2025 14:31:11] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:31:12,423 - 127.0.0.1 - - [18/Nov/2025 14:31:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:31:13,640 - 127.0.0.1 - - [18/Nov/2025 14:31:13] "[33mGET /ethiotelecomcloud.html HTTP/1.1[0m" 404 -
+2025-11-18 14:32:49,278 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:32:49,278 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:32:49,279 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:32:49,279 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:32:49,376 - 127.0.0.1 - - [18/Nov/2025 14:32:49] "[33mGET /ethiotelecomcloud.html HTTP/1.1[0m" 404 -
+2025-11-18 14:32:50,016 -  * Restarting with watchdog (windowsapi)
+2025-11-18 14:33:24,679 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1626
+ * Running on http://192.168.210.101:1626
+2025-11-18 14:33:24,680 - [33mPress CTRL+C to quit[0m
+2025-11-18 14:33:24,691 -  * Restarting with watchdog (windowsapi)
+2025-11-18 14:33:25,171 -  * Debugger is active!
+2025-11-18 14:33:25,176 -  * Debugger PIN: 262-282-285
+2025-11-18 14:33:26,397 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "GET / HTTP/1.1" 200 -
+2025-11-18 14:33:26,492 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:33:26,496 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 14:33:26,498 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:33:26,584 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 14:33:26,585 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 14:33:26,588 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 14:33:26,592 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:33:26,592 - 127.0.0.1 - - [18/Nov/2025 14:33:26] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 14:33:30,903 - 127.0.0.1 - - [18/Nov/2025 14:33:30] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:33:30,938 - 127.0.0.1 - - [18/Nov/2025 14:33:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:33:30,945 - 127.0.0.1 - - [18/Nov/2025 14:33:30] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:33:31,363 - 127.0.0.1 - - [18/Nov/2025 14:33:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:33:33,092 - 127.0.0.1 - - [18/Nov/2025 14:33:33] "[33mGET /ethiotelecomcloud.html HTTP/1.1[0m" 404 -
+2025-11-18 14:36:26,008 - 127.0.0.1 - - [18/Nov/2025 14:36:26] "[33mGET /ethiotelecomcloud.html HTTP/1.1[0m" 404 -
+2025-11-18 14:36:30,552 - 127.0.0.1 - - [18/Nov/2025 14:36:30] "[33mGET /ethiotelecomcloud.html HTTP/1.1[0m" 404 -
+2025-11-18 14:39:35,886 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:39:35,886 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:39:35,887 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:39:35,887 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:39:36,912 -  * Restarting with watchdog (windowsapi)
+2025-11-18 14:39:37,563 -  * Debugger is active!
+2025-11-18 14:39:37,577 -  * Debugger PIN: 262-282-285
+2025-11-18 14:40:03,623 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:40:03,624 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:40:03,625 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 14:40:03,734 -  * Restarting with watchdog (windowsapi)
+2025-11-18 14:40:04,393 -  * Debugger is active!
+2025-11-18 14:40:04,397 -  * Debugger PIN: 262-282-285
+2025-11-18 14:40:44,741 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1626
+ * Running on http://192.168.210.101:1626
+2025-11-18 14:40:44,741 - [33mPress CTRL+C to quit[0m
+2025-11-18 14:40:44,749 -  * Restarting with watchdog (windowsapi)
+2025-11-18 14:40:45,206 -  * Debugger is active!
+2025-11-18 14:40:45,210 -  * Debugger PIN: 262-282-285
+2025-11-18 14:40:46,632 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "GET / HTTP/1.1" 200 -
+2025-11-18 14:40:46,738 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-18 14:40:46,741 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:46,743 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:46,823 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:46,824 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:46,826 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:46,830 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:40:46,831 - 192.168.210.101 - - [18/Nov/2025 14:40:46] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:47,086 - 192.168.210.101 - - [18/Nov/2025 14:40:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-18 14:40:48,782 - 192.168.210.101 - - [18/Nov/2025 14:40:48] "GET /service/ HTTP/1.1" 200 -
+2025-11-18 14:40:48,813 - 192.168.210.101 - - [18/Nov/2025 14:40:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:40:48,826 - 192.168.210.101 - - [18/Nov/2025 14:40:48] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:50,064 - 192.168.210.101 - - [18/Nov/2025 14:40:50] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:40:50,110 - 192.168.210.101 - - [18/Nov/2025 14:40:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:40:50,113 - 192.168.210.101 - - [18/Nov/2025 14:40:50] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:50,908 - 192.168.210.101 - - [18/Nov/2025 14:40:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:40:53,129 - 192.168.210.101 - - [18/Nov/2025 14:40:53] "[32mGET /ethiotelecomcloud HTTP/1.1[0m" 308 -
+2025-11-18 14:40:53,151 - 192.168.210.101 - - [18/Nov/2025 14:40:53] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:40:53,180 - 192.168.210.101 - - [18/Nov/2025 14:40:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:40:53,181 - 192.168.210.101 - - [18/Nov/2025 14:40:53] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:40:54,415 - 192.168.210.101 - - [18/Nov/2025 14:40:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:02,554 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "GET / HTTP/1.1" 200 -
+2025-11-18 14:41:02,592 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:02,603 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:02,604 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:02,624 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:02,625 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:02,628 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:02,633 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:02,635 - 192.168.210.101 - - [18/Nov/2025 14:41:02] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:05,426 - 192.168.210.101 - - [18/Nov/2025 14:41:05] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:41:05,462 - 192.168.210.101 - - [18/Nov/2025 14:41:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:05,466 - 192.168.210.101 - - [18/Nov/2025 14:41:05] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:05,500 - 192.168.210.101 - - [18/Nov/2025 14:41:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:10,883 - 192.168.210.101 - - [18/Nov/2025 14:41:10] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:41:10,903 - 192.168.210.101 - - [18/Nov/2025 14:41:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:10,905 - 192.168.210.101 - - [18/Nov/2025 14:41:10] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:11,735 - 192.168.210.101 - - [18/Nov/2025 14:41:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:13,673 - 192.168.210.101 - - [18/Nov/2025 14:41:13] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:41:13,712 - 192.168.210.101 - - [18/Nov/2025 14:41:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:13,722 - 192.168.210.101 - - [18/Nov/2025 14:41:13] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:14,177 - 192.168.210.101 - - [18/Nov/2025 14:41:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:15,147 - 192.168.210.101 - - [18/Nov/2025 14:41:15] "[32mGET /20250702 HTTP/1.1[0m" 308 -
+2025-11-18 14:41:15,167 - 192.168.210.101 - - [18/Nov/2025 14:41:15] "GET /20250702/ HTTP/1.1" 200 -
+2025-11-18 14:41:15,185 - 192.168.210.101 - - [18/Nov/2025 14:41:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:15,185 - 192.168.210.101 - - [18/Nov/2025 14:41:15] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:16,288 - 192.168.210.101 - - [18/Nov/2025 14:41:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:20,271 - 192.168.210.101 - - [18/Nov/2025 14:41:20] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:41:20,309 - 192.168.210.101 - - [18/Nov/2025 14:41:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:20,314 - 192.168.210.101 - - [18/Nov/2025 14:41:20] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:20,776 - 192.168.210.101 - - [18/Nov/2025 14:41:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:22,050 - 192.168.210.101 - - [18/Nov/2025 14:41:22] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:41:22,068 - 192.168.210.101 - - [18/Nov/2025 14:41:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:22,069 - 192.168.210.101 - - [18/Nov/2025 14:41:22] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:22,845 - 192.168.210.101 - - [18/Nov/2025 14:41:22] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:44,943 - 192.168.210.101 - - [18/Nov/2025 14:41:44] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:41:44,979 - 192.168.210.101 - - [18/Nov/2025 14:41:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:44,993 - 192.168.210.101 - - [18/Nov/2025 14:41:44] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:45,020 - 192.168.210.101 - - [18/Nov/2025 14:41:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:46,538 - 192.168.210.101 - - [18/Nov/2025 14:41:46] "[32mGET /20250624 HTTP/1.1[0m" 308 -
+2025-11-18 14:41:46,557 - 192.168.210.101 - - [18/Nov/2025 14:41:46] "GET /20250624/ HTTP/1.1" 200 -
+2025-11-18 14:41:46,583 - 192.168.210.101 - - [18/Nov/2025 14:41:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:46,584 - 192.168.210.101 - - [18/Nov/2025 14:41:46] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:47,494 - 192.168.210.101 - - [18/Nov/2025 14:41:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:53,403 - 192.168.210.101 - - [18/Nov/2025 14:41:53] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:41:53,451 - 192.168.210.101 - - [18/Nov/2025 14:41:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:53,454 - 192.168.210.101 - - [18/Nov/2025 14:41:53] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:53,474 - 192.168.210.101 - - [18/Nov/2025 14:41:53] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:55,248 - 192.168.210.101 - - [18/Nov/2025 14:41:55] "[32mGET /20250620 HTTP/1.1[0m" 308 -
+2025-11-18 14:41:55,270 - 192.168.210.101 - - [18/Nov/2025 14:41:55] "GET /20250620/ HTTP/1.1" 200 -
+2025-11-18 14:41:55,294 - 192.168.210.101 - - [18/Nov/2025 14:41:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:55,298 - 192.168.210.101 - - [18/Nov/2025 14:41:55] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:56,066 - 192.168.210.101 - - [18/Nov/2025 14:41:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:57,989 - 192.168.210.101 - - [18/Nov/2025 14:41:57] "GET / HTTP/1.1" 200 -
+2025-11-18 14:41:58,030 - 192.168.210.101 - - [18/Nov/2025 14:41:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:58,040 - 192.168.210.101 - - [18/Nov/2025 14:41:58] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:58,041 - 192.168.210.101 - - [18/Nov/2025 14:41:58] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:58,061 - 192.168.210.101 - - [18/Nov/2025 14:41:58] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:58,062 - 192.168.210.101 - - [18/Nov/2025 14:41:58] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:58,064 - 192.168.210.101 - - [18/Nov/2025 14:41:58] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:58,068 - 192.168.210.101 - - [18/Nov/2025 14:41:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:41:58,072 - 192.168.210.101 - - [18/Nov/2025 14:41:58] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 14:41:59,949 - 192.168.210.101 - - [18/Nov/2025 14:41:59] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:41:59,987 - 192.168.210.101 - - [18/Nov/2025 14:41:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:41:59,996 - 192.168.210.101 - - [18/Nov/2025 14:41:59] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:42:00,025 - 192.168.210.101 - - [18/Nov/2025 14:42:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:42:01,757 - 192.168.210.101 - - [18/Nov/2025 14:42:01] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:42:01,779 - 192.168.210.101 - - [18/Nov/2025 14:42:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:42:01,780 - 192.168.210.101 - - [18/Nov/2025 14:42:01] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:42:02,502 - 192.168.210.101 - - [18/Nov/2025 14:42:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:45:58,897 - 192.168.210.101 - - [18/Nov/2025 14:45:58] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:45:58,932 - 192.168.210.101 - - [18/Nov/2025 14:45:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:45:58,934 - 192.168.210.101 - - [18/Nov/2025 14:45:58] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:45:59,071 - 192.168.210.101 - - [18/Nov/2025 14:45:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:48:08,008 - 192.168.210.101 - - [18/Nov/2025 14:48:08] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:48:08,054 - 192.168.210.101 - - [18/Nov/2025 14:48:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:48:08,061 - 192.168.210.101 - - [18/Nov/2025 14:48:08] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:48:08,176 - 192.168.210.101 - - [18/Nov/2025 14:48:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:48:10,398 - 192.168.210.101 - - [18/Nov/2025 14:48:10] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:48:10,418 - 192.168.210.101 - - [18/Nov/2025 14:48:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:48:10,423 - 192.168.210.101 - - [18/Nov/2025 14:48:10] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:48:11,145 - 192.168.210.101 - - [18/Nov/2025 14:48:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:48:20,721 - 192.168.210.101 - - [18/Nov/2025 14:48:20] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:48:20,769 - 192.168.210.101 - - [18/Nov/2025 14:48:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:48:20,778 - 192.168.210.101 - - [18/Nov/2025 14:48:20] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:48:21,228 - 192.168.210.101 - - [18/Nov/2025 14:48:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:48:32,038 - 192.168.210.101 - - [18/Nov/2025 14:48:32] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 14:48:32,079 - 192.168.210.101 - - [18/Nov/2025 14:48:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:48:32,090 - 192.168.210.101 - - [18/Nov/2025 14:48:32] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:48:32,107 - 192.168.210.101 - - [18/Nov/2025 14:48:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:48:35,954 - 192.168.210.101 - - [18/Nov/2025 14:48:35] "GET /20250702/ HTTP/1.1" 200 -
+2025-11-18 14:48:35,972 - 192.168.210.101 - - [18/Nov/2025 14:48:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:48:35,972 - 192.168.210.101 - - [18/Nov/2025 14:48:35] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:48:36,667 - 192.168.210.101 - - [18/Nov/2025 14:48:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:49:09,108 - 192.168.210.101 - - [18/Nov/2025 14:49:09] "GET /20250702/ HTTP/1.1" 200 -
+2025-11-18 14:49:09,154 - 192.168.210.101 - - [18/Nov/2025 14:49:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:49:09,165 - 192.168.210.101 - - [18/Nov/2025 14:49:09] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:49:09,613 - 192.168.210.101 - - [18/Nov/2025 14:49:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:49:13,386 - 192.168.210.101 - - [18/Nov/2025 14:49:13] "GET /20250702/ HTTP/1.1" 200 -
+2025-11-18 14:49:13,419 - 192.168.210.101 - - [18/Nov/2025 14:49:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:49:13,435 - 192.168.210.101 - - [18/Nov/2025 14:49:13] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:49:13,849 - 192.168.210.101 - - [18/Nov/2025 14:49:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:52:26,395 - 127.0.0.1 - - [18/Nov/2025 14:52:26] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:52:26,428 - 127.0.0.1 - - [18/Nov/2025 14:52:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:52:26,430 - 127.0.0.1 - - [18/Nov/2025 14:52:26] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:52:26,968 - 127.0.0.1 - - [18/Nov/2025 14:52:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:52:29,369 - 127.0.0.1 - - [18/Nov/2025 14:52:29] "[32mGET /ethiotelecomcloud HTTP/1.1[0m" 308 -
+2025-11-18 14:52:29,380 - 127.0.0.1 - - [18/Nov/2025 14:52:29] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:52:29,403 - 127.0.0.1 - - [18/Nov/2025 14:52:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:52:29,405 - 127.0.0.1 - - [18/Nov/2025 14:52:29] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:52:30,681 - 127.0.0.1 - - [18/Nov/2025 14:52:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:53:12,412 - 127.0.0.1 - - [18/Nov/2025 14:53:12] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:53:12,464 - 127.0.0.1 - - [18/Nov/2025 14:53:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:53:12,466 - 127.0.0.1 - - [18/Nov/2025 14:53:12] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:53:12,917 - 127.0.0.1 - - [18/Nov/2025 14:53:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:53:13,934 - 127.0.0.1 - - [18/Nov/2025 14:53:13] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:53:13,959 - 127.0.0.1 - - [18/Nov/2025 14:53:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:53:13,961 - 127.0.0.1 - - [18/Nov/2025 14:53:13] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:53:14,606 - 127.0.0.1 - - [18/Nov/2025 14:53:14] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:53:16,568 - 127.0.0.1 - - [18/Nov/2025 14:53:16] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:53:16,596 - 127.0.0.1 - - [18/Nov/2025 14:53:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:53:16,597 - 127.0.0.1 - - [18/Nov/2025 14:53:16] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:53:17,227 - 127.0.0.1 - - [18/Nov/2025 14:53:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:53:32,837 - 127.0.0.1 - - [18/Nov/2025 14:53:32] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:53:32,886 - 127.0.0.1 - - [18/Nov/2025 14:53:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:53:32,890 - 127.0.0.1 - - [18/Nov/2025 14:53:32] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:53:33,376 - 127.0.0.1 - - [18/Nov/2025 14:53:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:53:34,667 - 127.0.0.1 - - [18/Nov/2025 14:53:34] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 14:53:34,696 - 127.0.0.1 - - [18/Nov/2025 14:53:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:53:34,697 - 127.0.0.1 - - [18/Nov/2025 14:53:34] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:53:35,352 - 127.0.0.1 - - [18/Nov/2025 14:53:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 14:53:55,114 - 127.0.0.1 - - [18/Nov/2025 14:53:55] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 14:53:55,150 - 127.0.0.1 - - [18/Nov/2025 14:53:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 14:53:55,159 - 127.0.0.1 - - [18/Nov/2025 14:53:55] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 14:53:55,194 - 127.0.0.1 - - [18/Nov/2025 14:53:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:04:16,063 - 127.0.0.1 - - [18/Nov/2025 15:04:16] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 15:04:16,085 - 127.0.0.1 - - [18/Nov/2025 15:04:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:04:16,086 - 127.0.0.1 - - [18/Nov/2025 15:04:16] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:04:16,950 - 127.0.0.1 - - [18/Nov/2025 15:04:16] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:08:28,189 - 127.0.0.1 - - [18/Nov/2025 15:08:28] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 15:08:28,229 - 127.0.0.1 - - [18/Nov/2025 15:08:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:08:28,231 - 127.0.0.1 - - [18/Nov/2025 15:08:28] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:08:28,891 - 127.0.0.1 - - [18/Nov/2025 15:08:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:08:32,375 - 127.0.0.1 - - [18/Nov/2025 15:08:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-18 15:13:26,121 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:13:26,121 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:13:26,122 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:13:26,122 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:13:26,701 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:13:27,566 -  * Debugger is active!
+2025-11-18 15:13:27,579 -  * Debugger PIN: 262-282-285
+2025-11-18 15:17:57,829 - 127.0.0.1 - - [18/Nov/2025 15:17:57] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:17:57,937 - 127.0.0.1 - - [18/Nov/2025 15:17:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:17:57,937 - 127.0.0.1 - - [18/Nov/2025 15:17:57] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:17:58,390 - 127.0.0.1 - - [18/Nov/2025 15:17:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:17:59,977 - 127.0.0.1 - - [18/Nov/2025 15:17:59] "[33mGET /xg.html HTTP/1.1[0m" 404 -
+2025-11-18 15:18:09,648 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1626
+ * Running on http://192.168.210.101:1626
+2025-11-18 15:18:09,648 - [33mPress CTRL+C to quit[0m
+2025-11-18 15:18:09,660 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:18:10,149 -  * Debugger is active!
+2025-11-18 15:18:10,154 -  * Debugger PIN: 262-282-285
+2025-11-18 15:18:12,957 - 127.0.0.1 - - [18/Nov/2025 15:18:12] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:18:13,061 - 127.0.0.1 - - [18/Nov/2025 15:18:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:18:13,066 - 127.0.0.1 - - [18/Nov/2025 15:18:13] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:18:13,143 - 127.0.0.1 - - [18/Nov/2025 15:18:13] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:18:19,239 - 127.0.0.1 - - [18/Nov/2025 15:18:19] "[33mGET /xg.html HTTP/1.1[0m" 404 -
+2025-11-18 15:19:44,999 - 127.0.0.1 - - [18/Nov/2025 15:19:44] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 15:19:45,024 - 127.0.0.1 - - [18/Nov/2025 15:19:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:19:45,030 - 127.0.0.1 - - [18/Nov/2025 15:19:45] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:19:46,026 - 127.0.0.1 - - [18/Nov/2025 15:19:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:20:23,664 - 127.0.0.1 - - [18/Nov/2025 15:20:23] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:20:23,705 - 127.0.0.1 - - [18/Nov/2025 15:20:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:20:23,707 - 127.0.0.1 - - [18/Nov/2025 15:20:23] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:20:24,175 - 127.0.0.1 - - [18/Nov/2025 15:20:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:20:25,571 - 127.0.0.1 - - [18/Nov/2025 15:20:25] "[32mGET /xg HTTP/1.1[0m" 308 -
+2025-11-18 15:20:25,594 - 127.0.0.1 - - [18/Nov/2025 15:20:25] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:20:25,615 - 127.0.0.1 - - [18/Nov/2025 15:20:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:20:25,616 - 127.0.0.1 - - [18/Nov/2025 15:20:25] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:20:26,541 - 127.0.0.1 - - [18/Nov/2025 15:20:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:20:27,885 - 127.0.0.1 - - [18/Nov/2025 15:20:27] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:20:27,917 - 127.0.0.1 - - [18/Nov/2025 15:20:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:20:27,918 - 127.0.0.1 - - [18/Nov/2025 15:20:27] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:20:28,626 - 127.0.0.1 - - [18/Nov/2025 15:20:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:20:29,662 - 127.0.0.1 - - [18/Nov/2025 15:20:29] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:20:29,690 - 127.0.0.1 - - [18/Nov/2025 15:20:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:20:29,691 - 127.0.0.1 - - [18/Nov/2025 15:20:29] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:20:30,374 - 127.0.0.1 - - [18/Nov/2025 15:20:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:20:32,258 - 127.0.0.1 - - [18/Nov/2025 15:20:32] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:20:32,287 - 127.0.0.1 - - [18/Nov/2025 15:20:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:20:32,288 - 127.0.0.1 - - [18/Nov/2025 15:20:32] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:20:32,952 - 127.0.0.1 - - [18/Nov/2025 15:20:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:21:34,653 - 127.0.0.1 - - [18/Nov/2025 15:21:34] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:21:34,679 - 127.0.0.1 - - [18/Nov/2025 15:21:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:21:34,683 - 127.0.0.1 - - [18/Nov/2025 15:21:34] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:21:35,387 - 127.0.0.1 - - [18/Nov/2025 15:21:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:27:19,805 - 127.0.0.1 - - [18/Nov/2025 15:27:19] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:27:19,831 - 127.0.0.1 - - [18/Nov/2025 15:27:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:27:19,833 - 127.0.0.1 - - [18/Nov/2025 15:27:19] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:27:20,559 - 127.0.0.1 - - [18/Nov/2025 15:27:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:30:08,905 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:30:08,905 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:30:08,906 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:30:08,907 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:30:09,446 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:30:10,819 -  * Debugger is active!
+2025-11-18 15:30:10,828 -  * Debugger PIN: 262-282-285
+2025-11-18 15:30:12,164 - 127.0.0.1 - - [18/Nov/2025 15:30:12] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:30:12,277 - 127.0.0.1 - - [18/Nov/2025 15:30:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:30:12,280 - 127.0.0.1 - - [18/Nov/2025 15:30:12] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:30:12,637 - 127.0.0.1 - - [18/Nov/2025 15:30:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:30:14,213 - 127.0.0.1 - - [18/Nov/2025 15:30:14] "[33mGET /case/cnpc-southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:30:36,751 - 127.0.0.1 - - [18/Nov/2025 15:30:36] "[33mGET /case/cnpc-southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:30:41,482 - 127.0.0.1 - - [18/Nov/2025 15:30:41] "[33mGET /case/cnpc-southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:31:33,509 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:31:33,510 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:31:33,510 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:31:34,082 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:31:34,833 -  * Debugger is active!
+2025-11-18 15:31:34,842 -  * Debugger PIN: 262-282-285
+2025-11-18 15:31:36,062 - 127.0.0.1 - - [18/Nov/2025 15:31:36] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:31:36,162 - 127.0.0.1 - - [18/Nov/2025 15:31:36] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:31:36,164 - 127.0.0.1 - - [18/Nov/2025 15:31:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:31:36,460 - 127.0.0.1 - - [18/Nov/2025 15:31:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:31:37,594 - 127.0.0.1 - - [18/Nov/2025 15:31:37] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:32:39,027 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:32:39,027 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:32:39,028 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:32:40,050 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:32:40,521 -  * Debugger is active!
+2025-11-18 15:32:40,525 -  * Debugger PIN: 262-282-285
+2025-11-18 15:32:42,251 - 127.0.0.1 - - [18/Nov/2025 15:32:42] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:32:44,838 - 127.0.0.1 - - [18/Nov/2025 15:32:44] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:33:15,659 - 127.0.0.1 - - [18/Nov/2025 15:33:15] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:33:18,059 - 127.0.0.1 - - [18/Nov/2025 15:33:18] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:33:33,972 - 127.0.0.1 - - [18/Nov/2025 15:33:33] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:33:38,855 - 127.0.0.1 - - [18/Nov/2025 15:33:38] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:33:38,951 - 127.0.0.1 - - [18/Nov/2025 15:33:38] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:33:38,951 - 127.0.0.1 - - [18/Nov/2025 15:33:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:33:39,664 - 127.0.0.1 - - [18/Nov/2025 15:33:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:33:47,013 - 127.0.0.1 - - [18/Nov/2025 15:33:47] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:34:01,976 - 127.0.0.1 - - [18/Nov/2025 15:34:01] "GET /ethiotelecomcloud/ HTTP/1.1" 200 -
+2025-11-18 15:34:01,996 - 127.0.0.1 - - [18/Nov/2025 15:34:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:34:02,003 - 127.0.0.1 - - [18/Nov/2025 15:34:02] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:34:02,643 - 127.0.0.1 - - [18/Nov/2025 15:34:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:34:55,962 - 127.0.0.1 - - [18/Nov/2025 15:34:55] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:34:55,981 - 127.0.0.1 - - [18/Nov/2025 15:34:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:34:55,983 - 127.0.0.1 - - [18/Nov/2025 15:34:55] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:34:56,650 - 127.0.0.1 - - [18/Nov/2025 15:34:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:35:50,235 - 127.0.0.1 - - [18/Nov/2025 15:35:50] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:35:50,281 - 127.0.0.1 - - [18/Nov/2025 15:35:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:35:50,283 - 127.0.0.1 - - [18/Nov/2025 15:35:50] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:35:50,740 - 127.0.0.1 - - [18/Nov/2025 15:35:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:35:52,232 - 127.0.0.1 - - [18/Nov/2025 15:35:52] "[33mGET /case/cnpc-southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:37:14,559 - 127.0.0.1 - - [18/Nov/2025 15:37:14] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:37:14,600 - 127.0.0.1 - - [18/Nov/2025 15:37:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:37:14,604 - 127.0.0.1 - - [18/Nov/2025 15:37:14] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:37:15,058 - 127.0.0.1 - - [18/Nov/2025 15:37:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:37:16,233 - 127.0.0.1 - - [18/Nov/2025 15:37:16] "[33mGET /xg.html HTTP/1.1[0m" 404 -
+2025-11-18 15:37:25,607 - 127.0.0.1 - - [18/Nov/2025 15:37:25] "[33mGET /xg.html HTTP/1.1[0m" 404 -
+2025-11-18 15:37:30,381 - 127.0.0.1 - - [18/Nov/2025 15:37:30] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:37:30,424 - 127.0.0.1 - - [18/Nov/2025 15:37:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:37:30,433 - 127.0.0.1 - - [18/Nov/2025 15:37:30] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:37:30,792 - 127.0.0.1 - - [18/Nov/2025 15:37:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:37:31,687 - 127.0.0.1 - - [18/Nov/2025 15:37:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-18 15:37:33,978 - 127.0.0.1 - - [18/Nov/2025 15:37:33] "GET /xg/ HTTP/1.1" 200 -
+2025-11-18 15:37:33,997 - 127.0.0.1 - - [18/Nov/2025 15:37:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:37:34,000 - 127.0.0.1 - - [18/Nov/2025 15:37:34] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:37:34,691 - 127.0.0.1 - - [18/Nov/2025 15:37:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:39:08,584 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:39:08,585 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:39:08,585 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:39:08,586 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:39:08,715 - 127.0.0.1 - - [18/Nov/2025 15:39:08] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:39:08,757 - 127.0.0.1 - - [18/Nov/2025 15:39:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:39:08,761 - 127.0.0.1 - - [18/Nov/2025 15:39:08] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:39:08,895 - 127.0.0.1 - - [18/Nov/2025 15:39:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:39:09,272 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:39:10,271 -  * Debugger is active!
+2025-11-18 15:39:10,281 -  * Debugger PIN: 262-282-285
+2025-11-18 15:39:10,834 - 127.0.0.1 - - [18/Nov/2025 15:39:10] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:41:06,095 - 127.0.0.1 - - [18/Nov/2025 15:41:06] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:41:06,196 - 127.0.0.1 - - [18/Nov/2025 15:41:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:41:06,197 - 127.0.0.1 - - [18/Nov/2025 15:41:06] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:41:06,580 - 127.0.0.1 - - [18/Nov/2025 15:41:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:41:07,530 - 127.0.0.1 - - [18/Nov/2025 15:41:07] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:41:16,860 - 127.0.0.1 - - [18/Nov/2025 15:41:16] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:41:19,416 - 127.0.0.1 - - [18/Nov/2025 15:41:19] "[33mGET /case/southwest HTTP/1.1[0m" 404 -
+2025-11-18 15:42:29,241 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:1626
+ * Running on http://192.168.210.101:1626
+2025-11-18 15:42:29,241 - [33mPress CTRL+C to quit[0m
+2025-11-18 15:42:29,251 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:42:29,770 -  * Debugger is active!
+2025-11-18 15:42:29,774 -  * Debugger PIN: 262-282-285
+2025-11-18 15:42:31,078 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "GET / HTTP/1.1" 200 -
+2025-11-18 15:42:31,192 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:42:31,201 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:42:31,202 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:42:31,271 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:42:31,272 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:42:31,277 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:42:31,279 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:42:31,281 - 127.0.0.1 - - [18/Nov/2025 15:42:31] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:42:32,804 - 127.0.0.1 - - [18/Nov/2025 15:42:32] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:42:32,828 - 127.0.0.1 - - [18/Nov/2025 15:42:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:42:32,832 - 127.0.0.1 - - [18/Nov/2025 15:42:32] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:42:33,216 - 127.0.0.1 - - [18/Nov/2025 15:42:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:42:35,997 - 127.0.0.1 - - [18/Nov/2025 15:42:35] "[32mGET /southwest HTTP/1.1[0m" 308 -
+2025-11-18 15:42:36,017 - 127.0.0.1 - - [18/Nov/2025 15:42:36] "GET /southwest/ HTTP/1.1" 200 -
+2025-11-18 15:43:08,999 - 127.0.0.1 - - [18/Nov/2025 15:43:08] "GET /southwest/ HTTP/1.1" 200 -
+2025-11-18 15:43:09,050 - 127.0.0.1 - - [18/Nov/2025 15:43:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:43:09,053 - 127.0.0.1 - - [18/Nov/2025 15:43:09] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:43:09,554 - 127.0.0.1 - - [18/Nov/2025 15:43:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:47:00,907 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:47:00,908 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:47:00,908 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:47:01,294 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:47:01,789 -  * Debugger is active!
+2025-11-18 15:47:01,795 -  * Debugger PIN: 262-282-285
+2025-11-18 15:47:05,468 - 127.0.0.1 - - [18/Nov/2025 15:47:05] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:47:05,696 - 127.0.0.1 - - [18/Nov/2025 15:47:05] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:47:05,698 - 127.0.0.1 - - [18/Nov/2025 15:47:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:47:06,042 - 127.0.0.1 - - [18/Nov/2025 15:47:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:47:07,970 - 127.0.0.1 - - [18/Nov/2025 15:47:07] "[33mGET /eerduosi.html HTTP/1.1[0m" 404 -
+2025-11-18 15:47:44,993 - 127.0.0.1 - - [18/Nov/2025 15:47:44] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:47:45,032 - 127.0.0.1 - - [18/Nov/2025 15:47:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:47:45,041 - 127.0.0.1 - - [18/Nov/2025 15:47:45] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:47:45,076 - 127.0.0.1 - - [18/Nov/2025 15:47:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:47:48,190 - 127.0.0.1 - - [18/Nov/2025 15:47:48] "[32mGET /eerduosi HTTP/1.1[0m" 308 -
+2025-11-18 15:47:48,208 - 127.0.0.1 - - [18/Nov/2025 15:47:48] "GET /eerduosi/ HTTP/1.1" 200 -
+2025-11-18 15:47:48,237 - 127.0.0.1 - - [18/Nov/2025 15:47:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:47:48,238 - 127.0.0.1 - - [18/Nov/2025 15:47:48] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:47:48,883 - 127.0.0.1 - - [18/Nov/2025 15:47:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:48:00,774 - 127.0.0.1 - - [18/Nov/2025 15:48:00] "GET /eerduosi/ HTTP/1.1" 200 -
+2025-11-18 15:48:00,804 - 127.0.0.1 - - [18/Nov/2025 15:48:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:48:00,810 - 127.0.0.1 - - [18/Nov/2025 15:48:00] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:48:01,534 - 127.0.0.1 - - [18/Nov/2025 15:48:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:50:48,517 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:50:48,518 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:50:48,518 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:50:48,687 - 127.0.0.1 - - [18/Nov/2025 15:50:48] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:50:48,742 - 127.0.0.1 - - [18/Nov/2025 15:50:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:50:48,747 - 127.0.0.1 - - [18/Nov/2025 15:50:48] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:50:48,901 - 127.0.0.1 - - [18/Nov/2025 15:50:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:50:49,265 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:50:50,045 -  * Debugger is active!
+2025-11-18 15:50:50,055 -  * Debugger PIN: 262-282-285
+2025-11-18 15:50:50,251 - 127.0.0.1 - - [18/Nov/2025 15:50:50] "[32mGET /sanxia HTTP/1.1[0m" 308 -
+2025-11-18 15:50:50,275 - 127.0.0.1 - - [18/Nov/2025 15:50:50] "GET /sanxia/ HTTP/1.1" 200 -
+2025-11-18 15:50:52,473 - 127.0.0.1 - - [18/Nov/2025 15:50:52] "GET /sanxia/ HTTP/1.1" 200 -
+2025-11-18 15:50:57,714 - 127.0.0.1 - - [18/Nov/2025 15:50:57] "GET /sanxia/ HTTP/1.1" 200 -
+2025-11-18 15:51:05,689 - 127.0.0.1 - - [18/Nov/2025 15:51:05] "GET /sanxia/ HTTP/1.1" 200 -
+2025-11-18 15:52:19,714 - 127.0.0.1 - - [18/Nov/2025 15:52:19] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:52:19,797 - 127.0.0.1 - - [18/Nov/2025 15:52:19] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:52:19,799 - 127.0.0.1 - - [18/Nov/2025 15:52:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:52:20,127 - 127.0.0.1 - - [18/Nov/2025 15:52:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:52:22,088 - 127.0.0.1 - - [18/Nov/2025 15:52:22] "GET /sanxia/ HTTP/1.1" 200 -
+2025-11-18 15:52:40,464 - 127.0.0.1 - - [18/Nov/2025 15:52:40] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:52:40,504 - 127.0.0.1 - - [18/Nov/2025 15:52:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:52:40,507 - 127.0.0.1 - - [18/Nov/2025 15:52:40] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:52:40,815 - 127.0.0.1 - - [18/Nov/2025 15:52:40] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:52:41,729 - 127.0.0.1 - - [18/Nov/2025 15:52:41] "GET /eerduosi/ HTTP/1.1" 200 -
+2025-11-18 15:52:41,750 - 127.0.0.1 - - [18/Nov/2025 15:52:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:52:41,756 - 127.0.0.1 - - [18/Nov/2025 15:52:41] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:52:42,377 - 127.0.0.1 - - [18/Nov/2025 15:52:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:53:25,902 - 127.0.0.1 - - [18/Nov/2025 15:53:25] "GET /sanxia/ HTTP/1.1" 200 -
+2025-11-18 15:53:54,776 - 127.0.0.1 - - [18/Nov/2025 15:53:54] "GET /sanxia/ HTTP/1.1" 200 -
+2025-11-18 15:53:54,816 - 127.0.0.1 - - [18/Nov/2025 15:53:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:53:54,819 - 127.0.0.1 - - [18/Nov/2025 15:53:54] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:53:55,383 - 127.0.0.1 - - [18/Nov/2025 15:53:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:53:59,554 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "GET / HTTP/1.1" 200 -
+2025-11-18 15:53:59,595 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:53:59,599 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:53:59,601 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:53:59,619 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:53:59,621 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:53:59,623 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:53:59,627 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:53:59,629 - 127.0.0.1 - - [18/Nov/2025 15:53:59] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:01,649 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "GET / HTTP/1.1" 200 -
+2025-11-18 15:54:01,702 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:54:01,707 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:01,708 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:01,722 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:01,724 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:54:01,728 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:01,728 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:01,730 - 127.0.0.1 - - [18/Nov/2025 15:54:01] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:18,887 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "GET / HTTP/1.1" 200 -
+2025-11-18 15:54:18,937 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:54:18,942 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:18,943 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:18,967 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:18,969 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:18,972 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:18,974 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:54:18,976 - 127.0.0.1 - - [18/Nov/2025 15:54:18] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:19,974 - 127.0.0.1 - - [18/Nov/2025 15:54:19] "[32mGET /gonc HTTP/1.1[0m" 308 -
+2025-11-18 15:54:19,997 - 127.0.0.1 - - [18/Nov/2025 15:54:19] "GET /gonc/ HTTP/1.1" 200 -
+2025-11-18 15:54:20,024 - 127.0.0.1 - - [18/Nov/2025 15:54:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:54:20,025 - 127.0.0.1 - - [18/Nov/2025 15:54:20] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:20,445 - 127.0.0.1 - - [18/Nov/2025 15:54:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:54:25,709 - 127.0.0.1 - - [18/Nov/2025 15:54:25] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:54:25,747 - 127.0.0.1 - - [18/Nov/2025 15:54:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:54:25,757 - 127.0.0.1 - - [18/Nov/2025 15:54:25] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:25,893 - 127.0.0.1 - - [18/Nov/2025 15:54:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:54:29,739 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "GET / HTTP/1.1" 200 -
+2025-11-18 15:54:29,779 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:54:29,790 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:29,791 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:29,809 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:29,813 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:54:29,816 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:29,818 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:29,820 - 127.0.0.1 - - [18/Nov/2025 15:54:29] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:33,077 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "GET / HTTP/1.1" 200 -
+2025-11-18 15:54:33,129 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:54:33,132 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:33,136 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:33,148 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:33,151 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:33,153 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:54:33,156 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:33,157 - 127.0.0.1 - - [18/Nov/2025 15:54:33] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:35,031 - 127.0.0.1 - - [18/Nov/2025 15:54:35] "GET /maas/ HTTP/1.1" 200 -
+2025-11-18 15:54:35,050 - 127.0.0.1 - - [18/Nov/2025 15:54:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:54:35,052 - 127.0.0.1 - - [18/Nov/2025 15:54:35] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:35,053 - 127.0.0.1 - - [18/Nov/2025 15:54:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:54:43,707 -  * Detected change in 'D:\\APP\\py3\\py3\\Lib\\site-packages\\urllib3\\connectionpool.py', reloading
+2025-11-18 15:54:44,543 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:54:45,131 -  * Debugger is active!
+2025-11-18 15:54:45,136 -  * Debugger PIN: 262-282-285
+{"timestamp": "2025-11-18 15:54:52", "user_ip": "127.0.0.1", "user_message": "1+2", "ai_response": "1 + 2 = 3", "api_data": {"status_code": 200, "request_data": {"model": "DeepSeek-V3", "messages": [{"role": "system", "content": "你是一个乐于助人的AI助手。"}, {"role": "system", "content": "你是一个乐于助人的AI助手。"}, {"role": "user", "content": "何雨欣"}, {"role": "user", "content": "1+2"}]}, "usage": {"prompt_tokens": 27, "total_tokens": 35, "completion_tokens": 8}, "response_id": "chat-10b217b0b23441bb84b321581069f074"}}
+2025-11-18 15:54:52,578 - 用户消息: 1+2
+2025-11-18 15:54:52,578 - AI回复: 1 + 2 = 3
+2025-11-18 15:54:52,578 - API状态码: 200
+2025-11-18 15:54:52,578 - Token使用: {'prompt_tokens': 27, 'total_tokens': 35, 'completion_tokens': 8}
+2025-11-18 15:54:52,578 - --------------------------------------------------
+2025-11-18 15:54:52,578 - 127.0.0.1 - - [18/Nov/2025 15:54:52] "POST /api/maas/chat HTTP/1.1" 200 -
+2025-11-18 15:54:56,517 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "GET / HTTP/1.1" 200 -
+2025-11-18 15:54:56,654 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:56,658 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:56,659 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:56,660 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:54:56,670 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:56,728 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:54:56,736 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:54:56,738 - 127.0.0.1 - - [18/Nov/2025 15:54:56] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:03,067 - 127.0.0.1 - - [18/Nov/2025 15:55:03] "[32mGET /mnft HTTP/1.1[0m" 308 -
+2025-11-18 15:55:03,094 - 127.0.0.1 - - [18/Nov/2025 15:55:03] "GET /mnft/ HTTP/1.1" 200 -
+2025-11-18 15:55:03,129 - 127.0.0.1 - - [18/Nov/2025 15:55:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:03,137 - 127.0.0.1 - - [18/Nov/2025 15:55:03] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:03,432 - 127.0.0.1 - - [18/Nov/2025 15:55:03] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:55:05,672 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "GET / HTTP/1.1" 200 -
+2025-11-18 15:55:05,718 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:05,724 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:05,724 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:05,739 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:05,741 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:05,744 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:55:05,749 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:05,750 - 127.0.0.1 - - [18/Nov/2025 15:55:05] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:06,530 - 127.0.0.1 - - [18/Nov/2025 15:55:06] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:55:06,566 - 127.0.0.1 - - [18/Nov/2025 15:55:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:06,576 - 127.0.0.1 - - [18/Nov/2025 15:55:06] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:06,697 - 127.0.0.1 - - [18/Nov/2025 15:55:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:55:09,632 - 127.0.0.1 - - [18/Nov/2025 15:55:09] "GET /news/ HTTP/1.1" 200 -
+2025-11-18 15:55:09,685 - 127.0.0.1 - - [18/Nov/2025 15:55:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:09,686 - 127.0.0.1 - - [18/Nov/2025 15:55:09] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:09,850 - 127.0.0.1 - - [18/Nov/2025 15:55:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:55:12,323 - 127.0.0.1 - - [18/Nov/2025 15:55:12] "GET /about/ HTTP/1.1" 200 -
+2025-11-18 15:55:12,369 - 127.0.0.1 - - [18/Nov/2025 15:55:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:12,373 - 127.0.0.1 - - [18/Nov/2025 15:55:12] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:12,391 - 127.0.0.1 - - [18/Nov/2025 15:55:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:55:17,229 - 127.0.0.1 - - [18/Nov/2025 15:55:17] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 15:55:17,395 - 127.0.0.1 - - [18/Nov/2025 15:55:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:17,397 - 127.0.0.1 - - [18/Nov/2025 15:55:17] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:17,539 - 127.0.0.1 - - [18/Nov/2025 15:55:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:55:20,989 - 127.0.0.1 - - [18/Nov/2025 15:55:20] "GET / HTTP/1.1" 200 -
+2025-11-18 15:55:21,038 - 127.0.0.1 - - [18/Nov/2025 15:55:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:21,042 - 127.0.0.1 - - [18/Nov/2025 15:55:21] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:21,043 - 127.0.0.1 - - [18/Nov/2025 15:55:21] "[36mGET /static/img/img.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:21,061 - 127.0.0.1 - - [18/Nov/2025 15:55:21] "[36mGET /static/img/img_1.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:21,062 - 127.0.0.1 - - [18/Nov/2025 15:55:21] "[36mGET /static/img/img_2.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:21,064 - 127.0.0.1 - - [18/Nov/2025 15:55:21] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:55:21,068 - 127.0.0.1 - - [18/Nov/2025 15:55:21] "[36mGET /static/img/img_3.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:21,070 - 127.0.0.1 - - [18/Nov/2025 15:55:21] "[36mGET /static/img/img_4.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:23,981 - 127.0.0.1 - - [18/Nov/2025 15:55:23] "GET /service/ HTTP/1.1" 200 -
+2025-11-18 15:55:24,028 - 127.0.0.1 - - [18/Nov/2025 15:55:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:24,031 - 127.0.0.1 - - [18/Nov/2025 15:55:24] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:24,370 - 127.0.0.1 - - [18/Nov/2025 15:55:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:55:27,594 - 127.0.0.1 - - [18/Nov/2025 15:55:27] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:55:27,644 - 127.0.0.1 - - [18/Nov/2025 15:55:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:55:27,649 - 127.0.0.1 - - [18/Nov/2025 15:55:27] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:55:27,662 - 127.0.0.1 - - [18/Nov/2025 15:55:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:57:16,926 - 127.0.0.1 - - [18/Nov/2025 15:57:16] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:57:16,960 - 127.0.0.1 - - [18/Nov/2025 15:57:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:57:16,967 - 127.0.0.1 - - [18/Nov/2025 15:57:16] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:57:17,497 - 127.0.0.1 - - [18/Nov/2025 15:57:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:57:19,128 - 127.0.0.1 - - [18/Nov/2025 15:57:19] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 15:57:19,167 - 127.0.0.1 - - [18/Nov/2025 15:57:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:57:19,177 - 127.0.0.1 - - [18/Nov/2025 15:57:19] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:57:19,570 - 127.0.0.1 - - [18/Nov/2025 15:57:19] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:57:35,426 - 127.0.0.1 - - [18/Nov/2025 15:57:35] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 15:57:35,473 - 127.0.0.1 - - [18/Nov/2025 15:57:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:57:35,475 - 127.0.0.1 - - [18/Nov/2025 15:57:35] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:57:35,596 - 127.0.0.1 - - [18/Nov/2025 15:57:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:59:56,184 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:59:56,185 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:59:56,185 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 15:59:56,300 - 127.0.0.1 - - [18/Nov/2025 15:59:56] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 15:59:56,354 - 127.0.0.1 - - [18/Nov/2025 15:59:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:59:56,363 - 127.0.0.1 - - [18/Nov/2025 15:59:56] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:59:56,753 -  * Restarting with watchdog (windowsapi)
+2025-11-18 15:59:57,592 -  * Debugger is active!
+2025-11-18 15:59:57,598 -  * Debugger PIN: 262-282-285
+2025-11-18 15:59:57,626 - 127.0.0.1 - - [18/Nov/2025 15:59:57] "[32mGET /shenzhenjichang HTTP/1.1[0m" 308 -
+2025-11-18 15:59:57,650 - 127.0.0.1 - - [18/Nov/2025 15:59:57] "GET /shenzhenjichang/ HTTP/1.1" 200 -
+2025-11-18 15:59:57,688 - 127.0.0.1 - - [18/Nov/2025 15:59:57] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 15:59:57,694 - 127.0.0.1 - - [18/Nov/2025 15:59:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 15:59:57,695 - 127.0.0.1 - - [18/Nov/2025 15:59:57] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 15:59:58,620 - 127.0.0.1 - - [18/Nov/2025 15:59:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:01,759 - 127.0.0.1 - - [18/Nov/2025 16:00:01] "[32mGET /contact HTTP/1.1[0m" 308 -
+2025-11-18 16:00:01,784 - 127.0.0.1 - - [18/Nov/2025 16:00:01] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:01,807 - 127.0.0.1 - - [18/Nov/2025 16:00:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:01,807 - 127.0.0.1 - - [18/Nov/2025 16:00:01] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:02,292 - 127.0.0.1 - - [18/Nov/2025 16:00:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:05,867 - 127.0.0.1 - - [18/Nov/2025 16:00:05] "GET /shenzhenjichang/ HTTP/1.1" 200 -
+2025-11-18 16:00:05,889 - 127.0.0.1 - - [18/Nov/2025 16:00:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:05,891 - 127.0.0.1 - - [18/Nov/2025 16:00:05] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:06,703 - 127.0.0.1 - - [18/Nov/2025 16:00:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:14,741 - 127.0.0.1 - - [18/Nov/2025 16:00:14] "GET /service/ HTTP/1.1" 200 -
+2025-11-18 16:00:14,779 - 127.0.0.1 - - [18/Nov/2025 16:00:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:14,788 - 127.0.0.1 - - [18/Nov/2025 16:00:14] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:15,232 - 127.0.0.1 - - [18/Nov/2025 16:00:15] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:17,088 - 127.0.0.1 - - [18/Nov/2025 16:00:17] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:17,112 - 127.0.0.1 - - [18/Nov/2025 16:00:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:17,113 - 127.0.0.1 - - [18/Nov/2025 16:00:17] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:17,619 - 127.0.0.1 - - [18/Nov/2025 16:00:17] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:19,445 - 127.0.0.1 - - [18/Nov/2025 16:00:19] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:19,469 - 127.0.0.1 - - [18/Nov/2025 16:00:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:19,470 - 127.0.0.1 - - [18/Nov/2025 16:00:19] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:20,011 - 127.0.0.1 - - [18/Nov/2025 16:00:20] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:22,788 - 127.0.0.1 - - [18/Nov/2025 16:00:22] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:22,834 - 127.0.0.1 - - [18/Nov/2025 16:00:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:22,836 - 127.0.0.1 - - [18/Nov/2025 16:00:22] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:23,317 - 127.0.0.1 - - [18/Nov/2025 16:00:23] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:27,743 - 127.0.0.1 - - [18/Nov/2025 16:00:27] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:27,764 - 127.0.0.1 - - [18/Nov/2025 16:00:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:27,771 - 127.0.0.1 - - [18/Nov/2025 16:00:27] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:27,926 - 127.0.0.1 - - [18/Nov/2025 16:00:27] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:30,366 - 127.0.0.1 - - [18/Nov/2025 16:00:30] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:30,396 - 127.0.0.1 - - [18/Nov/2025 16:00:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:30,402 - 127.0.0.1 - - [18/Nov/2025 16:00:30] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:30,532 - 127.0.0.1 - - [18/Nov/2025 16:00:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:34,650 - 127.0.0.1 - - [18/Nov/2025 16:00:34] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:34,675 - 127.0.0.1 - - [18/Nov/2025 16:00:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:34,681 - 127.0.0.1 - - [18/Nov/2025 16:00:34] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:34,823 - 127.0.0.1 - - [18/Nov/2025 16:00:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:37,126 - 127.0.0.1 - - [18/Nov/2025 16:00:37] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:37,158 - 127.0.0.1 - - [18/Nov/2025 16:00:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:37,162 - 127.0.0.1 - - [18/Nov/2025 16:00:37] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:37,293 - 127.0.0.1 - - [18/Nov/2025 16:00:37] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:46,452 - 127.0.0.1 - - [18/Nov/2025 16:00:46] "GET /service/ HTTP/1.1" 200 -
+2025-11-18 16:00:46,494 - 127.0.0.1 - - [18/Nov/2025 16:00:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:46,504 - 127.0.0.1 - - [18/Nov/2025 16:00:46] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:46,633 - 127.0.0.1 - - [18/Nov/2025 16:00:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:47,255 - 127.0.0.1 - - [18/Nov/2025 16:00:47] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 16:00:47,279 - 127.0.0.1 - - [18/Nov/2025 16:00:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:47,286 - 127.0.0.1 - - [18/Nov/2025 16:00:47] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:47,437 - 127.0.0.1 - - [18/Nov/2025 16:00:47] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:00:48,844 - 127.0.0.1 - - [18/Nov/2025 16:00:48] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:00:48,875 - 127.0.0.1 - - [18/Nov/2025 16:00:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:00:48,880 - 127.0.0.1 - - [18/Nov/2025 16:00:48] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:00:49,389 - 127.0.0.1 - - [18/Nov/2025 16:00:49] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:02:01,109 - 127.0.0.1 - - [18/Nov/2025 16:02:01] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:02:01,159 - 127.0.0.1 - - [18/Nov/2025 16:02:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:02:01,162 - 127.0.0.1 - - [18/Nov/2025 16:02:01] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:02:01,476 - 127.0.0.1 - - [18/Nov/2025 16:02:01] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:02:33,452 - 127.0.0.1 - - [18/Nov/2025 16:02:33] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 16:02:33,497 - 127.0.0.1 - - [18/Nov/2025 16:02:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:02:33,501 - 127.0.0.1 - - [18/Nov/2025 16:02:33] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:02:33,623 - 127.0.0.1 - - [18/Nov/2025 16:02:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:02:35,569 - 127.0.0.1 - - [18/Nov/2025 16:02:35] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 16:02:35,615 - 127.0.0.1 - - [18/Nov/2025 16:02:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:02:35,618 - 127.0.0.1 - - [18/Nov/2025 16:02:35] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:02:35,759 - 127.0.0.1 - - [18/Nov/2025 16:02:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:02:38,720 - 127.0.0.1 - - [18/Nov/2025 16:02:38] "GET /contact/ HTTP/1.1" 200 -
+2025-11-18 16:02:38,746 - 127.0.0.1 - - [18/Nov/2025 16:02:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:02:38,746 - 127.0.0.1 - - [18/Nov/2025 16:02:38] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:02:39,251 - 127.0.0.1 - - [18/Nov/2025 16:02:39] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:15:00,107 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 16:15:00,108 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 16:15:00,109 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 16:15:00,109 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-18 16:15:00,220 - 127.0.0.1 - - [18/Nov/2025 16:15:00] "GET /case/ HTTP/1.1" 200 -
+2025-11-18 16:15:00,283 - 127.0.0.1 - - [18/Nov/2025 16:15:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-18 16:15:00,286 - 127.0.0.1 - - [18/Nov/2025 16:15:00] "[36mGET /static/img/sixie.png HTTP/1.1[0m" 304 -
+2025-11-18 16:15:00,809 - 127.0.0.1 - - [18/Nov/2025 16:15:00] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-11-18 16:15:01,194 -  * Restarting with watchdog (windowsapi)
+2025-11-18 16:15:01,957 -  * Debugger is active!
+2025-11-18 16:15:01,963 -  * Debugger PIN: 262-282-285
+2025-11-18 16:15:03,885 - 127.0.0.1 - - [18/Nov/2025 16:15:03] "[32mGET /insight HTTP/1.1[0m" 308 -
+2025-11-18 16:15:03,909 -  * Detected change in 'D:\\APP\\py3\\py3\\Lib\\site-packages\\flask\\app.py', reloading
+2025-11-18 16:15:03,933 -  * Detected change in 'D:\\APP\\py3\\py3\\Lib\\site-packages\\werkzeug\\middleware\\proxy_fix.py', reloading
+2025-11-18 16:15:03,958 -  * Detected change in 'D:\\APP\\py3\\py3\\Lib\\site-packages\\flask\\templating.py', reloading
+2025-11-18 16:15:04,049 -  * Restarting with watchdog (windowsapi)
+2025-11-18 16:15:04,560 -  * Debugger is active!
+2025-11-18 16:15:04,565 -  * Debugger PIN: 262-282-285
+2025-11-18 16:15:04,582 -  * Detected change in 'D:\\APP\\py3\\py3\\Lib\\site-packages\\jinja2\\environment.py', reloading
+2025-11-18 16:15:04,612 -  * Detected change in 'D:\\APP\\py3\\py3\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2025-11-18 16:15:04,614 - 127.0.0.1 - - [18/Nov/2025 16:15:04] "[35m[1mGET /insight/ HTTP/1.1[0m" 500 -
+2025-11-18 16:15:04,731 - 127.0.0.1 - - [18/Nov/2025 16:15:04] "GET /insight/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-18 16:15:04,736 - 127.0.0.1 - - [18/Nov/2025 16:15:04] "GET /insight/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-18 16:15:04,776 - 127.0.0.1 - - [18/Nov/2025 16:15:04] "GET /insight/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-18 16:15:05,652 -  * Restarting with watchdog (windowsapi)
+2025-11-18 16:15:06,210 -  * Debugger is active!
+2025-11-18 16:15:06,214 -  * Debugger PIN: 262-282-285
+2025-11-18 16:15:06,488 - 127.0.0.1 - - [18/Nov/2025 16:15:06] "[36mGET /insight/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

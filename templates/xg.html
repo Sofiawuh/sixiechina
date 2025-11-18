@@ -1,0 +1,1297 @@
+{% extends "base.html" %} {% block title %}案例{% endblock %} {% block content %}
+
+<!doctype html>
+<div class="case-detail-page" style="margin-top: 80px; padding-top: 20px;">
+
+
+<html lang="zh-CN" site="china">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="applicable-device" content="pc,mobile">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="baidu-site-verification" content="nsMgQr28vc" />
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        
+        
+        <meta name="templateName" content="common-pep2.0">
+        
+        
+
+<title>华为云Stack-湘钢-华为云</title>
+<meta name="keywords" content="钢铁,大模型,华为云Stack,大模型混合云,钢铁智能化" />
+<meta name="description" content="湘钢基于华为云Stack大模型混合云已完成首批人工大模型开发上线，落地涵盖钢铁流程中的焦化、烧结、炼铁、炼钢等钢铁生产环节，实现全流程、全业务数字化赋能。" />
+<link rel="canonical" href="https://www.huaweicloud.com/cases/xg.html"/>
+
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta name="pep-template-version" content="1.9.4" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;" />
+
+
+
+
+
+<link rel="icon" href="">
+
+
+
+
+    
+        <link rel="stylesheet"
+            href="https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/css/global.min.css?sttl=1.2.3&ttr=1.2.3" crossorigin="anonymous"/>
+        <!--/* header css */-->
+        <link rel="stylesheet"
+            href="https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.46/index.css?sttl=1.2.3&ttr=1.2.3" crossorigin="anonymous">
+        <style>
+            @media(max-width:768px) {
+                #header {
+                    display: none;
+                }
+            }
+
+            #footer .footer-nav {
+                display: none;
+            }
+
+            #footer .footer-copyright-container {
+                display: none;
+            }
+
+            .footer-service .footer-wrapper {
+                display: none;
+            }
+        </style>
+    
+
+
+
+<link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.css">
+
+<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/jquery.min.js" crossorigin="anonymous"></script>
+
+<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/js/libs.min.js"></script>
+
+<!--  -->
+
+<meta name="google-site-verification" content="wQwSWDVSYQzH1niLqcUE15XH1_j_rN1T9-mbq2r6Dmw" />
+<meta name="sogou_site_verification" content="u4x6sJNooE" />
+<link rel="dns-prefetch" href="https://res-static.hc-cdn.cn" />
+<link rel="dns-prefetch" href="https://portal.hc-cdn.com" />
+<link rel="dns-prefetch" href="https://support.huaweicloud.com" />
+<link rel="dns-prefetch" href="https://activity.huaweicloud.com" />
+<link rel="dns-prefetch" href="https://portal.huaweicloud.com" />
+<link rel="dns-prefetch" href="https://uba.huaweicloud.com" />
+<link rel="dns-prefetch" href="https://uba-intl.huaweicloud.com" />
+
+<!--  -->
+
+
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    window.$closeBiReport2018 = true
+
+    window.$siteInfo = window.$siteInfo || {};
+    window.$siteInfo.site = "china";
+    window.$siteInfo.lang = "zh-cn".replace("_", "-");
+</script>
+
+
+
+        
+        
+      <script>window.$cssList = ["https://res.hc-cdn.com/cnpm-pep-components/2.3.71/cnpm-pep-case-detail-banner","https://res.hc-cdn.com/cnpm-pep-components/2.3.70/cnpm-pep-case-detail-section"];window.$aioList = [];window.$aioCdnPrefix = 'https://res.hc-cdn.com/';</script>
+      <script>
+        window.gConfig =  window.gConfig || {};
+        window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+        var hClassName ;
+        if(window.gConfig.isMobile) {
+          hClassName = ' phone';
+        } else {
+          hClassName = ' pc';
+        }
+        if(window.$cssList) {
+          for(var i=0; i<window.$cssList.length; i++) {
+            document.write('<link rel="stylesheet" href="'+window.$cssList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+          }
+        }
+        var root = document.documentElement;
+        root.className += hClassName ;
+    </script>
+      
+
+        
+        <script>
+    window.gConfig =  window.gConfig || {};
+    window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+    var hClassName;
+    if(window.gConfig.isMobile){
+        hClassName = ' phone';
+    }else{
+        hClassName = ' pc';  
+    }
+    if(window.$aioList) {
+        for(var i=0; i<window.$aioList.length; i++) {
+            if(window.$aioCdnPrefix){
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="'+window.$aioCdnPrefix+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            } else {
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="https://res.hc-cdn.com/'+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            }
+            
+        }
+    }
+    var root = document.documentElement;
+    root.className += hClassName ; 
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.gConfig.seed.push({
+        name: '@cloud/link-to',
+        data: {
+            "packages": {
+                "@cloud/link-to": {
+                    "path": "//portal.hc-cdn.com/cnpm-link-to/3.1.12/",
+                    "version": "3.1.12"
+                }
+            }
+        }
+    });
+</script>
+    </head>
+    <body>
+        
+        
+    
+        
+
+    
+
+
+
+    
+
+
+
+    
+
+
+        
+        <div id="content" data-site="china"
+            data-channelFrom="" 
+            data-promotion-theme="black"
+            data-promotion-title-align="left">
+            
+            <div id="common-components-container">
+                
+      <div data-mod-id="pep-case-detail-banner_1724752191631">
+<div data-mod-name-pc="@cloud/pep-case-detail-banner/pc/index" data-mod-name-m="@cloud/pep-case-detail-banner/m/index"
+    class="pep-case-detail-banner" data-mod-name="pep-case-detail-banner"
+    style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/湘钢-2560banner.jpg');">
+    <div class="por-section merge-spacing-bottom-mb">
+        <div class="por-container">
+            <div class="por-section-body">
+                <div class="color_bg_white radius_border_XL banner-card">
+                    <div class="mb-container-top" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/湘钢-2560banner.jpg');">
+                        <ul class="por-breadcrumb">
+                            
+                        </ul>
+                        <div class="banner-title">
+                            <div class="hide-mb">淬炼中国钢铁新力量</div>
+                            <div class="hide-pc">淬炼中国钢铁新力量</div>
+                        </div>
+                    </div>
+                    <div class="mb-container-bottom">
+                        
+                        <div class="banner-subTitle">
+                            <div class="por-text-body-t2 hide-mb"><p>湘钢基于华为云Stack大模型混合云，已完成首批人工智能大模型开发上线，落地涵盖焦化、烧结、炼铁、炼钢等钢铁生产环节，实现全流程、全业务数字化赋能。</p></div>
+                            <div class="hide-pc"><p>湘钢基于华为云Stack大模型混合云，已完成首批人工智能大模型开发上线，落地涵盖焦化、烧结、炼铁、炼钢等钢铁生产环节，实现全流程、全业务数字化赋能。</p></div>
+                        </div>
+                        
+                        
+                        <div class="por-row advantages-container" data-col="2">
+                            
+                            <div class="advantages-item">
+                                <div class="por-text-title-t6">32个</div>
+                                <div class="por-text-body-t2"><p>智能应用已上线</p></div>
+                            </div>
+                            
+                            <div class="advantages-item">
+                                <div class="por-text-title-t6">100+</div>
+                                <div class="por-text-body-t2"><p>智能场景探索中</p></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="por-row btn-container">
+                            
+                            <div class="btn-item">
+                                <a href=""
+                                    class="por-btn por-btn-secondary por-btn-middle por-btn-md-default"
+                                    target="_blank">回到云上万象中国</a>
+                            </div>
+                            
+                            <div class="btn-item">
+                                <a href=""
+                                    class="por-btn por-btn-secondary por-btn-middle por-btn-md-default"
+                                    target="_blank">了解华为云Stack</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/pep-case-detail-banner', data : {"packages":{"@cloud/pep-case-detail-banner":{"path":"//portal.hc-cdn.com/cnpm-pep-components/2.3.71/cnpm-pep-case-detail-banner/","version":"2.3.71"},"@cloud/link-to":{"path":"//portal.hc-cdn.com/cnpm-link-to/3.1.9/","version":"3.1.9"},"@cloud/lazyload":{"path":"//portal.hc-cdn.com/cnpm-lazyload/2.0.10/","version":"2.0.10"},"@cloud/xtemplate-runtime":{"path":"//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/pep-case-detail-banner/m/index":{"requires":["@cloud/link-to","@cloud/lazyload"]},"@cloud/pep-case-detail-banner/pc/index":{"requires":["@cloud/link-to","@cloud/lazyload"]}}} })</script>
+
+</div>
+</div>
+<div data-mod-id="pep-case-detail-section_1724752204754">
+<div data-mod-name-pc="@cloud/pep-case-detail-section/pc/index" data-mod-name-m="@cloud/pep-case-detail-section/m/index"
+    class="pep-case-detail-section" data-mod-name="pep-case-detail-section">
+    <div class="por-section">
+        <div class="por-container">
+            <div class="por-section-body">
+                <div class="case-sidebar">
+                    <div class="radius_border_XL case-card">
+                        
+                        <div class="logo" style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/湘钢logo.png);"></div>
+                        
+                        <div class="features">
+                            <div class="por-row">
+                                
+                                <div class="por-col-xs-12">
+                                    <dt class="por-text-title-t8 color_text_primary_dark">客户简介</dt>
+                                    <dd class="por-text-body-t2 color_text_primary_dark"><p>湘潭钢铁集团有限公司，年产钢1600万吨生产规模，其产品已经成功应用于港珠澳大桥、深中通道、亚马尔液化天然气项目、阿布扎比机场、海基二号等国内外“超级工程”。</p>
+                                    </dd>
+                                </div>
+                                
+                                <div class="por-col-xs-12">
+                                    <dt class="por-text-title-t8 color_text_primary_dark">所属行业</dt>
+                                    <dd class="por-text-body-t2 color_text_primary_dark"><p>钢铁</p>
+                                    </dd>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="related-products">
+                            <div class="por-text-title-t8 color_text_primary_dark related-products-title">
+                                
+                            </div>
+                            <div class="por-row">
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="por-text-title-t7 color_text_primary_dark radius_border_XL ads"
+                        style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/all-case/编组32.png);">
+                        <a href="" target="_blank" data-theme="black"
+                            >
+                            <p>免费试用华为云</p><p>开启您的上云之旅</p></a>
+                    </div>
+                </div>
+
+                <div class="case-content">
+                    
+                    
+
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[0].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="por-text-title-t5 color_text_primary_dark title-level1">背景介绍</div>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[1].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="por-text-body-t2 paragraphs"><p>湘钢着力三大战略推动自身高质量发展。 在钢铁行业追求高质量发展的大趋势下，为支撑湖南钢铁集团稳居世界 500 强的目标，公司明确了调整产品结构、加快数智化转型、发展集团产业的“三大战略”，并在发展路径上创新突破。</p><p>● 全力调整产品结构</p><p>● 全力加快数智化转型</p><p>● 全力发展集团产业</p></div>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[2].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="por-player radius_border_XL">
+                            <video class="por-native" object-fit="" preload="preload" controlslist="nodownload"
+                                controls="" src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/xgalsp.mp4" poster="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/湘钢案例视频封面.jpg"></video>
+                        </div>
+                        
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[3].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="por-text-title-t5 color_text_primary_dark title-level1">业务痛点</div>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[4].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="por-text-body-t2 paragraphs"><p>●  碎片化场景导致技术落地难，钢铁行业存在大量生产场景，每个碎片化场景独立完成模型选择、数据处理、模型优化、模型迭代等一系列开发步骤，导致技术落地成本高、难以规模化复制的问题，且小模型开发门槛高，使得熟悉钢铁行业的工艺专家难以参与。</p><p>● 缺少统一AI开发平台，目前大部分人工智能场景都是采用传统“作坊式”开发，无法沉淀通用知识，且不同领域的调试方法不同，影响了人工智能在钢铁行业的规模应用。</p></div>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[5].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="por-text-title-t5 color_text_primary_dark title-level1">解决方案与成果</div>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[6].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="por-text-body-t2 paragraphs"><p>湘钢人工智能训练中心基于华为云Stack大模型混合云提供具备先进技术架构的通用算力和AI算力服务，未来可平滑演进支持多业务融合，服务于整个湘钢的各领域业务。基于统一集约化建设规范，建设“三统一”，即统一标准、统一架构和统一数据规范的智算云底座，构建一站式大模型平台，加速湘钢数智化转型。</p><p><strong>混合云平台</strong></p><p>●  AI基础平台：为大模型平台提供全流程的模型训练和推理能力。</p><p>● 资源调度平台 为基础设施硬件提供资源调度和高效管理的能力。</p><p>● 数据集成平台：为大模型平台与人工智能底座内部调用提供集成对接能力。</p><p><br></p><p><strong>大模型平台</strong></p><p>● 湘钢人工智能大模型：提供视觉大模型和预测大模型，视觉大模型支持图像分类、物体检测、实例分割、语义分割工作流。预测大模型支持结构化数据预测工作流，可对结构化数据进行高效的预测分析，支持数据预处理、模型训练等功能。</p><p>● AI运营管理中心：支持数据集管理、应用管理、应用优化、服务管理、云边协同、资产管理和系统管理。支持通过AI工作流进行模型训练、部署、优化，达到业务场景的持续监控与运营运维，实现统一、规范、敏捷化的AI全生命周期管理，从而降低开发门槛、提升开发效率。</p><p><br></p></div>
+                    </div>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[7].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="picture"><img class="radius_border_XL" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/湘钢--人物海报.png" /></div>
+                        
+                    </div>
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    <div class="detail-item" data-mod-name="child-component"
+                        data-mod-id="caseContent[8].detail" data-partial-refresh="false"
+                        pep-data-mod-draggable>
+                        <div class="radius_border_XL proverbs"
+                            style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/20240828-163718.jpg);">
+                            <div class="por-text-title-t7 color_text_primary_dark proverbs-info">
+                                
+                                <i class="mark-up" style="background-image: url(https://portal.hc-cdn.com/cnpm-pep-components/2.3.70/cnpm-pep-case-detail-section/pc/markUp.svg);"></i>
+                                
+                                <p>近年来我们集团秉承“让设备开口说话，让机器自主运行，让企业更有效益”的目标，创建了国家中厚钢板产业计量测试中心、国家先进钢铁材料计量数据建设应用基地、首个工业互联网二级节点。在完成前面三项布局的基础上，引进、发布了全球首个钢铁盘古大模型，对现有的一些生产过程进行模拟和预测。截止到2024年12月，已在9大专业，探索了130多个应用场景，上线32个智能应用。未来，湘钢还会联合华为、国家中厚钢板产业计量测试中心，加快“人工智能+钢铁”进程，赋能工业，辐射千行百业。</p>
+                                
+                                <i class="mark-down" style="background-image: url(https://portal.hc-cdn.com/cnpm-pep-components/2.3.70/cnpm-pep-case-detail-section/pc/markDown.svg);"></i>
+                                
+                            </div>
+                            <div class="proverbs-footer">
+                                <div class="por-text-title-t8 color_text_primary_dark name">喻维纲</div>
+                                <div class="por-text-body-t2 positions">湖南钢铁集团数智化技术委员会主任、湘钢顾问</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+                    <div class="interacting">
+                        <a class="thumbs"><span>case_like</span></a>
+                        <div class="color_text_primary_dark share-content" data-sharetitle="鄂尔多斯市案例">
+                            <div class="share-wrapper">
+                                <div class="share-list">
+                                    
+                                    <div class="share-item share-copy" data-copy="复制链接" data-copylinksuccess="复制成功">
+                                        <i style="background-image: url(https://portal.hc-cdn.com/cnpm-pep-components/2.3.70/cnpm-pep-case-detail-section/pc/copy.svg);"></i>
+                                        <div class="share-text">复制链接</div>
+                                    </div>
+                                    
+                                    
+                                    <div class="share-item share-wechat">
+                                        <i style="background-image: url(https://portal.hc-cdn.com/cnpm-pep-components/2.3.70/cnpm-pep-case-detail-section/pc/wechat.svg);"></i>
+                                        <div class="share-text">微信</div>
+                                        <div class="share-tips">
+                                            <div><canvas id="case-detail-qrcode" width="118" height="118"></canvas>
+                                            </div>
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="share-item share-microblog">
+                                        <i style="background-image: url(https://portal.hc-cdn.com/cnpm-pep-components/2.3.70/cnpm-pep-case-detail-section/pc/microblog.svg);"></i>
+                                        <div class="share-text">微博</div>
+                                    </div>
+                                    
+                                    <span class="arrow"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/pep-case-detail-section', data : {"packages":{"@cloud/pep-case-detail-section":{"path":"//portal.hc-cdn.com/cnpm-pep-components/2.3.70/cnpm-pep-case-detail-section/","version":"2.3.70"},"@cloud/link-to":{"path":"//portal.hc-cdn.com/cnpm-link-to/3.1.9/","version":"3.1.9"},"@cloud/lazyload":{"path":"//portal.hc-cdn.com/cnpm-lazyload/2.0.10/","version":"2.0.10"},"@cloud/xtemplate-runtime":{"path":"//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/","version":"1.0.1"}},"modules":{"@cloud/pep-case-detail-section/m/index":{"requires":["@cloud/link-to","@cloud/lazyload"]},"@cloud/pep-case-detail-section/pc/index":{"requires":["@cloud/link-to","@cloud/lazyload"]}}} })</script>
+
+</div>
+</div>
+      <script>
+          window.gConfig = window.gConfig || {};
+          window.gConfig.seed = window.gConfig.seed || [];
+          window.$devPath = {"@cloud/pep-case-detail-banner":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.3.71/cnpm-pep-case-detail-banner"},"@cloud/pep-case-detail-section":{"path":"https://res.hc-cdn.com/cnpm-pep-components/2.3.70/cnpm-pep-case-detail-section"}};
+          for(var i = 0; i < window.gConfig.seed.length; i++) {
+            var tmpSeed = window.gConfig.seed[i].data;
+            var name = window.gConfig.seed[i].name;
+            if(tmpSeed && tmpSeed.packages && window.$devPath[name]) {
+              tmpSeed.packages[name] = window.$devPath[name];
+            }
+          }
+        </script>
+      
+            </div>
+        </div>
+
+        <script>
+            var components = $("#common-components-container").children("div:not([data-mod-id='pep-empty-page'])");
+            var count = 0;
+            for (var i = 0; i < components.length; i++) {
+                var tempComponent = $(components[i]);
+                if(tempComponent.children().length > 0){
+                    tempComponent.attr("id", "section-" + count);
+                    count++;
+                }
+                
+                tempComponent = null;
+            }
+        </script>
+
+        
+        
+    
+        <div id="register"></div>
+    
+
+
+        
+    
+        <div id="service"></div>
+    
+
+
+        
+    
+        
+
+    
+
+
+
+    
+
+
+
+<script>
+    var originsWhiteList = ['https://www.huaweicloud.com','https://activity.huaweicloud.com','https://support.huaweicloud.com','https://beian.huaweicloud.com'];
+    var currentOrigin = originsWhiteList.includes(window.location.origin)?window.location.origin:'https://www.huaweicloud.com';
+    var url = currentOrigin+"/common/header-footer-china-zh-2023.html";
+    var $tmpForPEP = document.createElement("div");
+    $.ajax({
+        url: url,
+        async: true,
+        timeout: 10000,
+        success: function(response) {
+            $tmpForPEP.innerHTML = response;
+            // 下拉部分
+            $("#footer").append($tmpForPEP.querySelector("#edit-header-drop").innerHTML);           
+            var scripts = [
+                "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.46/header-and-footer-china.umd.js?sttl=1.2.3&ttr=1.2.3",
+                "https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/js/portalLogin.min.js?sttl=1.2.3&ttr=1.2.3"
+            ];
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            }
+        },
+        error: function(response) {
+          var scripts = [
+                "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.46/header-and-footer-china.umd.js?sttl=1.2.3&ttr=1.2.3",
+                "https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/js/portalLogin.min.js?sttl=1.2.3&ttr=1.2.3"
+            ]
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            }
+        }
+    });
+
+
+    if (!window.gConfig) {
+        window.gConfig = {}
+    }
+    window.gConfig.isApp = /galaxy/i.test(navigator.userAgent) && window.galaxy;
+    // 初始化全局变量
+    var jsonParamInit = {}
+    var jsonParamView = {}
+    var jsonParamEvent = {}
+    jsonParamInit['UserAccount'] = 'host'
+    jsonParamEvent['rec_account'] = getUaCookie('ua')
+    jsonParamView['rec_account'] = getUaCookie('ua')
+    var portalDomain = 'https://portal.huaweicloud.com',
+    ssoDomain = 'https://auth.huaweicloud.com'
+    var isVerified = false
+    var isLogin = false
+    var totalMsg = 0;
+    function getUaCookie(c_name) {
+        if (document.cookie.length > 0) {
+            var c_start = document.cookie.indexOf(c_name + '=')
+            if (c_start != -1) {
+            c_start = c_start + c_name.length + 1
+            var c_end = document.cookie.indexOf(';', c_start)
+            if (c_end == -1) c_end = document.cookie.length
+            return decodeURI(document.cookie.substring(c_start, c_end))
+            }
+        }
+        return ''
+    }
+</script>
+
+    
+
+        
+
+        
+            
+                <script>
+                    if(window.location.href.indexOf('subsite')<0) {
+                        window.addEventListener('DOMContentLoaded',function(event){
+                            if(/pcloudApp/i.test(navigator.userAgent)){
+                                $("#footer").css('display', 'none');
+                            }else{
+                                $("#footer").css('display', 'block');
+                            }
+                        })
+                    }
+                </script>
+            
+
+        
+
+        
+        <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/ViewMotion.min.1.2.js?sttl=1.2.3"></script>
+        <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/v2/dcSlideShow.min.js?20171012&sttl=1.2.3"></script>
+        <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/swiper-3.4.2.jquery.min.js?20171012&sttl=1.2.3"></script>  
+        <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/product/js/checkURL.js?sttl=1.2.3"></script>
+        <div class="por-modal por-modal-player" data-hide="modal" id="common-video-play-modal">
+            <div class="por-player">
+                <video class="por-native" controls="" src=""></video>
+                <i class="por-player-close" data-hide="modal"></i>
+            </div>
+        </div>
+        <script>
+            // 链接为视频链接，处理统一使用portalUI播放器打开
+            $("[href*='mp4']").on('click',function(event) {
+                if($(event.target).closest("[data-show],[data-src],[video-src]").length === 0){
+                    var $target = $(event.target).closest("[href*='mp4']");
+                    // 当前触发target的href属性为视频链接
+                    var targetHref = $target.attr('href');
+                    if(targetHref && targetHref.includes('mp4')){
+                        var $videoModal = $('#common-video-play-modal');
+                        var $videoInModal = $('#common-video-play-modal video');
+                        if($videoModal.length && $videoInModal.length) {
+                            event.preventDefault();
+                            $videoInModal.attr('src',targetHref)
+                            $videoModal.porModal('show')
+                            event.stopPropagation();
+                        }
+                    }
+                }
+            });
+        </script>
+        <style type="text/css">
+            #header {
+                height: 100px;
+            }
+        
+            @media (max-width: 768px) {
+                #header {
+                    height: 44px;
+                }
+            }
+        </style>
+        <script>
+            function dealWithImageHTL() {
+                if (/pcloudApp/i.test(navigator.userAgent)) {
+                    $("[data-pep-src]").hide();
+                    return;
+                } else {
+                    var str = window.location.search;
+                    var suband = "type=android";
+                    var subios = "type=ios";
+                    if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+                        $("[data-pep-src]").hide();
+                        return;
+                    }
+                }
+                $("[data-pep-src]").each(function () {
+                    $(this).attr("src", $(this).attr("data-pep-src"));
+                });
+            }
+        
+            dealWithImageHTL();
+        </script>
+
+
+        <script>
+            //display video for product-VideoTutorials-v5
+            $('.product-video-list li').each(function () {
+                var pcUrl = $(this).attr("data-vedio-pc-url") || '';
+                var mbUrl = $(this).attr("data-video-mb-url") || pcUrl || '';
+                var ua = navigator && navigator.userAgent;
+                if ((/Android|webOS|iPhone|iPod|Windows Phone|(BlackBerry).*Version|(BB10).*Version|IEMobile|Opera Mini/i).test(ua)) {
+                    $(this).find(".product-play-btn2").on('click', function () {
+                        play(encodeURI(mbUrl), '')
+                    })
+                } else {
+                    $(this).find(".product-play-btn2").on('click', function () {
+                        play(encodeURI(pcUrl), '')
+                    })
+                }
+            })
+            window.channelFrom = $('#content').attr('data-channelFrom');
+            window.hrefName = $('#content').attr('data-hrefName');
+            if ($('#content').attr('data-site') == 'hk') {
+                localStorage.setItem('currentActivitySite', 'hk');
+            }
+            else {
+                localStorage.setItem('currentActivitySite', 'china');
+            }
+        </script>
+
+        
+        
+        
+
+<script>
+  var furionAppCode = '';
+  var $currentUrl = location.href;
+  if($currentUrl.indexOf("/price_detail.html") != -1 || $currentUrl.indexOf("/pricing.html") != -1 || $currentUrl.indexOf("/pricing/index.html") != -1){
+    furionAppCode = 'D00903385CF649FCA048B5DE1C1E6D4E';
+  }else if($currentUrl.indexOf("https://activity.huaweicloud.com") == 0) {
+    furionAppCode = '51D7385A7D2B4937BB45DC755E82C48C';
+  } else if ($currentUrl.indexOf("https://www.huaweicloud.com") == 0) {
+    furionAppCode = '7D9AB7C5E01D4698B7B918065C762796';
+  } else if ($currentUrl.indexOf("https://support.huaweicloud.com") == 0) {
+    furionAppCode = '1C04D12EB0F8479A9DA9A24639FCA81C';
+  }
+  if(!window.__fr && furionAppCode){
+    !function(x, n) {
+      window[n] = window[n] || {};
+      window[n].config = {
+          appId: furionAppCode,setting: "api,jsTrack,uba,longtask,rtti",hashMode: true,closeReportFMP: true,
+      };
+      var o = document.createElement('script');
+      o.src = x, o.async = !0;
+      var d = document.body.firstChild;
+      document.body.insertBefore(o, d);
+    }('https://portal.hc-cdn.com/FurionSdkStatic/3.6.55/furion-cdn.min.js', '__fr');
+  }
+</script>
+
+<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/bi_new.js?sttl=1.2.3"></script>
+
+<script src="https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.js?sttl=1.2.3&ttr=1.2.3" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://res-static.hc-cdn.cn/aem/content/cloudbu-site/resource/common/feloader.js?sttl=1.2.3&ttr=1.2.3" crossorigin="anonymous"></script>
+<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/js/global.min.js" crossorigin="anonymous"></script>
+<div class="hide-sttl" style="height:0;width:0" data-sttl="1.2.3"></div>
+<script>
+  window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
+</script>
+
+
+
+  
+      <script>
+          $('body').addClass('header-white');
+
+          if (!/pcloudApp/i.test(navigator.userAgent)) {
+            $("#header").css("display", "block");
+          }
+      </script>
+  
+
+
+<script>
+  // edit--china--en-us--declaration
+  var $ts_site = "china";
+  var $ts_lang = "zh-cn".replace("_", "-");
+  var $lang_site_gate  = $ts_site !== "eu" && $ts_lang !== "tr-tr";
+  var $ts_domain = window.location.host.split('.')[1] ? window.location.host.split('.')[0] : 'localhost';
+  var $pepchannel = "cases/xg.html".split("/").join("_").replace(".html","");
+  window.matedataDomain = $ts_domain;
+
+  // if open in app, should change ts_domain in to "app"
+  if (/pcloudApp/i.test(navigator.userAgent)) {
+      window.matedataDomain = "app";
+  } else {
+      var str = window.location.search;
+      var suband = "type=android";
+      var subios = "type=ios";
+      if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+        window.matedataDomain = "app";
+      }
+  }
+
+  // 新系统中生成的方式需要改下
+  window.pageMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + ".click.";
+  window.headerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_navigation.click.";
+  window.footerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_footer.click.";
+  window.registerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_register.click.";
+  window.serviceMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_service.click.";
+  window.pep_uaid = ($ts_site=="china") ? "UA-55836286-1" : "UA-55836286-39";
+  window.mate_data_ts_pageType = $pepchannel;
+
+</script>
+
+
+<script>
+function showFooter() {
+  if (window.matedataDomain != "app") {
+      $("#footer .footer-nav").css('display', 'block');
+      $("#footer .footer-copyright-container").css('display', 'block');
+      $(".footer-service .footer-wrapper").css('display', 'block');
+      $("#footer #videoDiv").css('display', 'none');
+  }
+}
+if (window.feloader) {
+  feloader.onLoad(function () {
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css');
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css');
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js?sttl=' + window.sttlVersion);
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=' + new Date().getTime());
+    showFooter();
+  })
+} else {
+  document.write("<script src='https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js'><\/script>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css'>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css'>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=" + new Date().getTime() + "'>");
+  showFooter();
+}
+
+</script>
+
+
+  <script src="https://portal.hc-cdn.com/bi/uba.in.js?v=2.17"></script>
+
+
+
+	
+
+
+
+<script>
+
+function guidGenerator() {
+      var d = (new Date).getTime();
+      var uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+        var r = (d + Math.random() * 16) % 16 | 0;
+        d = Math.floor(d / 16);
+        return (c == "x" ? r : r & 3 | 8).toString(16)
+      });
+      return uuid
+}
+    
+
+
+var _ubaParams = _ubaParams || {};
+    _ubaParams.cloudBIType = 2;
+    _ubaParams.download;
+    _ubaParams.download_suc = 1;
+    _ubaParams.Num2 = 2;
+    _ubaParams.Num4 = 4;
+    _ubaParams.sdkGaUpload = "2";
+    _ubaParams.biReqQueue = _ubaParams.biReqQueue || [];
+    _ubaParams.gaReqQueue = _ubaParams.gaReqQueue || [];
+    _ubaParams.isGAReady = false;
+    _ubaParams.isGAUpload = false;
+    _ubaParams.userAccount;
+    _ubaParams.pageViewID = _ubaParams.pageViewID || guidGenerator();
+    _ubaParams.bi_C1_20 = ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C20"];
+    _ubaParams.bi_D1_20 = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12", "D13", "D14", "D15", "D16", "D17", "D18", "D19", "D20"];
+    _ubaParams.timinhObj = window.performance ? window.performance.timing : "";
+    _ubaParams.memberID = "";
+    _ubaParams.siteId = "";
+    _ubaParams.companyID = "";
+    _ubaParams.downloadHeat;
+    _ubaParams.downloadHeat_suc = 1;
+    _ubaParams.ReqQueueSend = function (ReqQueue) {
+      if (ReqQueue && ReqQueue.length > 0) {
+        while (ReqQueue.length > 0) {
+          var req = ReqQueue.pop();
+          if (typeof req == "object") {
+            if (req.type == "event") {
+              if (req.jp) {
+                req.jp.transport = "beacon"
+              }
+              ga("send", "event", req.ec, req.ea, req.el, req.ev, req.jp)
+            } else if (req.type == "pageview") {
+              if (req.jp) {
+                req.jp.transport = "beacon"
+              }
+              ga("send", "pageview", req.page, req.jp)
+            } else if (req.type == "sendPageView") {
+              _sendPageView(req.page, req.jp)
+            } else if (req.type == "sendEvent") {
+              _sendEvent(req.en, req.ec, req.ea, req.el, req.ev, req.jp)
+            }
+          }
+        }
+      }
+    };
+
+  window.ifInitBi = false;
+
+  function getGrayCookie(name) {
+    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    if (arr = document.cookie.match(reg))
+        return unescape(arr[2]);
+    else
+        return '';
+}
+
+  if ((document.referrer && document.referrer.indexOf('huaweicloud') === -1) || // 渠道来源，立即上报
+   window.location.search.indexOf('pageviewNow')!==-1) { // 强制上报，也进行
+   if($lang_site_gate){
+    pageViewNow();
+    // 然后引入ubajs，保证页面埋点事件的正常上报
+    var isGray = getGrayCookie("gpbc");
+    var ubajs = "https://portal.hc-cdn.com/bi/uba.js";
+    if (isGray && isGray.length > 10) {
+        ubajs = "https://portal.hc-cdn.com/bi/alpha/uba.js"
+    }
+    $(document).ready(function() {
+        $.getScript(ubajs, function() {});
+    });
+   }
+    
+  }
+
+  window.cnpmDefaultLoginCallback = function (_loginData) {
+    if (!window.ifInitBi) {
+      window.ifInitBi = true;
+      try {
+        if (typeof window.initBi === 'function') {
+          window.initBi(window.jsonParamInit, window.jsonParamView, window.jsonParamEvent);
+        }
+        if (!window.isLogin) {
+          window.promptQueryIP && window.promptQueryIP();
+        }
+      } catch (e) { }
+    }
+  };
+
+
+
+
+    function init(statType, appKey, gaid, jsonParam) {
+      if (arguments.length != _ubaParams.Num4) {
+        return
+      }
+      if (!(jsonParam.UserAccount && typeof appKey == "string")) {
+        return
+      }
+      if (jsonParam && jsonParam.siteId) {
+        _ubaParams.siteId = jsonParam.siteId
+      }
+      if (jsonParam && jsonParam.companyID) {
+        _ubaParams.companyID = jsonParam.companyID
+      }
+      _ubaParams.memberID = jsonParam.MemberID || "";
+      _ubaParams.userAccount = jsonParam.UserAccount;
+      if (_ubaParams.download === _ubaParams.download_suc) {
+        _initCloudBI(appKey, jsonParam)
+      } else {
+        _initCloudBI(appKey, jsonParam);
+        _ubaParams.download = _ubaParams.download_suc;
+        _ubaParams.ReqQueueSend(_ubaParams.biReqQueue)
+      }
+    }
+
+    var initCBISDK = init;
+
+    function isLoadStarted() {
+      var flag = true;
+      return flag
+    }
+
+    function onEvent(eventCategory, eventAction, eventLabel, eventValue, jsonParam) {
+      if (arguments.length < _ubaParams.Num2) {
+        return
+      }
+      if (!(eventCategory && typeof eventCategory == "string")) {
+        return
+      }
+      if (!(eventAction && typeof eventAction == "string")) {
+        return
+      }
+      var eventName = eventCategory + "_" + eventAction;
+      if (jsonParam && jsonParam.eventPrivacyName) {
+        eventName = jsonParam.eventPrivacyName
+      }
+      if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+        _sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+      } else if (_ubaParams.download == _ubaParams.download_suc && !isLoadStarted()) {
+        window.addEventListener("load", function (event) {
+          _sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+        })
+      } else {
+        _ubaParams.biReqQueue.push({
+          type: "sendEvent",
+          en: eventName,
+          ec: eventCategory,
+          ea: eventAction,
+          el: eventLabel,
+          ev: eventValue,
+          jp: jsonParam
+        })
+      }
+    }
+
+    function onPageView(page, jsonParam) {
+      if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+        _sendPageView(page, jsonParam)
+      } else {
+        _ubaParams.biReqQueue.push({
+          type: "sendPageView",
+          page: page,
+          jp: jsonParam
+        });
+        _ubaParams.ReqQueueSend(_ubaParams.biReqQueue);
+      }
+    }
+    function onDmpa(userId, jsonParam) { }
+    function onException(exceptionMessage, exceptionStack, jsonParam) { }
+
+  function pageViewNow() {
+    // uba.js start
+    
+    if (!Array.prototype.indexOf) {
+      Array.prototype.indexOf = function (val) {
+        var value = this;
+        for (var i = 0; i < value.length; i++) {
+          if (value[i] == val)
+            return i
+        }
+        return -1
+      }
+    }
+    // uba.js end
+    if (!window.ifInitBi) {
+      window.ifInitBi = true;
+      var $ts_site = "china";
+      window.pep_uaid = ($ts_site == "china") ? "UA-55836286-1" : "UA-55836286-39";
+
+      init(2, "c9770c4dac06fe3b76ec9c7ad47273d0", window.pep_uaid, jsonParamInit);
+      var domain_pre = (window.location.host || "").split(".")[0] || "";
+      autoEventTracking(domain_pre, jsonParamEvent)
+      if (window.ab_test) {
+        jsonParamView.ab_test = window.ab_test
+      }
+      if (window.ab_version) {
+        jsonParamView.ab_version = window.ab_version
+      }
+      window.channelFrom = window.channelFrom || $('#content').attr('data-channelFrom');
+      if (typeof channelFrom != "undefined") {
+        if (channelFrom) {
+          jsonParamInit["D17"] = channelFrom;
+          jsonParamView["D17"] = channelFrom;
+        }
+      }
+
+      jsonParamView['rec_account'] = getUaCookie('ua')
+      jsonParamView["C1"] = $(document).attr("title");
+      jsonParamView["D15"] = "HC";
+
+      onPageView(window.location.pathname + window.location.search, jsonParamView);
+
+    }
+  }
+
+
+</script>
+
+
+
+<script>
+    if (window.$aioList && window.$aioList.length > 0) {
+        for (var i = 0; i < window.$aioList.length; i++) {
+            var tmpComponent = window.$aioList[i];
+            if (tmpComponent) {
+                var tmpComponentInfo = tmpComponent.split("/");
+                if (tmpComponentInfo.length == 2) {
+                    var name = tmpComponentInfo[0];
+                    var version = tmpComponentInfo[1];
+                    var tmpComponentWrapperEle = $('[data-mod-name="' + name + '"]');
+                    var eleVersionAttr = tmpComponentWrapperEle.attr("data-mod-version");
+                    if (eleVersionAttr && eleVersionAttr != version) {
+                        var linkEle = $('head link[href*="' + name + '/' + version + '"]');
+                        linkEle.attr("href", linkEle.attr("href").replace(version, eleVersionAttr));
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script>
+    // document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
+    window.refLan = "";
+    window.$PEP = true;
+
+    function getSiteFromURL() {
+        url = window.location.host;
+        urlArr = url.split(".");
+        if (urlArr[0] == "www") {
+            reg = "CN";
+        } else {
+            reg = "HK"
+        }
+        return reg;
+    }
+    var siteStr = $('html').attr("site")
+    if (siteStr) {
+        window.reg = siteStr == "china" ? "CN" : siteStr.toUpperCase();
+    } else {
+        window.reg = getSiteFromURL();
+    }
+
+    window.promptLan = $('html').attr("lang");
+
+    if (document.referrer != "") {
+        if (document.referrer.indexOf("/authui/login") == -1) {
+            if (document.referrer.indexOf(".com/intl") != -1) {
+                window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US" : "zh-CN";
+            }
+        } else {
+            //window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
+            if (document.referrer.indexOf("locale=") != -1) {
+                window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = window.promptLan;
+            }
+        }
+    } else {
+        window.refLan = window.promptLan;
+    }
+</script>
+<!--/* 55 trace for some special page */-->
+<script>
+    !function ($) {
+        if (window.dataLayer && window.dataLayer.push) {
+
+            if (window.location.pathname == "/consultation/") {
+                $("#submitBtn").click(function (e) {
+                    window.dataLayer.push({
+                        "event": "consultSubmit",
+                        "productName": $("#applicationscene").val()
+                    });
+                })
+            }
+
+            $("#header .header-login").click(function (e) {
+                window.dataLayer.push({
+                    "event": "loginIntention"
+                })
+            });
+
+            $("#header .header-register").click(function (e) {
+                window.dataLayer.push({
+                    "event": "creationIntention",
+                    "pageType": window.mate_data_ts_pageType,
+                    "pagePosition": "Header"
+                })
+            });
+
+
+        }
+    }(jQuery);
+</script>
+
+
+<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/apm/wise_trace.min.js?sttl=1.2.3"></script>
+
+<script>
+    $("a[href*='/pep-dialog/']").each(function () {
+        var ele = $(this);
+        var href = ele.attr("href");
+        var path = href.replace(/.html/g, "");
+        var ajaxPath = path.indexOf("activity/") == -1 ? path : path.split("activity/")[1];
+        var arr = path.split("/");
+        var dialogName = arr[arr.length - 1];
+        var location_lang = $('html').attr('lang').toLowerCase();
+        var site = $('html').attr('site').toLowerCase() == 'china' ? 'china' : 'hk';  //  站点判断，国内：china；国际站：hk
+        var dialogUrl = (window.location.host.indexOf(".com") != -1 && window.location.host.indexOf("pep.huaweicloud.com") == -1) ? "https://" + window.location.host + "/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled" : "/content/cloudbu-site/" + site + "/" + location_lang + "/activity/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled";
+        ele.css('pointer-events', 'auto');
+        ele.on("click", function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            if ($("body [data-pep-path*='" + dialogName + "']").length !== 0) {
+                $("body [data-pep-path*='" + dialogName + "']").remove();
+            }
+            // dialog for activity
+            $.ajax({
+                url: dialogUrl,
+                success: function (data) {
+                    if (data) {
+                        data = data.replace('block', 'none');
+                        $("body").append(data);
+                        $("#modal-rule").html($("body [data-pep-path*='" + dialogName + "']").html());
+                        window.activityModal.show('#modal-rule', true);
+                    }
+                }
+            })
+        });
+    });
+</script>
+
+        
+    </body>
+</html>
+
+</div>
+
+{% endblock %}
+      

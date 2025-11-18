@@ -276,7 +276,7 @@ def favicon():
     return send_from_directory('static', 'favicon.ico', mimetype='image/vnd.microsoft.icon')
 
 
-# ========== 错误处理  ======11====
+# ========== 错误处理  ======112====
 
 @app.errorhandler(404)
 def page_not_found(e):

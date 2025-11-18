@@ -1,0 +1,2263 @@
+{% extends "base.html" %}
+
+{% block title %}联系{% endblock %}
+
+{% block content %}
+<!doctype html>
+<html lang="zh-CN" site="china">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="applicable-device" content="pc,mobile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="baidu-site-verification" content="nsMgQr28vc" />
+		<meta http-equiv="x-dns-prefetch-control" content="on">
+		<meta name="templateName" content="common-pep2.0">
+		<title>
+			政务一网通_智慧城市_政务数字化_城市数字化-华为云
+		</title>
+		<meta name="keywords" content="智慧城市,政务数字化,城市数字化,数字政府" />
+		<meta name="description" content="华为政务一网通解决方案，聚焦政务数字化与城市数字化，以极致的用户体验为目标，面向场景进行流程再造与优化，真正提升人民的获得感、幸福感和安全感"
+		/>
+		<link rel="canonical" href="https://www.huaweicloud.com/solution/government/gonc.html"
+		/>
+		<meta name="referrer" content="no-referrer-when-downgrade" />
+		<meta name="pep-template-version" content="1.8.92" />
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;"
+		/>
+		<link rel="icon" href="https://www.huaweicloud.com/favicon.ico">
+		<link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/css/global.min.css?sttl=1.1.94&ttr=1.1.94"
+		crossorigin="anonymous" />
+		<!--/* header css */-->
+		<link rel="stylesheet" href="https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.39/index.css?sttl=1.1.94&ttr=1.1.94"
+		crossorigin="anonymous">
+		<style>
+			@media(max-width:768px) { #header { display: none; } } #footer .footer-nav
+			{ display: none; } #footer .footer-copyright-container { display: none;
+			} .footer-service .footer-wrapper { display: none; }
+		</style>
+		<link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-baseui/3.0.16/theme-token.css">
+		<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/jquery.min.js"
+		crossorigin="anonymous">
+		</script>
+		<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/js/libs.min.js">
+		</script>
+		<!-- -->
+		<meta name="google-site-verification" content="wQwSWDVSYQzH1niLqcUE15XH1_j_rN1T9-mbq2r6Dmw"
+		/>
+		<meta name="sogou_site_verification" content="u4x6sJNooE" />
+		<link rel="dns-prefetch" href="https://res-static.hc-cdn.cn" />
+		<link rel="dns-prefetch" href="https://portal.hc-cdn.com" />
+		<link rel="dns-prefetch" href="https://support.huaweicloud.com" />
+		<link rel="dns-prefetch" href="https://activity.huaweicloud.com" />
+		<link rel="dns-prefetch" href="https://portal.huaweicloud.com" />
+		<link rel="dns-prefetch" href="https://uba.huaweicloud.com" />
+		<link rel="dns-prefetch" href="https://uba-intl.huaweicloud.com" />
+		<!-- -->
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			window.$closeBiReport2018 = true
+
+			window.$siteInfo = window.$siteInfo || {};
+			window.$siteInfo.site = "china";
+			window.$siteInfo.lang = "zh-cn".replace("_", "-");
+		</script>
+		<script>
+			window.$aioList = ["cnpm-pep-components/2.1.4/cnpm-pep-solution-page-navigate", "cnpm-pep-components/2.3.83/cnpm-pep-solution-page-navigate-v2", "cnpm-pep-components/2.3.74/cnpm-pep-common-banner-v2", "cnpm-pep-components/2.3.24/cnpm-pep-common-card-v2", "cnpm-pep-components/2.3.24/cnpm-pep-product-advantage-v2", "cnpm-pep-components/2.3.62/cnpm-pep-product-irregular-scene-v2", "cnpm-pep-components/2.3.24/cnpm-pep-product-customer-v2", "cnpm-pep-components/2.4.31/cnpm-pep-product-process-v2", "cnpm-pep-components/2.2.49/cnpm-pep-common-ad-v2", "cnpm-pep-application-scene/1.0.25", "cnpm-pep-components/2.3.38/cnpm-pep-solution-thirdParty", "cnpm-pep-components/2.3.24/cnpm-pep-support-guide"];
+			window.$aioCdnPrefix = 'https://res.hc-cdn.com/';
+		</script>
+		<script>
+			window.gConfig = window.gConfig || {};
+			window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+			var hClassName;
+			if (window.gConfig.isMobile) {
+				hClassName = ' phone';
+			} else {
+				hClassName = ' pc';
+			}
+			if (window.$aioList) {
+				for (var i = 0; i < window.$aioList.length; i++) {
+					if (window.$aioCdnPrefix) {
+						if (window.$aioList[i].length > 0) {
+							document.write('<link rel="stylesheet" href="' + window.$aioCdnPrefix + window.$aioList[i] + '/' + (window.gConfig.isMobile ? 'm': 'pc') + '/index.css" />');
+						}
+					} else {
+						if (window.$aioList[i].length > 0) {
+							document.write('<link rel="stylesheet" href="https://res.hc-cdn.com/' + window.$aioList[i] + '/' + (window.gConfig.isMobile ? 'm': 'pc') + '/index.css" />');
+						}
+					}
+
+				}
+			}
+			var root = document.documentElement;
+			root.className += hClassName;
+			window.gConfig.seed = window.gConfig.seed || [];
+			window.gConfig.seed.push({
+				name: '@cloud/link-to',
+				data: {
+					"packages": {
+						"@cloud/link-to": {
+							"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.12/",
+							"version": "3.1.12"
+						}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="header" bi_parent_name="navigation" meta-data-adjust-app="hide">
+			<div class="header-container">
+				<div class="header-prompt">
+					<div class="header-prompt-wrapper">
+						<div class="header-prompt-content">
+							<i class="por-icon por-icon-error">
+							</i>
+							<p>
+								检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站
+								<a href="https://www.huaweicloud.com/intl/zh-cn">
+									https://www.huaweicloud.com/intl/zh-cn
+								</a>
+							</p>
+						</div>
+						<div class="header-prompt-radio">
+							<i class="header-prompt-checkbox active">
+							</i>
+							<p>
+								不再显示此消息
+							</p>
+							<i class="header-prompt-closed por-icon por-icon-close">
+							</i>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<div id="content" data-site="china" data-channelFrom="" data-promotion-theme="black"
+		data-promotion-title-align="center">
+			<div id="common-components-container">
+				<div data-mod-id="pep-solution-page-navigate_1677642737706">
+				</div>
+				<div data-mod-id="pep-solution-page-navigate-v2_1699517803563">
+					<div data-mod-name-pc="@cloud/pep-solution-page-navigate-v2/pc/index"
+					data-mod-name-m="@cloud/pep-solution-page-navigate-v2/m/index" class="pep-solution-page-navigate-v2 por-tab-self-adaption"
+					data-mod-name="pep-solution-page-navigate-v2">
+						<div class="por-section por-section-merge-spacing por-section-merge-spacing-bottom"
+						data-bg="white">
+							<div class="por-container">
+								<div class="por-section-body" data-dataSource="">
+									<div class="por-tab-container pc">
+										<div class="title-container">
+											<a>
+												<span class="tag-name por-text-body-t1">
+													政务一网通行业解决方案
+												</span>
+											</a>
+										</div>
+										<div class="por-tab por-tab-font-xs por-tab-collapse">
+										</div>
+
+									</div>
+									<div class="por-tab-container mb">
+										<div class="title-container">
+											<div class="title">
+												政务一网通行业解决方案
+											</div>
+											<div class="title-expand por-icon por-icon-down">
+											</div>
+										</div>
+										<ul class="menu-container">
+										</ul>
+									</div>
+								</div>
+							</div>
+							<textarea class="pep-solution-page-navigate-v2-config" data-configData="{&quot;_id&quot;:&quot;pep-solution-page-navigate-v2_1690956389474&quot;,&quot;context&quot;:{&quot;bg&quot;:&quot;white&quot;,&quot;btnList&quot;:[{&quot;btnUrl&quot;:&quot;https://www.huaweicloud.com/consultation/?type=gonc&quot;,&quot;btnText&quot;:&quot;专家咨询&quot;,&quot;btnStyle&quot;:&quot;por-btn-primary&quot;}],&quot;moreText&quot;:&quot;&quot;,&quot;actionInfo&quot;:{&quot;title&quot;:&quot;政务一网通行业解决方案&quot;,&quot;titleUrl&quot;:&quot;&quot;,&quot;actionList&quot;:[{&quot;isBlank&quot;:false,&quot;actionUrl&quot;:&quot;&quot;,&quot;isChecked&quot;:true,&quot;actionName&quot;:&quot;概览&quot;,&quot;selectMenu&quot;:{&quot;selectList&quot;:[{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;开发者资源开发者资源开发者资源&lt;/p&gt;&quot;,&quot;isBlank&quot;:false},{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;客户案例&lt;/p&gt;&quot;,&quot;isBlank&quot;:false},{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;最佳实践&lt;/p&gt;&quot;,&quot;isBlank&quot;:false}]},&quot;isShowSelect&quot;:false},{&quot;isBlank&quot;:false,&quot;actionUrl&quot;:&quot;&quot;,&quot;isChecked&quot;:false,&quot;actionName&quot;:&quot;解决方案&quot;,&quot;selectMenu&quot;:{&quot;selectList&quot;:[{&quot;url&quot;:&quot;https://www.huaweicloud.com/solution/government/gonc/hcgbd.html&quot;,&quot;name&quot;:&quot;&lt;p&gt;政务大数据&lt;/p&gt;&quot;,&quot;isBlank&quot;:true},{&quot;url&quot;:&quot;https://www.huaweicloud.com/solution/government/gonc/eonfap.html&quot;,&quot;name&quot;:&quot;&lt;p&gt;新点软件一网统管&lt;/p&gt;&quot;,&quot;isBlank&quot;:true},{&quot;url&quot;:&quot;https://www.huaweicloud.com/solution/government/gonc/egbd.html&quot;,&quot;name&quot;:&quot;&lt;p&gt;新点软件政务大数据&lt;/p&gt;&quot;,&quot;isBlank&quot;:true},{&quot;url&quot;:&quot;https://www.huaweicloud.com/solution/government/gonc/uomsp.html&quot;,&quot;name&quot;:&quot;&lt;p&gt;数字政通城市运行管理服务平台&lt;/p&gt;&quot;,&quot;isBlank&quot;:true},{&quot;url&quot;:&quot;https://www.huaweicloud.com/solution/government/gonc/yunectgbd.html&quot;,&quot;name&quot;:&quot;&lt;p&gt;云基华海政务大数据&lt;/p&gt;&quot;,&quot;isBlank&quot;:false}]},&quot;isShowSelect&quot;:true}],&quot;mobileSelectText&quot;:&quot;&quot;},&quot;columnNumberMB&quot;:&quot;2&quot;},&quot;advancedInfo&quot;:{&quot;isShowBtn&quot;:true,&quot;isShowTitle&quot;:true}}"
+							style="display: none">
+							</textarea>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-solution-page-navigate-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-solution-page-navigate-v2": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.3.83/cnpm-pep-solution-page-navigate-v2/",
+											"version": "2.3.83"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										},
+										"@cloud/portal-utils": {
+											"path": "//portal.hc-cdn.com/cnpm-portal-utils/1.4.29/",
+											"version": "1.4.29"
+										},
+										"@cloud/activity-iframe": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-iframe/1.2.21/",
+											"version": "1.2.21"
+										},
+										"@cloud/activity-npm": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-npm/1.0.17/",
+											"version": "1.0.17"
+										},
+										"@cloud/activity-uba": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-uba/1.0.8/",
+											"version": "1.0.8"
+										},
+										"@cloud/dialog": {
+											"path": "//portal.hc-cdn.com/cnpm-dialog/1.0.2/",
+											"version": "1.0.2"
+										},
+										"@cloud/login": {
+											"path": "//portal.hc-cdn.com/cnpm-login/3.1.34/",
+											"version": "3.1.34"
+										}
+									},
+									"modules": {
+										"@cloud/pep-solution-page-navigate-v2/m/index": {
+											"requires": ["@cloud/portal-utils", "@cloud/xtemplate-runtime"]
+										},
+										"@cloud/pep-solution-page-navigate-v2/pc/index": {
+											"requires": ["@cloud/portal-utils", "@cloud/xtemplate-runtime"]
+										},
+										"@cloud/activity-iframe/index": {
+											"requires": ["@cloud/activity-uba", "@cloud/login", "@cloud/activity-npm", "@cloud/dialog", "@cloud/link-to", "@cloud/portal-utils"]
+										},
+										"@cloud/login/index": {
+											"requires": ["@cloud/portal-utils", "@cloud/link-to"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-common-banner-v2_1699517809923">
+					<div data-mod-name-pc="@cloud/pep-common-banner-v2/pc/index" data-mod-name-m="@cloud/pep-common-banner-v2/m/index"
+					class="pep-common-banner-v2 height-450  title-short-mb" data-mod-name="pep-common-banner-v2"
+					data-bg="transblack" style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/banner_1.jpg)">
+						<div class="bg-mb mb" style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/一网通移动端banner.jpg)">
+						</div>
+						<div class="por-section  ">
+							<div class="por-container">
+								<div class="por-section-body">
+									<div class="prodoc-banner-main">
+										<div class="prodoc-title-content half-content ">
+											<div class="prodoc-banner-title">
+												<h2 class="pc">
+													政务一网通行业解决方案
+												</h2>
+												<h2 class="mb">
+													政务一网通行业解决方案
+												</h2>
+											</div>
+											<div class="por-text-body-t2 gap-small pc">
+												<p>
+													聚焦城市治理、政务办公等场景，助力政务和城市数字化转型
+												</p>
+											</div>
+											<div class="por-text-title-t7 mb">
+												<p>
+													聚焦城市治理、政务办公等场景，助力政务和城市数字化转型
+												</p>
+											</div>
+										</div>
+										<div class="prodoc-banner-btnGroup ">
+											<a href="https://www.huaweicloud.com/consultation/?type=gonc" target="_blank"
+											class="por-btn por-btn-primary por-btn-middle por-btn-md-default">
+												专家咨询
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-common-banner-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-common-banner-v2": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.3.74/cnpm-pep-common-banner-v2/",
+											"version": "2.3.74"
+										},
+										"@cloud/link-to": {
+											"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//portal.hc-cdn.com/cnpm-lazyload/2.0.10/",
+											"version": "2.0.10"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-common-banner-v2/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-common-banner-v2/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-common-card-v2_1699517848289">
+					<div data-mod-name-pc="@cloud/pep-common-card-v2/pc/index" data-mod-name-m="@cloud/pep-common-card-v2/m/index"
+					class="pep-common-card-v2" data-mod-name="pep-common-card-v2" bi_parent_name="&lt;p&gt;政务行业趋势&lt;/p&gt;">
+						<div class="por-section   showMb" data-bg="grey">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title show-pc">
+										<p>
+											政务行业趋势
+										</p>
+									</h2>
+									<h2 class="por-section-title show-mb">
+										<p>
+											政务行业趋势
+										</p>
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="por-tab-container">
+										<div class="por-tab-wrapper">
+											<div class="por-tab-content active" data-mod-id="tabList[0].cards.products"
+											data-mod-name="child-component" bi_name="" data-col-num="4" current-card-num=""
+											with-show-more="false">
+												<div class="por-row" data-layout-mb="" bi_name="" count-down="false">
+													<div class="por-col card-container card-4" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="&lt;p&gt;政务数字化&lt;/p&gt;">
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																	<p>
+																		政务数字化
+																	</p>
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			围绕民众/企业/公务员统筹服务，深化建设，提升政府运行效率
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-4" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="&lt;p&gt;城市数字化&lt;/p&gt;">
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																	<p>
+																		城市数字化
+																	</p>
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			城市治理进入深水区，需全面系统化建设，数智赋能提升治理效果
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-4" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="&lt;p&gt;数字化转型上升为国家战略&lt;/p&gt;">
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																	<p>
+																		数字化转型上升为国家战略
+																	</p>
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			政府成立新实体组织匹配政务与城市数字化转型需求，数字化服务与治理持续深化
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-4" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="&lt;p&gt;数字化需求和客户体验快速变化&lt;/p&gt;">
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																	<p>
+																		数字化需求和客户体验快速变化
+																	</p>
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			政府客户注重实效，从辅助走向生产，从监管走向服务
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-common-card-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-common-card-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.3.24/cnpm-pep-common-card-v2/",
+											"version": "2.3.24"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										},
+										"@cloud/portal-utils": {
+											"path": "//res.hc-cdn.com/cnpm-portal-utils/1.4.16/",
+											"version": "1.4.16"
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-product-advantage-v2_1699517854543">
+					<div data-mod-name-pc="@cloud/pep-product-advantage-v2/pc/index" data-mod-name-m="@cloud/pep-product-advantage-v2/m/index"
+					class="pep-product-advantage-v2" data-mod-name="pep-product-advantage-v2">
+						<div class="por-section" data-bg="light">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title">
+										为什么选择华为云政务一网通
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="por-row type-2">
+										<div class="por-col-12 por-col-xs-24" data-mod-id="cardItemLists[0].cardItem[0]"
+										data-mod-name="child-component">
+											<div class="por-card por-card-m">
+												<div class="por-collapse-container" data-hide-siblings="">
+													<a class="por-collapse-trigger" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															AI使能政府智慧化
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse">
+														<div class="por-card-content">
+															<div class="card-content">
+																<h3 class="card-title">
+																	AI使能政府智慧化
+																</h3>
+																<ul class="lists">
+																	<li class="text">
+																		<p>
+																			华为云城市智能中枢、全栈方案自主创新，可高效构建千万维特征的机器学习模型、高效完成亿级节点规模图计算，能感知、会判断，助力政务服务更便捷、城市治理更高效
+																		</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="card-image">
+																<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/solution_government_gpsd政务一网通_advantage_illustration1_政府智慧化@2x.png"
+																alt="" srcset="" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="por-col-12 por-col-xs-24" data-mod-id="cardItemLists[0].cardItem[1]"
+										data-mod-name="child-component">
+											<div class="por-card por-card-m">
+												<div class="por-collapse-container" data-hide-siblings="">
+													<a class="por-collapse-trigger" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															微服务助力升级改造
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse">
+														<div class="por-card-content">
+															<div class="card-content">
+																<h3 class="card-title">
+																	微服务助力升级改造
+																</h3>
+																<ul class="lists">
+																	<li class="text">
+																		<p>
+																			提供应用模板化、可视化编排服务，具备超大规格、超高性能企业数据仓库服务，支持海量服务同库不同表，解决了传统“烟囱式”架构技术单一、串行交付、架构耦合的技术缺陷
+																		</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="card-image">
+																<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/solution_government_gpsd政务一网通_advantage_illustration2_微服务升级@2x.png"
+																alt="" srcset="" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="por-row type-2">
+										<div class="por-col-12 por-col-xs-24" data-mod-id="cardItemLists[1].cardItem[0]"
+										data-mod-name="child-component">
+											<div class="por-card por-card-m">
+												<div class="por-collapse-container" data-hide-siblings="">
+													<a class="por-collapse-trigger" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															业务应用高效创新
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse">
+														<div class="por-card-content">
+															<div class="card-content">
+																<h3 class="card-title">
+																	业务应用高效创新
+																</h3>
+																<ul class="lists">
+																	<li class="text">
+																		<p>
+																			丰富的政务aPaaS能力，屏蔽具体的技术实现，提供给伙伴开箱即用的服务能力，使能伙伴应用快速创新，交付周期从6个月缩短到1-2月
+																		</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="card-image">
+																<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/solution_government_gpsd政务一网通_advantage_illustration3_高效@2x.png"
+																alt="" srcset="" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="por-col-12 por-col-xs-24" data-mod-id="cardItemLists[1].cardItem[1]"
+										data-mod-name="child-component">
+											<div class="por-card por-card-m">
+												<div class="por-collapse-container" data-hide-siblings="">
+													<a class="por-collapse-trigger" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															丰富的政务云生态
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse">
+														<div class="por-card-content">
+															<div class="card-content">
+																<h3 class="card-title">
+																	丰富的政务云生态
+																</h3>
+																<ul class="lists">
+																	<li class="text">
+																		<p>
+																			完善的生态体系，包括解决方案合作伙伴、服务合作伙伴、技术能力合作伙伴等，丰富的华为云商店应用，专注全场景业务应用系统开发，保障政务系统的持续改进升级
+																		</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="card-image">
+																<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/solution_government_gpsd政务一网通_advantage_illustration4_政务云生态@2x.png"
+																alt="" srcset="" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-product-advantage-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-product-advantage-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.3.24/cnpm-pep-product-advantage-v2/",
+											"version": "2.3.24"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-product-advantage-v2/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-product-advantage-v2/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-product-irregular-scene-v2_1699517863099">
+					<div data-mod-name-pc="@cloud/pep-product-irregular-scene-v2/pc/index"
+					data-mod-name-m="@cloud/pep-product-irregular-scene-v2/m/index" class="pep-product-irregular-scene-v2"
+					data-mod-name="pep-product-irregular-scene-v2">
+						<div class="por-section lazyload  
+						" data-bg="grey" bi_parent_name=" 政务一网通解决方案全景">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title show-pc">
+										政务一网通解决方案全景
+									</h2>
+									<h2 class="por-section-title show-mb" data-with-tab="false" data-with-subtitle="false">
+										政务一网通解决方案全景
+									</h2>
+									<div class="por-section-subtitle show-pc">
+									</div>
+									<div class="por-section-subtitle show-mb">
+									</div>
+								</div>
+								<div class="por-section-body">
+									<div class="por-tab-container show-pc">
+										<div class="por-tab-wrapper show-pc">
+											<div class="por-tab-content active" data-mod-name="child-component" data-mod-id="contentInfo.tabsPc[0].cardListPc"
+											data-partial-refresh="false" bi_name="">
+												<div class="por-collapse-container">
+													<div class="por-collapse show" data-hide-btn="false" data-hide-icon="false"
+													data-card-gap="16">
+														<div class="small-card-content-wrapper" data-card-num="5" data-card-col="3"
+														show-collapse-extend="true">
+															<div class="small-card-content-container" data-card-col="3">
+																<div class="small-card-content" data-card-num="5" data-card-col="3">
+																	<div class="small-card-content-main" data-href="https://www.huaweicloud.com/solution/government/gonc/hcgbd.html"
+																	data-bg-color="white" data-with-icon="true" data-icon-centered="false"
+																	bi_name=" 华为云政务大数据">
+																		<div class="small-card-content-main-top">
+																			<div class="small-card-content-icon">
+																				<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/华为云政务大数据解决方案.svg"
+																				/>
+																			</div>
+																			<div class="small-card-content-title">
+																				<span class="small-card-title show-pc">
+																					华为云政务大数据
+																				</span>
+																			</div>
+																			<div class="small-card-content-desc">
+																				<span class="small-card-desc show-pc">
+																					<p>
+																						聚焦政务数据资源“盘不清”“管不住”“用不好”三大顽疾，打造全新省市一体化政务大数据体系，引领云上数据智能
+																					</p>
+																				</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="small-card-content" data-card-num="5" data-card-col="3">
+																	<div class="small-card-content-main" data-href="https://www.huaweicloud.com/solution/government/gonc/egbd.html"
+																	data-bg-color="white" data-with-icon="true" data-icon-centered="false"
+																	bi_name="新点软件政务大数据">
+																		<div class="small-card-content-main-top">
+																			<div class="small-card-content-icon">
+																				<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/1697427532296501004.svg"
+																				/>
+																			</div>
+																			<div class="small-card-content-title">
+																				<span class="small-card-title show-pc">
+																					新点软件政务大数据
+																				</span>
+																			</div>
+																			<div class="small-card-content-desc">
+																				<span class="small-card-desc show-pc">
+																					<p>
+																						基于资源目录共享交换依托供需对接，实现端到端的梳理、治理、应用一站式架构体系，屏蔽底层技术化
+																					</p>
+																				</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="small-card-content" data-card-num="5" data-card-col="3">
+																	<div class="small-card-content-main" data-href="https://www.huaweicloud.com/solution/government/gonc/eonfap.html"
+																	data-bg-color="white" data-with-icon="true" data-icon-centered="false"
+																	bi_name="新点软件一网统管">
+																		<div class="small-card-content-main-top">
+																			<div class="small-card-content-icon">
+																				<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/1697427532283184053.svg"
+																				/>
+																			</div>
+																			<div class="small-card-content-title">
+																				<span class="small-card-title show-pc">
+																					新点软件一网统管
+																				</span>
+																			</div>
+																			<div class="small-card-content-desc">
+																				<span class="small-card-desc show-pc">
+																					<p>
+																						打造全域感知、全程协同、全时响应的城市治理体系，实现“城市运行一张网”“高效处置一件事”
+																					</p>
+																				</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="small-card-content" data-card-num="5" data-card-col="3">
+																	<div class="small-card-content-main" data-href="https://www.huaweicloud.com/solution/government/gonc/uomsp.html"
+																	data-bg-color="white" data-with-icon="true" data-icon-centered="false"
+																	bi_name="数字政通城市运行管理服务平台">
+																		<div class="small-card-content-main-top">
+																			<div class="small-card-content-icon">
+																				<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/1697782914068656229.svg"
+																				/>
+																			</div>
+																			<div class="small-card-content-title">
+																				<span class="small-card-title show-pc">
+																					数字政通城市运行管理服务平台
+																				</span>
+																			</div>
+																			<div class="small-card-content-desc">
+																				<span class="small-card-desc show-pc">
+																					<p>
+																						以城市运行管理“一网统管”为主要目标，以城市运行、管理、服务为主要内容的数字城市智慧化管理解决方案
+																					</p>
+																				</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="small-card-content" data-card-num="5" data-card-col="3">
+																	<div class="small-card-content-main" data-href="https://www.huaweicloud.com/solution/government/gonc/yunectgbd.html"
+																	data-bg-color="white" data-with-icon="true" data-icon-centered="false"
+																	bi_name="云基华海政务大数据">
+																		<div class="small-card-content-main-top">
+																			<div class="small-card-content-icon">
+																				<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/云基华海政务大数据解决方案.svg"
+																				/>
+																			</div>
+																			<div class="small-card-content-title">
+																				<span class="small-card-title show-pc">
+																					云基华海政务大数据
+																				</span>
+																			</div>
+																			<div class="small-card-content-desc">
+																				<span class="small-card-desc show-pc">
+																					<p>
+																						提供一体化的公共平台服务和公共基础数据库服务，实现“三融五跨”的协同管理和服务
+																					</p>
+																				</span>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="show-more" bi_name="展开">
+																<span class="down">
+																	展开
+																	<i class="u-icon u-icon-down">
+																	</i>
+																</span>
+																<span class="up">
+																	收起
+																	<i class="u-icon u-icon-up">
+																	</i>
+																</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="por-tab-container show-mb">
+										<div class="por-tab-wrapper show-mb">
+											<div class="por-tab-content active" data-mod-id="contentInfo.tabsMb[0].cardListMb">
+												<div class="por-collapse-container">
+													<div class="por-collapse show-mb show">
+														<div class="card-content-wrapper-mb">
+															<div class="card-content-lists" data-card-bg="white" data-card-num="5"
+															data-max-show="">
+																<ul class="card-content-list">
+																	<li class="card-content-list-item" data-href="https://www.huaweicloud.com/solution/government/gonc/hcgbd.html"
+																	bi_name="华为云政务大数据" data-layout-mb="">
+																		<div class="icon">
+																			<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/new-home/product/ECS.png"
+																			/>
+																		</div>
+																		<div class="card-content-list-text">
+																			<span class="list-item-title">
+																				华为云政务大数据
+																			</span>
+																			<span class="list-item-desc">
+																				<p>
+																					为政府人员提供统一、便捷、安全的移动办公平台
+																				</p>
+																			</span>
+																		</div>
+																	</li>
+																	<li class="card-content-list-item" data-href="https://www.huaweicloud.com/solution/government/gonc/egbd.html"
+																	bi_name="新点软件政务大数据" data-layout-mb="">
+																		<div class="icon">
+																			<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/1697427532296501004.svg"
+																			/>
+																		</div>
+																		<div class="card-content-list-text">
+																			<span class="list-item-title">
+																				新点软件政务大数据
+																			</span>
+																			<span class="list-item-desc">
+																				<p>
+																					实现端到端的梳理、治理、应用一站式架构体系
+																				</p>
+																			</span>
+																		</div>
+																	</li>
+																	<li class="card-content-list-item" data-href="https://www.huaweicloud.com/solution/government/gonc/eonfap.html"
+																	bi_name="新点软件一网统管" data-layout-mb="">
+																		<div class="icon">
+																			<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/1697427532283184053.svg"
+																			/>
+																		</div>
+																		<div class="card-content-list-text">
+																			<span class="list-item-title">
+																				新点软件一网统管
+																			</span>
+																			<span class="list-item-desc">
+																				<p>
+																					全域感知、全程协同、全时响应的城市治理体系
+																				</p>
+																			</span>
+																		</div>
+																	</li>
+																	<li class="card-content-list-item" data-href="https://www.huaweicloud.com/solution/government/gonc/uomsp.html"
+																	bi_name="数字政通城市运行管理服务平台" data-layout-mb="">
+																		<div class="icon">
+																			<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/1697782914068656229.svg"
+																			/>
+																		</div>
+																		<div class="card-content-list-text">
+																			<span class="list-item-title">
+																				数字政通城市运行管理服务平台
+																			</span>
+																			<span class="list-item-desc">
+																				<p>
+																					数字城市智慧化管理解决方案
+																				</p>
+																			</span>
+																		</div>
+																	</li>
+																	<li class="card-content-list-item" data-href="https://www.huaweicloud.com/solution/government/gonc/yunectgbd.html"
+																	bi_name="云基华海政务大数据" data-layout-mb="">
+																		<div class="icon">
+																			<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/云基华海政务大数据解决方案.svg"
+																			/>
+																		</div>
+																		<div class="card-content-list-text">
+																			<span class="list-item-title">
+																				云基华海政务大数据
+																			</span>
+																			<span class="list-item-desc">
+																				<p>
+																					一体化的公共平台服务和公共基础数据库服务
+																				</p>
+																			</span>
+																		</div>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-product-irregular-scene-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-product-irregular-scene-v2": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.3.62/cnpm-pep-product-irregular-scene-v2/",
+											"version": "2.3.62"
+										},
+										"@cloud/lazyload": {
+											"path": "//portal.hc-cdn.com/cnpm-lazyload/2.0.10/",
+											"version": "2.0.10"
+										},
+										"@cloud/link-to": {
+											"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										},
+										"@cloud/portal-utils": {
+											"path": "//portal.hc-cdn.com/cnpm-portal-utils/1.4.16/",
+											"version": "1.4.16"
+										}
+									},
+									"modules": {
+										"@cloud/pep-product-irregular-scene-v2/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-product-irregular-scene-v2/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-product-customer-v2_1699517875491">
+					<div data-mod-name-pc="@cloud/pep-product-customer-v2/pc/index" data-mod-name-m="@cloud/pep-product-customer-v2/m/index"
+					class="pep-product-customer-v2" data-mod-name="pep-product-customer-v2">
+						<div class="home-customers element-entrance element-entrance-1 ee-out  "
+						bi_parent_name="客户案例">
+							<div class="section  
+							" data-bg="transparent">
+								<div class="customers-bgs hidden-m">
+								</div>
+								<div class="por-container">
+									<div class="por-section-head" data-theme="light">
+										<h2 class="por-section-title hidden-m">
+											携手政府客户实现政务数字化转型
+										</h2>
+										<h2 class="por-section-title hidden-pc">
+											携手政府客户实现政务数字化转型
+										</h2>
+									</div>
+									<div class="section-body">
+										<div class="customers-tab hidden-m">
+											<div class="customers-tab-head">
+												<a class="customers-tab-item active" bi_name="上海黄浦" data-clickable style="pointer-events: auto">
+													上海黄浦
+												</a>
+												<a class="customers-tab-item" bi_name="广州白云" data-clickable style="pointer-events: auto">
+													广州白云
+												</a>
+												<a class="customers-tab-item" bi_name="佛山禅城" data-clickable style="pointer-events: auto">
+													佛山禅城
+												</a>
+											</div>
+											<div class="customers-tab-body">
+												<div class="customers-tab-content show" bi_parent_name="上海黄浦" data-mod-id="industries[0].cases.cards"
+												data-mod-name="child-component" data-partial-refresh="false">
+													<div class="customers-carousel-content">
+														<div class="customers-texts">
+															<div class="customers-text show" bi_parent_name="华为云助力上海黄浦实现城市精细化管理">
+																<div class="customers-logo" data-section-bg="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/上海.jpg"
+																style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/上海黄浦_6.png');"
+																bi_name="华为云助力上海黄浦实现城市精细化管理">
+																</div>
+																<div class="customers-text-title">
+																	<span>
+																		华为云助力上海黄浦实现城市精细化管理
+																	</span>
+																</div>
+																<div class="customers-text-desc">
+																	<p>
+																		基于多维度的数据融合和跨部门的业务融合，提升线上线下协同的精细化治理，打造智慧黄浦“一网统管”，实现智能发现、自动派单、高效处置、闭环管理
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="customers-logos">
+														<div class="customers-logo" data-section-bg="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/上海.jpg"
+														style="background-image:url('');" bi_name="华新水泥">
+															<div class="progress">
+																<svg viewBox="0 0 36 36" class="progress-circle">
+																	<path class="progress-bar" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+																	/>
+																</svg>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="customers-tab-content" bi_parent_name="广州白云" data-mod-id="industries[1].cases.cards"
+												data-mod-name="child-component" data-partial-refresh="false">
+													<div class="customers-carousel-content">
+														<div class="customers-texts">
+															<div class="customers-text show" bi_parent_name="助力广州白云构建智能分拨系统">
+																<div class="customers-logo" data-section-bg="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/广州.jpg"
+																style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/广州白云_6.png');"
+																bi_name="助力广州白云构建智能分拨系统">
+																</div>
+																<div class="customers-text-title">
+																	<span>
+																		助力广州白云构建智能分拨系统
+																	</span>
+																</div>
+																<div class="customers-text-desc">
+																	<p>
+																		通过建立智能分拨系统，实现自动派单、疑难工单识别、相似案例推荐，基于热线感知系统，实现民情洞察、民情汇聚、工单话题挖掘等功能，实现民情洞察与预警
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="customers-logos">
+														<div class="customers-logo" data-section-bg="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/广州.jpg"
+														style="background-image:url('');" bi_name="陕西财政厅">
+															<div class="progress">
+																<svg viewBox="0 0 36 36" class="progress-circle">
+																	<path class="progress-bar" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+																	/>
+																</svg>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="customers-tab-content" bi_parent_name="佛山禅城" data-mod-id="industries[2].cases.cards"
+												data-mod-name="child-component" data-partial-refresh="false">
+													<div class="customers-carousel-content">
+														<div class="customers-texts">
+															<div class="customers-text show" bi_parent_name="携手佛山禅城实现基层工作量下降50%">
+																<div class="customers-logo" data-section-bg="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/政务_佛山_替换.jpg"
+																style="background-image:url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/佛山禅城_6.png');"
+																bi_name="携手佛山禅城实现基层工作量下降50%">
+																</div>
+																<div class="customers-text-title">
+																	<span>
+																		携手佛山禅城实现基层工作量下降50%
+																	</span>
+																</div>
+																<div class="customers-text-desc">
+																	<p>
+																		整合相关部门专项巡查表单，合并重复巡查项，形成一张综合巡查表，巡查任务自动派发，采集的数据机器人自动填报
+																	</p>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="customers-logos">
+														<div class="customers-logo" data-section-bg="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/ZhengFu/ZhengWuYiWangTong/政务_佛山_替换.jpg"
+														style="background-image:url('');" bi_name="">
+															<div class="progress">
+																<svg viewBox="0 0 36 36" class="progress-circle">
+																	<path class="progress-bar" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+																	/>
+																</svg>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="customers-m-logos hidden-pc" bi_parent_name="mobile">
+											<a class="customers-m-logo" target="_blank" bi_name="">
+												<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/上海黄浦_5.png"
+												/>
+											</a>
+											<a class="customers-m-logo" target="_blank" bi_name="">
+												<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/广州白云_5.png"
+												/>
+											</a>
+											<a class="customers-m-logo" target="_blank" bi_name="">
+												<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/佛山禅城_5.png"
+												/>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-product-customer-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-product-customer-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.3.24/cnpm-pep-product-customer-v2/",
+											"version": "2.3.24"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/element-entrance": {
+											"path": "//res.hc-cdn.com/cnpm-element-entrance/1.2.0/",
+											"version": "1.2.0"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-product-customer-v2/m/index": {
+											"requires": ["@cloud/element-entrance"]
+										},
+										"@cloud/pep-product-customer-v2/pc/index": {
+											"requires": ["@cloud/element-entrance"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-common-card-v2_1699517890071">
+					<div data-mod-name-pc="@cloud/pep-common-card-v2/pc/index" data-mod-name-m="@cloud/pep-common-card-v2/m/index"
+					class="pep-common-card-v2" data-mod-name="pep-common-card-v2" bi_parent_name="&lt;p&gt;与领先的行业合作伙伴携手共进&lt;/p&gt;">
+						<div class="por-section   showMb" data-bg="grey">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title show-pc">
+										<p>
+											与领先的行业合作伙伴携手共进
+										</p>
+									</h2>
+									<h2 class="por-section-title show-mb">
+										<p>
+											与领先的行业合作伙伴携手共进
+										</p>
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="por-tab-container">
+										<div class="por-tab-wrapper">
+											<div class="por-tab-content active" data-mod-id="tabList[0].cards.products"
+											data-mod-name="child-component" bi_name="精选推荐" data-col-num="4" current-card-num=""
+											with-show-more="false">
+												<div class="por-row" data-layout-mb="" bi_name="精选推荐" count-down="false">
+													<div class="por-col card-container card-4" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/万物云城.png"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/万物云城.png"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			深圳市万物云城空间运营管理有限公司秉承“让城市更美好”的品牌愿景，致力于为政府城市创新治理提供优质高效的城市运营服务
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-4" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/1698744625634722184.png"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/1698744625634722184.png"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			国泰新点软件股份有限公司为各级政府部门提供从规划咨询、软件开发与智能设备研发、实施交付到持续运营维护的全方位服务
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-4" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/融信数联.png"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/融信数联.png"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			北京融信数联科技有限公司致力于构建数据生态，提炼数据价值，为客户提供多源数据融合的大数据服务，实现数据价值变现
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-4" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/数字政通_小.png"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/数字政通.png"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			北京数字政通科技股份有限公司致力于以网格化管理模式推动城市治理、政府管理和服务的数字化进程，助力数字经济发展和数字政府建设
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-common-card-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-common-card-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.3.24/cnpm-pep-common-card-v2/",
+											"version": "2.3.24"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										},
+										"@cloud/portal-utils": {
+											"path": "//res.hc-cdn.com/cnpm-portal-utils/1.4.16/",
+											"version": "1.4.16"
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-product-process-v2_1699517897601">
+					<div data-mod-name-pc="@cloud/pep-product-process-v2/pc/index" data-mod-name-m="@cloud/pep-product-process-v2/m/index"
+					class="pep-product-process-v2" data-mod-name="pep-product-process-v2" data-with-cps="">
+						<div class="por-section  " data-bg="light" pc-src="" mb-src="">
+							<div class="por-container">
+								<div class="por-section-head" data-theme="">
+									<h2 class="por-section-title hide-pc">
+										咨询流程
+									</h2>
+									<h2 class="por-section-title hide-mb">
+										咨询流程
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="section-content">
+										<div class="por-carousel">
+											<div class="por-row por-carousel-wrapper">
+												<div class="por-col process-container process-4 por-carousel-slide">
+													<p class="icon-process">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/1.png"
+														/>
+													</p>
+													<div class="process-text-container">
+														<a class="process-title-container">
+															<h3 class="por-text-title-t8 process-title">
+																需求咨询
+															</h3>
+														</a>
+														<div class="por-text-body-t2 process-desc">
+															<p>
+																描述业务需求，提交需求咨询
+															</p>
+														</div>
+													</div>
+													<div class="process-arrow-container">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/JiaoYu/JiChuJiaoYu/QuYuJiaoYuYun/1691046194442353775.png"
+														/>
+													</div>
+												</div>
+												<div class="por-col process-container process-4 por-carousel-slide">
+													<p class="icon-process">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/2.png"
+														/>
+													</p>
+													<div class="process-text-container">
+														<a class="process-title-container">
+															<h3 class="por-text-title-t8 process-title">
+																初步沟通
+															</h3>
+														</a>
+														<div class="por-text-body-t2 process-desc">
+															<p>
+																需求答疑，对齐核心诉求，确定合作意向
+															</p>
+														</div>
+													</div>
+													<div class="process-arrow-container">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/JiaoYu/JiChuJiaoYu/QuYuJiaoYuYun/1691046194442353775.png"
+														/>
+													</div>
+												</div>
+												<div class="por-col process-container process-4 por-carousel-slide">
+													<p class="icon-process">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/3.png"
+														/>
+													</p>
+													<div class="process-text-container">
+														<a class="process-title-container">
+															<h3 class="por-text-title-t8 process-title">
+																方案交流
+															</h3>
+														</a>
+														<div class="por-text-body-t2 process-desc">
+															<p>
+																针对相关方案进行线上或线下的交流探讨
+															</p>
+														</div>
+													</div>
+													<div class="process-arrow-container">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/JiaoYu/JiChuJiaoYu/QuYuJiaoYuYun/1691046194442353775.png"
+														/>
+													</div>
+												</div>
+												<div class="por-col process-container process-4 por-carousel-slide">
+													<p class="icon-process">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/4.png"
+														/>
+													</p>
+													<div class="process-text-container">
+														<a class="process-title-container">
+															<h3 class="por-text-title-t8 process-title">
+																商务流程
+															</h3>
+														</a>
+														<div class="por-text-body-t2 process-desc">
+															<p>
+																方案确定后，开始执行商务流程
+															</p>
+														</div>
+													</div>
+													<div class="process-arrow-container">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/JiaoYu/JiChuJiaoYu/QuYuJiaoYuYun/1691046194442353775.png"
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="por-carousel-prev-container">
+											<span class="por-carousel-prev">
+											</span>
+										</div>
+										<div class="por-carousel-next-container">
+											<span class="por-carousel-next">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-product-process-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-product-process-v2": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.4.31/cnpm-pep-product-process-v2/",
+											"version": "2.4.31"
+										},
+										"@cloud/activity-iframe": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-iframe/1.2.21/",
+											"version": "1.2.21"
+										},
+										"@cloud/activity-npm": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-npm/1.0.17/",
+											"version": "1.0.17"
+										},
+										"@cloud/activity-uba": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-uba/1.0.8/",
+											"version": "1.0.8"
+										},
+										"@cloud/dialog": {
+											"path": "//portal.hc-cdn.com/cnpm-dialog/1.0.2/",
+											"version": "1.0.2"
+										},
+										"@cloud/login": {
+											"path": "//portal.hc-cdn.com/cnpm-login/3.1.34/",
+											"version": "3.1.34"
+										},
+										"@cloud/link-to": {
+											"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//portal.hc-cdn.com/cnpm-lazyload/2.0.10/",
+											"version": "2.0.10"
+										},
+										"@cloud/portal-utils": {
+											"path": "//portal.hc-cdn.com/cnpm-portal-utils/1.4.29/",
+											"version": "1.4.29"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-product-process-v2/pc/index": {
+											"requires": ["@cloud/dialog", "@cloud/lazyload", "@cloud/link-to", "@cloud/login", "@cloud/portal-utils"]
+										},
+										"@cloud/pep-product-process-v2/m/index": {
+											"requires": ["@cloud/dialog", "@cloud/lazyload", "@cloud/link-to", "@cloud/login", "@cloud/portal-utils"]
+										},
+										"@cloud/activity-iframe/index": {
+											"requires": ["@cloud/activity-uba", "@cloud/login", "@cloud/activity-npm", "@cloud/dialog", "@cloud/link-to", "@cloud/portal-utils"]
+										},
+										"@cloud/login/index": {
+											"requires": ["@cloud/portal-utils", "@cloud/link-to"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-common-ad-v2_1699517911523">
+					<div data-mod-name-pc="@cloud/pep-common-ad-v2/pc/index" data-mod-name-m="@cloud/pep-common-ad-v2/m/index"
+					class="pep-common-ad-v2" data-mod-name="pep-common-ad-v2" data-bg="grey"
+					style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/1691045395978486888.jpg)">
+						<div class="bg-mb mb" style="background-image: url()">
+						</div>
+						<div class="por-section por-section-merge-spacing-top">
+							<div class="por-container">
+								<div class="por-section-body">
+									<div class="common-ad-title">
+										进一步了解
+										<br>
+										您的
+										<p style='background-image:url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/commons/gradient.jpg)'>
+											政务数字化转型
+										</p>
+										需求
+									</div>
+									<a target="_blank" class="common-ad-btn por-btn por-btn-primary por-btn-large por-btn-md-middle"
+									href="https://www.huaweicloud.com/consultation/?type=gonc">
+										专家咨询
+									</a>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-common-ad-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-common-ad-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.2.49/cnpm-pep-common-ad-v2/",
+											"version": "2.2.49"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-common-ad-v2/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-common-ad-v2/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-application-scene_1678872660108">
+				</div>
+				<div data-mod-id="pep-solution-thirdParty_1669338360054">
+				</div>
+				<div data-mod-id="pep-support-guide_1669338475740">
+				</div>
+				<script>
+					window.gConfig = window.gConfig || {};
+					window.gConfig.seed = window.gConfig.seed || [];
+					window.$devPath = {};
+					for (var i = 0; i < window.gConfig.seed.length; i++) {
+						var tmpSeed = window.gConfig.seed[i].data;
+						var name = window.gConfig.seed[i].name;
+						if (tmpSeed && tmpSeed.packages && window.$devPath[name]) {
+							tmpSeed.packages[name] = window.$devPath[name];
+						}
+					}
+				</script>
+			</div>
+		</div>
+		<script>
+			var components = $("#common-components-container").children("div:not([data-mod-id='pep-empty-page'])");
+			var count = 0;
+			for (var i = 0; i < components.length; i++) {
+				var tempComponent = $(components[i]);
+				if (tempComponent.children().length > 0) {
+					tempComponent.attr("id", "section-" + count);
+					count++;
+				}
+
+				tempComponent = null;
+			}
+		</script>
+		<div id="register">
+		</div>
+		<div id="service">
+		</div>
+		<div class="footer-service" bi_parent_name="service" meta-data-adjust-app="hide">
+
+		</div>
+		<div id="footer" bi_parent_name="footer" meta-data-adjust-app="hide">
+			<div class="footer-hots-mb">
+				<div class="footer-hots-mb-wrapper">
+					<div class="footer-hots-mb-title">
+						热门产品
+					</div>
+					<ul>
+						<li>
+							<a href="https://www.huaweicloud.com/product/ecs.html" target="_blank">
+								云服务器
+							</a>
+						</li>
+						<li>
+							<a href="https://marketplace.huaweicloud.com/activity/mail.html" target="_blank">
+								云速邮箱
+							</a>
+						</li>
+						<li>
+							<a href="https://www.huaweicloud.com/product/domain.html" target="_blank">
+								域名注册
+							</a>
+						</li>
+						<li>
+							<a href="https://www.huaweicloud.com/product/cloudsite.html" target="_blank">
+								云速建站
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-nav" meta-data-adjust-app="hide">
+
+			</div>
+			<div class="footer-copyright-container">
+
+			</div>
+			<script>
+				if (window.screen.width < 1024) {
+					$('#footer-nav-app').attr('href', $('#footer-nav-app').attr("src-href"));
+				}
+			</script>
+		</div>
+		<script>
+			var originsWhiteList = ['https://www.huaweicloud.com', 'https://activity.huaweicloud.com', 'https://support.huaweicloud.com', 'https://beian.huaweicloud.com'];
+			var currentOrigin = originsWhiteList.includes(window.location.origin) ? window.location.origin: 'https://www.huaweicloud.com';
+			var url = currentOrigin + "/common/header-footer-china-zh-2023.html";
+			var $tmpForPEP = document.createElement("div");
+			$.ajax({
+				url: url,
+				async: true,
+				timeout: 10000,
+				success: function(response) {
+					$tmpForPEP.innerHTML = response;
+					// 下拉部分
+					$("#footer").append($tmpForPEP.querySelector("#edit-header-drop").innerHTML);
+					var scripts = ["https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.39/header-and-footer-china.umd.js?sttl=1.1.94&ttr=1.1.94", "https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/js/portalLogin.min.js?sttl=1.1.94&ttr=1.1.94"];
+					for (var i = 0; i < scripts.length; i++) {
+						var script = document.createElement('script');
+						script.type = 'text/javaScript';
+						script.setAttribute('crossorigin', 'anonymous');
+						script.src = scripts[i];
+						document.getElementsByTagName('body')[0].appendChild(script);
+					}
+				},
+				error: function(response) {
+					var scripts = ["https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.39/header-and-footer-china.umd.js?sttl=1.1.94&ttr=1.1.94", "https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/js/portalLogin.min.js?sttl=1.1.94&ttr=1.1.94"]
+					for (var i = 0; i < scripts.length; i++) {
+						var script = document.createElement('script');
+						script.type = 'text/javaScript';
+						script.setAttribute('crossorigin', 'anonymous');
+						script.src = scripts[i];
+						document.getElementsByTagName('body')[0].appendChild(script);
+					}
+				}
+			});
+
+			if (!window.gConfig) {
+				window.gConfig = {}
+			}
+			window.gConfig.isApp = /galaxy/i.test(navigator.userAgent) && window.galaxy;
+			// 初始化全局变量
+			var jsonParamInit = {}
+			var jsonParamView = {}
+			var jsonParamEvent = {}
+			jsonParamInit['UserAccount'] = 'host'jsonParamEvent['rec_account'] = getUaCookie('ua') jsonParamView['rec_account'] = getUaCookie('ua') var portalDomain = 'https://portal.huaweicloud.com',
+			ssoDomain = 'https://auth.huaweicloud.com'
+			var isVerified = false
+			var isLogin = false
+			var totalMsg = 0;
+			function getUaCookie(c_name) {
+				if (document.cookie.length > 0) {
+					var c_start = document.cookie.indexOf(c_name + '=') if (c_start != -1) {
+						c_start = c_start + c_name.length + 1
+						var c_end = document.cookie.indexOf(';', c_start) if (c_end == -1) c_end = document.cookie.length
+						return decodeURI(document.cookie.substring(c_start, c_end))
+					}
+				}
+				return ''
+			}
+		</script>
+		<script>
+			if (window.location.href.indexOf('subsite') < 0) {
+				window.addEventListener('DOMContentLoaded',
+				function(event) {
+					if (/pcloudApp/i.test(navigator.userAgent)) {
+						$("#footer").css('display', 'none');
+					} else {
+						$("#footer").css('display', 'block');
+					}
+				})
+			}
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/ViewMotion.min.1.2.js?sttl=1.1.94">
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/v2/dcSlideShow.min.js?20171012&sttl=1.1.94">
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/swiper-3.4.2.jquery.min.js?20171012&sttl=1.1.94">
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/product/js/checkURL.js?sttl=1.1.94">
+		</script>
+		<div class="por-modal por-modal-player" data-hide="modal" id="common-video-play-modal">
+			<div class="por-player">
+				<video class="por-native" controls="" src="">
+				</video>
+				<i class="por-player-close" data-hide="modal">
+				</i>
+			</div>
+		</div>
+		<script>
+			// 链接为视频链接，处理统一使用portalUI播放器打开
+			$("[href*='mp4']").on('click',
+			function(event) {
+				if ($(event.target).closest("[data-show],[data-src],[video-src]").length === 0) {
+					var $target = $(event.target).closest("[href*='mp4']");
+					// 当前触发target的href属性为视频链接
+					var targetHref = $target.attr('href');
+					if (targetHref && targetHref.includes('mp4')) {
+						var $videoModal = $('#common-video-play-modal');
+						var $videoInModal = $('#common-video-play-modal video');
+						if ($videoModal.length && $videoInModal.length) {
+							event.preventDefault();
+							$videoInModal.attr('src', targetHref) $videoModal.porModal('show') event.stopPropagation();
+						}
+					}
+				}
+			});
+		</script>
+		<style type="text/css">
+			#header { height: 100px; } @media (max-width: 768px) { #header { height:
+			44px; } }
+		</style>
+		<script>
+			function dealWithImageHTL() {
+				if (/pcloudApp/i.test(navigator.userAgent)) {
+					$("[data-pep-src]").hide();
+					return;
+				} else {
+					var str = window.location.search;
+					var suband = "type=android";
+					var subios = "type=ios";
+					if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+						$("[data-pep-src]").hide();
+						return;
+					}
+				}
+				$("[data-pep-src]").each(function() {
+					$(this).attr("src", $(this).attr("data-pep-src"));
+				});
+			}
+
+			dealWithImageHTL();
+		</script>
+		<script>
+			//display video for product-VideoTutorials-v5
+			$('.product-video-list li').each(function() {
+				var pcUrl = $(this).attr("data-vedio-pc-url") || '';
+				var mbUrl = $(this).attr("data-video-mb-url") || pcUrl || '';
+				var ua = navigator && navigator.userAgent;
+				if ((/Android|webOS|iPhone|iPod|Windows Phone|(BlackBerry).*Version|(BB10).*Version|IEMobile|Opera Mini/i).test(ua)) {
+					$(this).find(".product-play-btn2").on('click',
+					function() {
+						play(encodeURI(mbUrl), '')
+					})
+				} else {
+					$(this).find(".product-play-btn2").on('click',
+					function() {
+						play(encodeURI(pcUrl), '')
+					})
+				}
+			}) window.channelFrom = $('#content').attr('data-channelFrom');
+			window.hrefName = $('#content').attr('data-hrefName');
+			if ($('#content').attr('data-site') == 'hk') {
+				localStorage.setItem('currentActivitySite', 'hk');
+			} else {
+				localStorage.setItem('currentActivitySite', 'china');
+			}
+		</script>
+		<script>
+			var furionAppCode = '';
+			var $currentUrl = location.href;
+			if ($currentUrl.indexOf("/price_detail.html") != -1 || $currentUrl.indexOf("/pricing.html") != -1 || $currentUrl.indexOf("/pricing/index.html") != -1) {
+				furionAppCode = 'D00903385CF649FCA048B5DE1C1E6D4E';
+			} else if ($currentUrl.indexOf("https://activity.huaweicloud.com") == 0) {
+				furionAppCode = '51D7385A7D2B4937BB45DC755E82C48C';
+			} else if ($currentUrl.indexOf("https://www.huaweicloud.com") == 0) {
+				furionAppCode = '7D9AB7C5E01D4698B7B918065C762796';
+			} else if ($currentUrl.indexOf("https://support.huaweicloud.com") == 0) {
+				furionAppCode = '1C04D12EB0F8479A9DA9A24639FCA81C';
+			}
+			if (!window.__fr && furionAppCode) { !
+				function(x, n) {
+					window[n] = window[n] || {};
+					window[n].config = {
+						appId: furionAppCode,
+						setting: "api,jsTrack,uba,longtask,rtti",
+						hashMode: true,
+						closeReportFMP: true,
+					};
+					var o = document.createElement('script');
+					o.src = x,
+					o.async = !0;
+					var d = document.body.firstChild;
+					document.body.insertBefore(o, d);
+				} ('https://portal.hc-cdn.com/FurionSdkStatic/3.6.30/furion-cdn.min.js', '__fr');
+			}
+		</script>
+		<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/bi_new.js?sttl=1.1.94">
+		</script>
+		<script src="https://portal.hc-cdn.com/cnpm-baseui/3.0.16/theme-token.js?sttl=1.1.94&ttr=1.1.94"
+		crossorigin="anonymous">
+		</script>
+		<script type="text/javascript" src="https://res-static.hc-cdn.cn/aem/content/cloudbu-site/resource/common/feloader.js?sttl=1.1.94&ttr=1.1.94"
+		crossorigin="anonymous">
+		</script>
+		<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/js/global.min.js"
+		crossorigin="anonymous">
+		</script>
+		<div class="hide-sttl" style="height:0;width:0" data-sttl="1.1.94">
+		</div>
+		<script>
+			window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
+		</script>
+		<script>
+			$('body').addClass('header-white');
+
+			if (!/pcloudApp/i.test(navigator.userAgent)) {
+				$("#header").css("display", "block");
+			}
+		</script>
+		<script>
+			// edit--china--en-us--declaration
+			var $ts_site = "china";
+			var $ts_lang = "zh-cn".replace("_", "-");
+			var $lang_site_gate = $ts_site !== "eu" && $ts_lang !== "tr-tr";
+			var $ts_domain = window.location.host.split('.')[1] ? window.location.host.split('.')[0] : 'localhost';
+			var $pepchannel = "solution/government/gonc.html".split("/").join("_").replace(".html", "");
+			window.matedataDomain = $ts_domain;
+
+			// if open in app, should change ts_domain in to "app"
+			if (/pcloudApp/i.test(navigator.userAgent)) {
+				window.matedataDomain = "app";
+			} else {
+				var str = window.location.search;
+				var suband = "type=android";
+				var subios = "type=ios";
+				if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+					window.matedataDomain = "app";
+				}
+			}
+
+			// 新系统中生成的方式需要改下
+			window.pageMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + ".click.";
+			window.headerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_navigation.click.";
+			window.footerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_footer.click.";
+			window.registerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_register.click.";
+			window.serviceMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_service.click.";
+			window.pep_uaid = ($ts_site == "china") ? "UA-55836286-1": "UA-55836286-39";
+			window.mate_data_ts_pageType = $pepchannel;
+		</script>
+		<script>
+			function showFooter() {
+				if (window.matedataDomain != "app") {
+					$("#footer .footer-nav").css('display', 'block');
+					$("#footer .footer-copyright-container").css('display', 'block');
+					$(".footer-service .footer-wrapper").css('display', 'block');
+					$("#footer #videoDiv").css('display', 'none');
+				}
+			}
+			if (window.feloader) {
+				feloader.onLoad(function() {
+					feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css');
+					feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css');
+					feloader.getScript('https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js?sttl=' + window.sttlVersion);
+					feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=' + new Date().getTime());
+					showFooter();
+				})
+			} else {
+				document.write("<script src='https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js'><\/script>");
+				document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css'>");
+				document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css'>");
+				document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=" + new Date().getTime() + "'>");
+				showFooter();
+			}
+		</script>
+		<script src="https://portal.hc-cdn.com/bi/uba.in.js?v=2.17">
+		</script>
+		<script>
+			function guidGenerator() {
+				var d = (new Date).getTime();
+				var uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,
+				function(c) {
+					var r = (d + Math.random() * 16) % 16 | 0;
+					d = Math.floor(d / 16);
+					return (c == "x" ? r: r & 3 | 8).toString(16)
+				});
+				return uuid
+			}
+
+			var _ubaParams = _ubaParams || {};
+			_ubaParams.cloudBIType = 2;
+			_ubaParams.download;
+			_ubaParams.download_suc = 1;
+			_ubaParams.Num2 = 2;
+			_ubaParams.Num4 = 4;
+			_ubaParams.sdkGaUpload = "2";
+			_ubaParams.biReqQueue = _ubaParams.biReqQueue || [];
+			_ubaParams.gaReqQueue = _ubaParams.gaReqQueue || [];
+			_ubaParams.isGAReady = false;
+			_ubaParams.isGAUpload = false;
+			_ubaParams.userAccount;
+			_ubaParams.pageViewID = _ubaParams.pageViewID || guidGenerator();
+			_ubaParams.bi_C1_20 = ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C20"];
+			_ubaParams.bi_D1_20 = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12", "D13", "D14", "D15", "D16", "D17", "D18", "D19", "D20"];
+			_ubaParams.timinhObj = window.performance ? window.performance.timing: "";
+			_ubaParams.memberID = "";
+			_ubaParams.siteId = "";
+			_ubaParams.companyID = "";
+			_ubaParams.downloadHeat;
+			_ubaParams.downloadHeat_suc = 1;
+			_ubaParams.ReqQueueSend = function(ReqQueue) {
+				if (ReqQueue && ReqQueue.length > 0) {
+					while (ReqQueue.length > 0) {
+						var req = ReqQueue.pop();
+						if (typeof req == "object") {
+							if (req.type == "event") {
+								if (req.jp) {
+									req.jp.transport = "beacon"
+								}
+								ga("send", "event", req.ec, req.ea, req.el, req.ev, req.jp)
+							} else if (req.type == "pageview") {
+								if (req.jp) {
+									req.jp.transport = "beacon"
+								}
+								ga("send", "pageview", req.page, req.jp)
+							} else if (req.type == "sendPageView") {
+								_sendPageView(req.page, req.jp)
+							} else if (req.type == "sendEvent") {
+								_sendEvent(req.en, req.ec, req.ea, req.el, req.ev, req.jp)
+							}
+						}
+					}
+				}
+			};
+
+			window.ifInitBi = false;
+
+			function getGrayCookie(name) {
+				var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+				if (arr = document.cookie.match(reg)) return unescape(arr[2]);
+				else return '';
+			}
+
+			if ((document.referrer && document.referrer.indexOf('huaweicloud') === -1) || // 渠道来源，立即上报
+			window.location.search.indexOf('pageviewNow') !== -1) { // 强制上报，也进行
+				if ($lang_site_gate) {
+					pageViewNow();
+					// 然后引入ubajs，保证页面埋点事件的正常上报
+					var isGray = getGrayCookie("gpbc");
+					var ubajs = "https://portal.hc-cdn.com/bi/uba.js";
+					if (isGray && isGray.length > 10) {
+						ubajs = "https://portal.hc-cdn.com/bi/alpha/uba.js"
+					}
+					$(document).ready(function() {
+						$.getScript(ubajs,
+						function() {});
+					});
+				}
+
+			}
+
+			window.cnpmDefaultLoginCallback = function(_loginData) {
+				if (!window.ifInitBi) {
+					window.ifInitBi = true;
+					try {
+						if (typeof window.initBi === 'function') {
+							window.initBi(window.jsonParamInit, window.jsonParamView, window.jsonParamEvent);
+						}
+						if (!window.isLogin) {
+							window.promptQueryIP && window.promptQueryIP();
+						}
+					} catch(e) {}
+				}
+			};
+
+			function init(statType, appKey, gaid, jsonParam) {
+				if (arguments.length != _ubaParams.Num4) {
+					return
+				}
+				if (! (jsonParam.UserAccount && typeof appKey == "string")) {
+					return
+				}
+				if (jsonParam && jsonParam.siteId) {
+					_ubaParams.siteId = jsonParam.siteId
+				}
+				if (jsonParam && jsonParam.companyID) {
+					_ubaParams.companyID = jsonParam.companyID
+				}
+				_ubaParams.memberID = jsonParam.MemberID || "";
+				_ubaParams.userAccount = jsonParam.UserAccount;
+				if (_ubaParams.download === _ubaParams.download_suc) {
+					_initCloudBI(appKey, jsonParam)
+				} else {
+					_initCloudBI(appKey, jsonParam);
+					_ubaParams.download = _ubaParams.download_suc;
+					_ubaParams.ReqQueueSend(_ubaParams.biReqQueue)
+				}
+			}
+
+			var initCBISDK = init;
+
+			function isLoadStarted() {
+				var flag = true;
+				return flag
+			}
+
+			function onEvent(eventCategory, eventAction, eventLabel, eventValue, jsonParam) {
+				if (arguments.length < _ubaParams.Num2) {
+					return
+				}
+				if (! (eventCategory && typeof eventCategory == "string")) {
+					return
+				}
+				if (! (eventAction && typeof eventAction == "string")) {
+					return
+				}
+				var eventName = eventCategory + "_" + eventAction;
+				if (jsonParam && jsonParam.eventPrivacyName) {
+					eventName = jsonParam.eventPrivacyName
+				}
+				if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+					_sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+				} else if (_ubaParams.download == _ubaParams.download_suc && !isLoadStarted()) {
+					window.addEventListener("load",
+					function(event) {
+						_sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+					})
+				} else {
+					_ubaParams.biReqQueue.push({
+						type: "sendEvent",
+						en: eventName,
+						ec: eventCategory,
+						ea: eventAction,
+						el: eventLabel,
+						ev: eventValue,
+						jp: jsonParam
+					})
+				}
+			}
+
+			function onPageView(page, jsonParam) {
+				if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+					_sendPageView(page, jsonParam)
+				} else {
+					_ubaParams.biReqQueue.push({
+						type: "sendPageView",
+						page: page,
+						jp: jsonParam
+					});
+					_ubaParams.ReqQueueSend(_ubaParams.biReqQueue);
+				}
+			}
+			function onDmpa(userId, jsonParam) {}
+			function onException(exceptionMessage, exceptionStack, jsonParam) {}
+
+			function pageViewNow() {
+				// uba.js start
+				if (!Array.prototype.indexOf) {
+					Array.prototype.indexOf = function(val) {
+						var value = this;
+						for (var i = 0; i < value.length; i++) {
+							if (value[i] == val) return i
+						}
+						return - 1
+					}
+				}
+				// uba.js end
+				if (!window.ifInitBi) {
+					window.ifInitBi = true;
+					var $ts_site = "china";
+					window.pep_uaid = ($ts_site == "china") ? "UA-55836286-1": "UA-55836286-39";
+
+					init(2, "c9770c4dac06fe3b76ec9c7ad47273d0", window.pep_uaid, jsonParamInit);
+					var domain_pre = (window.location.host || "").split(".")[0] || "";
+					autoEventTracking(domain_pre, jsonParamEvent) if (window.ab_test) {
+						jsonParamView.ab_test = window.ab_test
+					}
+					if (window.ab_version) {
+						jsonParamView.ab_version = window.ab_version
+					}
+					window.channelFrom = window.channelFrom || $('#content').attr('data-channelFrom');
+					if (typeof channelFrom != "undefined") {
+						if (channelFrom) {
+							jsonParamInit["D17"] = channelFrom;
+							jsonParamView["D17"] = channelFrom;
+						}
+					}
+
+					jsonParamView['rec_account'] = getUaCookie('ua') jsonParamView["C1"] = $(document).attr("title");
+					jsonParamView["D15"] = "HC";
+
+					onPageView(window.location.pathname + window.location.search, jsonParamView);
+
+				}
+			}
+		</script>
+		<script>
+			if (window.$aioList && window.$aioList.length > 0) {
+				for (var i = 0; i < window.$aioList.length; i++) {
+					var tmpComponent = window.$aioList[i];
+					if (tmpComponent) {
+						var tmpComponentInfo = tmpComponent.split("/");
+						if (tmpComponentInfo.length == 2) {
+							var name = tmpComponentInfo[0];
+							var version = tmpComponentInfo[1];
+							var tmpComponentWrapperEle = $('[data-mod-name="' + name + '"]');
+							var eleVersionAttr = tmpComponentWrapperEle.attr("data-mod-version");
+							if (eleVersionAttr && eleVersionAttr != version) {
+								var linkEle = $('head link[href*="' + name + '/' + version + '"]');
+								linkEle.attr("href", linkEle.attr("href").replace(version, eleVersionAttr));
+							}
+						}
+					}
+				}
+			}
+		</script>
+		<script>
+			// document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
+			window.refLan = "";
+			window.$PEP = true;
+
+			function getSiteFromURL() {
+				url = window.location.host;
+				urlArr = url.split(".");
+				if (urlArr[0] == "www") {
+					reg = "CN";
+				} else {
+					reg = "HK"
+				}
+				return reg;
+			}
+			var siteStr = $('html').attr("site") if (siteStr) {
+				window.reg = siteStr == "china" ? "CN": siteStr.toUpperCase();
+			} else {
+				window.reg = getSiteFromURL();
+			}
+
+			window.promptLan = $('html').attr("lang");
+
+			if (document.referrer != "") {
+				if (document.referrer.indexOf("/authui/login") == -1) {
+					if (document.referrer.indexOf(".com/intl") != -1) {
+						window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN": ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US": "es-US");
+					} else {
+						window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US": "zh-CN";
+					}
+				} else {
+					//window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
+					if (document.referrer.indexOf("locale=") != -1) {
+						window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN": ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US": "es-US");
+					} else {
+						window.refLan = window.promptLan;
+					}
+				}
+			} else {
+				window.refLan = window.promptLan;
+			}
+		</script>
+		<!--/* 55 trace for some special page */-->
+		<script>
+			!
+			function($) {
+				if (window.dataLayer && window.dataLayer.push) {
+
+					if (window.location.pathname == "/consultation/") {
+						$("#submitBtn").click(function(e) {
+							window.dataLayer.push({
+								"event": "consultSubmit",
+								"productName": $("#applicationscene").val()
+							});
+						})
+					}
+
+					$("#header .header-login").click(function(e) {
+						window.dataLayer.push({
+							"event": "loginIntention"
+						})
+					});
+
+					$("#header .header-register").click(function(e) {
+						window.dataLayer.push({
+							"event": "creationIntention",
+							"pageType": window.mate_data_ts_pageType,
+							"pagePosition": "Header"
+						})
+					});
+
+				}
+			} (jQuery);
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/apm/wise_trace.min.js?sttl=1.1.94">
+		</script>
+		<script>
+			$("a[href*='/pep-dialog/']").each(function() {
+				var ele = $(this);
+				var href = ele.attr("href");
+				var path = href.replace(/.html/g, "");
+				var ajaxPath = path.indexOf("activity/") == -1 ? path: path.split("activity/")[1];
+				var arr = path.split("/");
+				var dialogName = arr[arr.length - 1];
+				var location_lang = $('html').attr('lang').toLowerCase();
+				var site = $('html').attr('site').toLowerCase() == 'china' ? 'china': 'hk'; //  站点判断，国内：china；国际站：hk
+				var dialogUrl = (window.location.host.indexOf(".com") != -1 && window.location.host.indexOf("pep.huaweicloud.com") == -1) ? "https://" + window.location.host + "/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled": "/content/cloudbu-site/" + site + "/" + location_lang + "/activity/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled";
+				ele.css('pointer-events', 'auto');
+				ele.on("click",
+				function(e) {
+					e.stopPropagation();
+					e.preventDefault();
+					if ($("body [data-pep-path*='" + dialogName + "']").length !== 0) {
+						$("body [data-pep-path*='" + dialogName + "']").remove();
+					}
+					// dialog for activity
+					$.ajax({
+						url: dialogUrl,
+						success: function(data) {
+							if (data) {
+								data = data.replace('block', 'none');
+								$("body").append(data);
+								$("#modal-rule").html($("body [data-pep-path*='" + dialogName + "']").html());
+								window.activityModal.show('#modal-rule', true);
+							}
+						}
+					})
+				});
+			});
+		</script>
+	</body>
+
+</html>
+{% endblock %}

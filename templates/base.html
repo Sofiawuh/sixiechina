@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}我的网站{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        /* MaaS悬浮按钮样式 */
+        .maas-float-btn {
+            /* 定位相关 */
+            position: fixed;        /* 固定定位，不随页面滚动而移动 */
+            bottom: 80px;          /* 距离底部80像素 */
+            right: 12px;           /* 距离右侧30像素 */
+            z-index: 1000;         /* 层级很高，确保在最上层显示 */
+
+            /* 尺寸和形状 */
+            width: 60px;           /* 按钮宽度60像素 */
+            height: 60px;          /* 按钮高度60像素 */
+            border-radius: 50%;    /* 圆形按钮（50%表示完全圆形） */
+            border: none;          /* 无边框 */
+
+            /* 背景和颜色 */
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* 渐变背景：从蓝色到紫色 */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* 阴影效果：水平偏移0，垂直偏移4px，模糊20px，透明度30%的黑色 */
+
+            /* 内部内容布局 */
+            display: flex;          /* 弹性布局，便于内部元素居中 */
+            align-items: center;    /* 垂直居中 */
+            justify-content: center; /* 水平居中 */
+
+            /* 交互效果 */
+            cursor: pointer;        /* 鼠标悬停时显示手型指针 */
+            transition: all 0.3s ease; /* 所有属性变化都有0.3秒的平滑过渡效果 */
+        }
+
+
+        .maas-float-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        .maas-icon {
+            font-size: 24px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .maas-tooltip {
+            position: absolute;
+            right: 70px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s ease;
+        }
+
+        .maas-float-btn:hover .maas-tooltip {
+            opacity: 1;
+            right: 75px;
+        }
+
+        .maas-pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(102, 126, 234, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(102, 126, 234, 0); }
+        }
+
+        /* 响应式调整 */
+        @media (max-width: 768px) {
+            .maas-float-btn {
+                bottom: 30px; /* 移动端也往上调整 */
+                right: 20px;
+                width: 50px;
+                height: 50px;
+            }
+            .maas-icon { font-size: 20px; }
+            .maas-tooltip { font-size: 12px; padding: 6px 10px; }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-in">
+            <div class="logo">
+                <a href="/">
+                    <img src="{{ url_for('static', filename='img/sixie.png') }}" alt="Logo">
+                </a>
+            </div>
+            <nav class="mheader-nav">
+                <ul>
+                    <li><a href="/">首页<span></span></a></li>
+                    <li><a href="/case/">案例<span></span></a></li>
+                    <li><a href="/service/">服务<span></span></a></li>
+                    <li><a href="/about/">关于<span></span></a></li>
+                    <li><a href="/news/">新闻<span></span></a></li>
+                    <li><a href="/contact/">联系<span></span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <div class="footer-content" style="text-align: center; padding: 15px 0; color: #666;">
+            <p style="margin: 0;">
+                <span>TEL：0755-26406163</span>
+                <span style="margin: 0 10px;">|</span>
+                <a href="https://beian.miit.gov.cn/" target="_blank" style="color: #666; text-decoration: none;">
+                    粤ICP备20052426号-1
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- MaaS悬浮按钮 -->
+    <button class="maas-float-btn maas-pulse" onclick="openMaaS()" title="AI智能助手">
+        <div class="maas-icon">AI</div>
+        <div class="maas-tooltip">智能助手</div>
+    </button>
+
+    <script>
+        function openMaaS() {
+            window.open('/maas/', '_blank');
+        }
+    </script>
+</body>
+</html>

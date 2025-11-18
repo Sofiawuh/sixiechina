@@ -1,0 +1,1491 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'HK Grotesk Legacy', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+}
+
+/* 头部样式 */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0; /* 减少垂直内边距 */
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+.header-in {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.mheader-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.mheader-nav li {
+    margin-right: 50px;
+}
+
+.mheader-nav li:last-child {
+    margin-right: 0;
+}
+
+.mheader-nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+}
+
+.mheader-nav a:hover {
+    font-weight: bold;
+}
+
+/* 主要内容区域样式 */
+.main-content {
+    margin-top: 80px;
+    padding: 0; /* 移除全局的内边距 */
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+    .header-in {
+        flex-direction: column;
+    }
+
+    .mheader-nav {
+        margin-top: 20px;
+    }
+
+    .mheader-nav li {
+        margin-right: 20px;
+    }
+}
+/* 首页特定样式 */
+.hero {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+/* 案例页特定样式 */
+.cases {
+    padding: 20px;
+}
+
+.case-filters {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.filter-btn {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.filter-btn.active {
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+
+.case-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.case-item {
+    overflow: hidden;
+}
+
+.case-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.case-item img:hover {
+    transform: scale(1.05);
+}
+
+/* 业务页特定样式 */
+.services {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.services h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.services p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* 关于页特定样式 */
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+/* 观点页特定样式 */
+.news {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.news h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.news-categories {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.news-categories span {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.news-categories span.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.news-item {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.news-item .date {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.news-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* 联系页特定样式 */
+.contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.contact-info {
+    margin: 40px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+}
+
+.mission h3 {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+/* 响应式菜单 */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen
+/* 导航栏初始状态 */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0; /* 初始较大的内边距 */
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+/* 导航栏缩小状态 */
+.header.shrink {
+    padding: 15px 0; /* 缩小后的内边距 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* logo初始大小 */
+.logo img {
+    height: 65px; /* 初始较大的logo */
+    transition: all 0.3s ease;
+}
+
+/* logo缩小状态 */
+.header.shrink .logo img {
+    height: 45px; /* 缩小后的logo */
+}
+
+/* 导航菜单初始状态 */
+.mheader-nav a {
+    font-size: 16px; /* 初始较大的字体 */
+    transition: all 0.3s ease;
+}
+
+/* 导航菜单缩小状态 */
+.header.shrink .mheader-nav a {
+    font-size: 14px; /* 缩小后的字体 */
+}
+/* 响应式菜单按钮 */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* 响应式导航菜单 */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 20px 0;
+    }
+
+    .header.shrink {
+        padding: 8px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .mheader-nav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.95);
+        display: none;
+        padding: 20px 0;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .mheader-nav ul {
+        flex-direction: column;
+    }
+
+    .mheader-nav li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .header.shrink .logo img {
+        height: 24px;
+    }
+}
+/* 轮播图样式 */
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0; /* 移除之前的上边距 */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: calc(100vh - 80px); /* 使用视口高度减去导航栏高度 */
+}
+
+.slide {
+    min-width: 100%;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* 小点指示器样式 */
+.slider-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active, .dot:hover {
+    background-color: white;
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 768px) {
+    .slider {
+        height: 50vh;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+}
+/* 首页特定样式 */
+.main-content {
+    margin-top: 80px;
+    padding: 0; /* 移除全局的内边距 */
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0; /* 移除之前的上边距 */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: calc(100vh - 80px); /* 使用视口高度减去导航栏高度 */
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.intro {
+    padding: 40px 20px; /* 只在内部添加内边距 */
+    text-align: center;
+    background-color: #fff; /* 添加背景色确保内容可读 */
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 768px) {
+    .slider {
+        height: calc(100vh - 60px); /* 在小屏幕上调整高度 */
+    }
+
+    .intro {
+        padding: 30px 15px;
+    }
+
+    .intro h1 {
+        font-size: 1.8rem;
+    }
+}
+/* 更新轮播图容器样式 */
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px; /* 确保在导航栏下方 */
+    padding-top: 20px; /* 添加顶部内边距 */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: calc(100vh - 100px); /* 减去导航栏高度+额外间距 */
+}
+
+/* 更新导航栏样式确保不重叠 */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95); /* 更实背景避免透明重叠 */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 调整小点位置避免太靠下 */
+.slider-dots {
+    position: absolute;
+    bottom: 30px; /* 从20px增加到30px */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 768px) {
+    .slider-container {
+        margin-top: 60px; /* 移动设备导航栏较小 */
+        padding-top: 10px;
+    }
+
+    .slider {
+        height: calc(100vh - 70px);
+    }
+
+    .slider-dots {
+        bottom: 20px;
+    }
+}
+/* 轮播图样式 */
+.slider-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 80vh;
+}
+
+.slide {
+    min-width: 100%;
+    position: relative;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* 解决方案卡片大文字样式 */
+.solution-content {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    max-width: 600px; /* 增大最大宽度 */
+    z-index: 10;
+}
+
+.solutions-card-text {
+    background: rgba(0, 0, 0, 0.03);
+    padding: 40px 50px; /* 增大内边距 */
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+.solutions-card-title h3 {
+    font-size: 3rem;  /* 显著增大标题 */
+    margin-bottom: 25px;
+    color: #fff;
+    font-weight: 600; /* 加粗 */
+    line-height: 1.2; /* 调整行高 */
+}
+
+.solutions-card-desc {
+    font-size: 1.5rem;  /* 增大正文 */
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.por-btn-large {
+    font-size: 1.3rem;  /* 增大按钮文字 */
+    padding: 15px 40px; /* 增大按钮尺寸 */
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 1200px) {
+    .solutions-card-title h3 {
+        font-size: 2.8rem;
+    }
+    .solutions-card-desc {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .solution-content {
+        top: 80px;
+        left: 80px;
+        max-width: 500px;
+    }
+    .solutions-card-title h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .solution-content {
+        top: 60px;
+        left: 40px;
+        max-width: 400px;
+        padding: 30px;
+    }
+    .solutions-card-title h3 {
+        font-size: 2.2rem;
+    }
+    .solutions-card-desc {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .solution-content {
+        top: 40px;
+        left: 20px;
+        max-width: 300px;
+        padding: 25px;
+    }
+    .solutions-card-title h3 {
+        font-size: 1.8rem;
+    }
+    .solutions-card-desc {
+        font-size: 1rem;
+    }
+    .por-btn-large {
+        font-size: 1.1rem;
+        padding: 12px 30px;
+    }
+}
+/* MNFT页面特定样式 */
+.solution-page {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Banner区域 */
+.solution-banner {
+    background: linear-gradient(135deg, #1a3a8f, #2563eb);
+    color: white;
+    padding: 120px 0 80px;
+    text-align: center;
+    position: relative;
+}
+
+.solution-banner h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.solution-banner .subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    opacity: 0.9;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: white;
+    color: #2563eb;
+    border-radius: 4px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 容器通用样式 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 方案概述 */
+.solution-overview {
+    padding: 80px 0;
+    background-color: #f8fafc;
+}
+
+.solution-overview h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #1e3a8a;
+}
+
+.overview-text {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.overview-features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.feature-item {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    background: #2563eb;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 20px;
+}
+
+.feature-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #1e3a8a;
+}
+
+/* 架构图部分 */
+.architecture {
+    padding: 80px 0;
+}
+
+.architecture h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #1e3a8a;
+}
+
+.architecture-img {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.architecture-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.architecture-desc {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1.8;
+    color: #4b5563;
+}
+
+/* 应用场景 */
+.scenarios {
+    padding: 80px 0;
+    background-color: #f8fafc;
+}
+
+.scenarios h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #1e3a8a;
+}
+
+.scenario-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.scenario-item {
+    flex: 1;
+    min-width: 350px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.scenario-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.scenario-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.scenario-content {
+    padding: 25px;
+}
+
+.scenario-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #1e3a8a;
+}
+
+/* 客户案例 */
+.cases {
+    padding: 80px 0;
+}
+
+.cases h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #1e3a8a;
+}
+
+.case-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.case-item {
+    flex: 1;
+    min-width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.case-logo {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.case-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.case-desc h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #1e3a8a;
+}
+
+/* 联系我们 */
+.contact {
+    padding: 80px 0;
+    background-color: #f8fafc;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #1e3a8a;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #1d4ed8;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.1rem;
+    color: #4b5563;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+    .solution-banner h1 {
+        font-size: 2.2rem;
+    }
+
+    .solution-banner .subtitle {
+        font-size: 1.2rem;
+    }
+
+    .feature-item {
+        min-width: 100%;
+    }
+
+    .scenario-item, .case-item {
+        min-width: 100%;
+    }
+
+    .case-item {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* 解决方案页面样式 */
+.solution-page {
+    margin-top: 80px;
+}
+
+/* 顶部横幅 */
+.solution-banner {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.solution-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 0 10%;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.banner-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.banner-content .subtitle {
+    font-size: 1.5rem;
+    max-width: 800px;
+}
+
+/* 导航锚点 */
+.solution-anchor {
+    position: sticky;
+    top: 80px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.anchor-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.anchor-container a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.anchor-container a:hover {
+    color: #0066cc;
+}
+
+/* 方案区块 */
+.solution-section {
+    padding: 80px 10%;
+}
+
+.dark-bg {
+    background-color: #f5f7fa;
+}
+
+.section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.solution-section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* 方案概述 */
+.overview-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.stat-text {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* 方案架构 */
+.architecture-img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto 40px;
+}
+
+.architecture-desc h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.architecture-desc ul {
+    list-style-type: none;
+}
+
+.architecture-desc li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 1.1rem;
+}
+
+.architecture-desc li::before {
+    content: "•";
+    color: #0066cc;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+
+/* 方案优势 */
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.advantage-item {
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.advantage-item:hover {
+    transform: translateY(-10px);
+}
+
+.advantage-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+}
+
+.advantage-icon img {
+    width: 100%;
+}
+
+.advantage-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.advantage-item p {
+    color: #666;
+}
+
+/* 应用场景 */
+.scenarios-tabs {
+    margin-top: 40px;
+}
+
+.tab-header {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.tab-item {
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    color: #666;
+}
+
+.tab-item.active {
+    color: #0066cc;
+}
+
+.tab-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #0066cc;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+
+.scenario-content {
+    display: flex;
+    gap: 40px;
+}
+
+.scenario-text {
+    flex: 1;
+}
+
+.scenario-img {
+    flex: 1;
+}
+
+.scenario-img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.scenario-text h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.scenario-text p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.scenario-text ul {
+    list-style-type: none;
+}
+
+.scenario-text li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.scenario-text li::before {
+    content: "✓";
+    color: #0066cc;
+    position: absolute;
+    left: 0;
+}
+
+/* 成功案例 */
+.cases-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.case-item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.case-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.case-info {
+    padding: 20px;
+    background: white;
+}
+
+.case-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.case-info p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.case-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+}
+
+.case-link::after {
+    content: "→";
+    margin-left: 5px;
+}
+
+/* 资源下载 */
+.resources-list {
+    margin-top: 40px;
+}
+
+.resource-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.resource-icon {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.resource-icon img {
+    width: 100%;
+}
+
+.resource-info {
+    flex: 1;
+}
+
+.resource-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.resource-info p {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.download-btn {
+    padding: 10px 20px;
+    background: #0066cc;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.download-btn:hover {
+    background: #0052a3;
+}
+
+/* 咨询表单 */
+.solution-contact {
+    background: #0066cc;
+    padding: 60px 10%;
+    color: white;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group:nth-child(3),
+.form-group:nth-child(4) {
+    grid
+/* 方案架构样式 */
+.architecture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.architecture-layer {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.architecture-layer:hover {
+    transform: translateY(-5px);
+}
+
+.architecture-img-container {
+    height: 220px;
+    overflow: hidden;
+}
+
+.architecture-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.architecture-layer:hover .architecture-img {
+    transform: scale(1.05);
+}
+
+.architecture-desc {
+    padding: 25px;
+}
+
+.architecture-desc h3 {
+    font-size: 1.8rem;
+    color: #0066cc;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.architecture-content p {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    color: #555;
+}
+
+.architecture-content p:first-child {
+    font-weight: 500;
+    color: #333;
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 768px) {
+    .architecture-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .architecture-img-container {
+        height: 180px;
+    }
+
+    .architecture-desc {
+        padding: 20px;
+    }
+
+    .architecture-desc h3 {
+        font-size: 1.5rem;
+    }
+}

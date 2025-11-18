@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}首页 - 华为云战略合作伙伴{% endblock %}
+
+{% block content %}
+<div class="main-content">
+    <section class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="{{ url_for('static', filename='img/img.png') }}" alt="政府数字化转型">
+                <div class="solution-content">
+                    <div class="solutions-card-text">
+                        <div class="solutions-card-title">
+                            <h3>数字政务新基座</h3>
+                        </div>
+                        <div class="solutions-card-desc">基于华为云Stack打造的政务云平台，提供全域安全合规、数据要素流通、城市智能体等核心能力，加速政府治理现代化</div>
+                        <div class="solutions-card-more">
+                            <a href="/gonc" class="por-btn por-btn-large por-btn-light">开启智慧政务 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="{{ url_for('static', filename='img/img_1.png') }}" alt="智能制造">
+                <div class="solution-content">
+                    <div class="solutions-card-text">
+                        <div class="solutions-card-title">
+                            <h3>工业智能体解决方案</h3>
+                        </div>
+                        <div class="solutions-card-desc">华为云FusionPlant工业互联网平台，融合AI+5G+IoT技术，实现设备预测性维护、工艺优化和质量检测的智能化升级</div>
+                        <div class="solutions-card-more">
+                            <a href="/mnft" class="por-btn por-btn-large por-btn-light">探索智能工厂 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="{{ url_for('static', filename='img/img_2.png') }}" alt="智慧医疗">
+                <div class="solution-content">
+                    <div class="solutions-card-text">
+                        <div class="solutions-card-title">
+                            <h3>医疗健康云</h3>
+                        </div>
+                        <div class="solutions-card-desc">通过医疗专属云+医疗AI中台，构建覆盖临床科研、智慧医院、区域医疗的一体化数字健康平台，已服务TOP100医院中的85%</div>
+                        <div class="solutions-card-more">
+                            <a href="/smarthealthcare" class="por-btn por-btn-large por-btn-light">了解医疗云 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="{{ url_for('static', filename='img/img_3.png') }}" alt="数字金融">
+                <div class="solution-content">
+                    <div class="solutions-card-text">
+                        <div class="solutions-card-title">
+                            <h3>金融级数字引擎</h3>
+                        </div>
+                        <div class="solutions-card-desc">符合金融等保要求的全栈云方案，支撑核心系统云原生改造、实时风控和智能营销，交易并发能力提升10倍</div>
+                        <div class="solutions-card-more">
+                            <a href="/bank" class="por-btn por-btn-large por-btn-light">金融数字化方案 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="{{ url_for('static', filename='img/img_4.png') }}" alt="智能汽车">
+                <div class="solution-content">
+                    <div class="solutions-card-text">
+                        <div class="solutions-card-title">
+                            <h3>车云协同平台</h3>
+                        </div>
+                        <div class="solutions-card-desc">覆盖车联网、自动驾驶、数字座舱的全栈解决方案，日均处理车辆数据PB级，助力车企构建"云-管-端"协同能力</div>
+                        <div class="solutions-card-more">
+                            <a href="/car" class="por-btn por-btn-large por-btn-light">汽车行业方案 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+            <span class="dot" data-slide="4"></span>
+        </div>
+    </section>
+
+    <section class="intro">
+        <h1>华为云全栈技术赋能者</h1>
+        <p>作为华为云战略级合作伙伴，我们提供从咨询规划到落地实施的全生命周期服务，已助力500+企业实现数字化转型</p>
+        <div class="intro-stats">
+            <div class="stat-item">
+                <span class="stat-number">30+</span>
+                <span class="stat-label">行业解决方案</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">200+</span>
+                <span class="stat-label">认证专家团队</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">99.99%</span>
+                <span class="stat-label">服务可用性</span>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

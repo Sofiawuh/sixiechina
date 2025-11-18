@@ -1,0 +1,2493 @@
+{% extends "base.html" %}
+
+{% block title %}联系{% endblock %}
+
+{% block content %}
+
+<!doctype html>
+<html lang="zh-CN" site="china">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="applicable-device" content="pc,mobile">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="baidu-site-verification" content="nsMgQr28vc" />
+		<meta http-equiv="x-dns-prefetch-control" content="on">
+		<meta name="templateName" content="common-pep2.0">
+		<title>
+			华为云智慧医疗解决方案_医院_医疗-华为云
+		</title>
+		<meta name="keywords" content="华为云智慧医疗解决方案,智慧医疗,医疗大数据,数据湖,集成平台,湖仓一体" />
+		<meta name="description" content="基于华为云先进的数据基础设施平台，打造医院统一数据中心底座，支持三位一体的智慧医院高质量发展。"
+		/>
+		<link rel="canonical" href="https://www.huaweicloud.com/solution/health/hospital/smarthealthcare.html"
+		/>
+		<meta name="referrer" content="no-referrer-when-downgrade" />
+		<meta name="pep-template-version" content="1.8.92" />
+		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;"
+		/>
+		<link rel="icon" href="https://www.huaweicloud.com/favicon.ico">
+		<link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/css/global.min.css?sttl=1.1.94&ttr=1.1.94"
+		crossorigin="anonymous" />
+		<!--/* header css */-->
+		<link rel="stylesheet" href="https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.39/index.css?sttl=1.1.94&ttr=1.1.94"
+		crossorigin="anonymous">
+		<style>
+			@media(max-width:768px) { #header { display: none; } } #footer .footer-nav
+			{ display: none; } #footer .footer-copyright-container { display: none;
+			} .footer-service .footer-wrapper { display: none; }
+		</style>
+		<link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-baseui/3.0.16/theme-token.css">
+		<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/jquery.min.js"
+		crossorigin="anonymous">
+		</script>
+		<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/js/libs.min.js">
+		</script>
+		<!-- -->
+		<meta name="google-site-verification" content="wQwSWDVSYQzH1niLqcUE15XH1_j_rN1T9-mbq2r6Dmw"
+		/>
+		<meta name="sogou_site_verification" content="u4x6sJNooE" />
+		<link rel="dns-prefetch" href="https://res-static.hc-cdn.cn" />
+		<link rel="dns-prefetch" href="https://portal.hc-cdn.com" />
+		<link rel="dns-prefetch" href="https://support.huaweicloud.com" />
+		<link rel="dns-prefetch" href="https://activity.huaweicloud.com" />
+		<link rel="dns-prefetch" href="https://portal.huaweicloud.com" />
+		<link rel="dns-prefetch" href="https://uba.huaweicloud.com" />
+		<link rel="dns-prefetch" href="https://uba-intl.huaweicloud.com" />
+		<!-- -->
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			window.$closeBiReport2018 = true
+
+			window.$siteInfo = window.$siteInfo || {};
+			window.$siteInfo.site = "china";
+			window.$siteInfo.lang = "zh-cn".replace("_", "-");
+		</script>
+		<script>
+			window.$aioList = ["cnpm-pep-components/2.3.83/cnpm-pep-solution-page-navigate-v2", "cnpm-pep-components/2.3.74/cnpm-pep-common-banner-v2", "cnpm-pep-components/2.3.24/cnpm-pep-common-card-v2", "cnpm-pep-components/2.3.24/cnpm-pep-product-advantage-v2", "cnpm-pep-components/2.3.71/cnpm-pep-product-scene-diagram-v3", "cnpm-pep-components/2.3.24/cnpm-pep-product-customer-v2", "cnpm-pep-components/2.4.31/cnpm-pep-product-process-v2", "cnpm-pep-components/2.2.49/cnpm-pep-common-ad-v2"];
+			window.$aioCdnPrefix = 'https://res.hc-cdn.com/';
+		</script>
+		<script>
+			window.gConfig = window.gConfig || {};
+			window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+			var hClassName;
+			if (window.gConfig.isMobile) {
+				hClassName = ' phone';
+			} else {
+				hClassName = ' pc';
+			}
+			if (window.$aioList) {
+				for (var i = 0; i < window.$aioList.length; i++) {
+					if (window.$aioCdnPrefix) {
+						if (window.$aioList[i].length > 0) {
+							document.write('<link rel="stylesheet" href="' + window.$aioCdnPrefix + window.$aioList[i] + '/' + (window.gConfig.isMobile ? 'm': 'pc') + '/index.css" />');
+						}
+					} else {
+						if (window.$aioList[i].length > 0) {
+							document.write('<link rel="stylesheet" href="https://res.hc-cdn.com/' + window.$aioList[i] + '/' + (window.gConfig.isMobile ? 'm': 'pc') + '/index.css" />');
+						}
+					}
+
+				}
+			}
+			var root = document.documentElement;
+			root.className += hClassName;
+			window.gConfig.seed = window.gConfig.seed || [];
+			window.gConfig.seed.push({
+				name: '@cloud/link-to',
+				data: {
+					"packages": {
+						"@cloud/link-to": {
+							"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.12/",
+							"version": "3.1.12"
+						}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="header" bi_parent_name="navigation" meta-data-adjust-app="hide">
+			<div class="header-container">
+				<div class="header-prompt">
+					<div class="header-prompt-wrapper">
+						<div class="header-prompt-content">
+							<i class="por-icon por-icon-error">
+							</i>
+							<p>
+								检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站
+								<a href="https://www.huaweicloud.com/intl/zh-cn">
+									https://www.huaweicloud.com/intl/zh-cn
+								</a>
+							</p>
+						</div>
+						<div class="header-prompt-radio">
+							<i class="header-prompt-checkbox active">
+							</i>
+							<p>
+								不再显示此消息
+							</p>
+							<i class="header-prompt-closed por-icon por-icon-close">
+							</i>
+						</div>
+					</div>
+				</div>
+
+				<div class="header-wrapper">
+
+					<script type="text/html" id="holder-drop">
+					</script>
+					<script type="text/html" id="holder-mbnav">
+					</script>
+					<div class="header-mbshearch header-backdrop" bi_parent_name="search_mb">
+						<div class="header-mbshearch-innner">
+							<form class="header-mbshearch-form" action method="get" data-api-search-url="https://www.huaweicloud.com/s/"
+							data-api-report="https://portal.huaweicloud.com/stats/pip.gif" data-api-hot="https://portal.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/hot-words?appId=com.huaweicloud.portal.search.high&amp;type=PC"
+							data-api-autoword="https://portal.huaweicloud.com/rest/cbc/portalsearchcorrectorservice/v1/search"
+							data-default-hot="网站和Web应用程序,镜像制作,弹性势能,容器化改造,大数据分析人">
+								<div class="header-mbshearch-form-row">
+									<div>
+										<div class="header-mbshearch-input-box">
+											<i class="">
+											</i>
+											<input type="text" maxlength="128" class="header-mbshearch-input" autocomplete="off">
+										</div>
+									</div>
+									<div>
+										<a class="header-mbshearch-cancel">
+											取消
+										</a>
+									</div>
+								</div>
+							</form>
+							<div class="header-mbshearch-droplist" data-clickable-asyn="true">
+								<div class="J-mbshearch-hot">
+									<div class="J-mbshearch-history">
+										<div class="J-mbshearch-title">
+											<span>
+												清空
+											</span>
+											最近搜索
+										</div>
+										<div class="J-mbshearch-history-content">
+										</div>
+									</div>
+									<div class="J-mbshearch-popular">
+										<div class="J-mbshearch-title">
+											热门搜索
+										</div>
+										<ul class="J-mbshearch-popular-content">
+											<li>
+												<a>
+													云耀云服务器L实例
+												</a>
+											</li>
+											<li>
+												<a>
+													免费试用
+												</a>
+											</li>
+											<li>
+												<a>
+													云服务器
+												</a>
+											</li>
+											<li>
+												<a>
+													域名
+												</a>
+											</li>
+											<li>
+												<a>
+													云速建站
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<ul class="J-mbshearch-related">
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="content" data-site="china" data-channelFrom="" data-promotion-theme="black"
+		data-promotion-title-align="center">
+			<div id="common-components-container">
+				<div data-mod-id="pep-solution-page-navigate-v2_1691026181382">
+					<div data-mod-name-pc="@cloud/pep-solution-page-navigate-v2/pc/index"
+					data-mod-name-m="@cloud/pep-solution-page-navigate-v2/m/index" class="pep-solution-page-navigate-v2 por-tab-self-adaption"
+					data-mod-name="pep-solution-page-navigate-v2">
+						<div class="por-section por-section-merge-spacing por-section-merge-spacing-bottom"
+						data-bg="white">
+							<div class="por-container">
+								<div class="por-section-body" data-dataSource="">
+									<div class="por-tab-container pc">
+										<div class="title-container">
+											<a>
+												<span class="tag-name por-text-body-t1">
+													医院解决方案
+												</span>
+											</a>
+										</div>
+										<div class="por-tab por-tab-font-xs por-tab-collapse">
+										</div>
+										<div class="btn">
+
+										</div>
+									</div>
+									<div class="por-tab-container mb">
+										<div class="title-container">
+											<div class="title">
+												医院解决方案
+											</div>
+											<div class="title-expand por-icon por-icon-down">
+											</div>
+										</div>
+										<ul class="menu-container">
+										</ul>
+									</div>
+								</div>
+							</div>
+							<textarea class="pep-solution-page-navigate-v2-config" data-configData="{&quot;context&quot;:{&quot;dataSource&quot;:&quot;&quot;,&quot;bg&quot;:&quot;white&quot;,&quot;actionInfo&quot;:{&quot;title&quot;:&quot;医院解决方案&quot;,&quot;titleUrl&quot;:&quot;&quot;,&quot;actionList&quot;:[{&quot;isBlank&quot;:false,&quot;actionUrl&quot;:&quot;&quot;,&quot;isChecked&quot;:true,&quot;actionName&quot;:&quot;华为云智慧医疗&quot;,&quot;selectMenu&quot;:{&quot;selectList&quot;:[{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;开发者资源开发者资源开发者资源&lt;/p&gt;&quot;,&quot;isBlank&quot;:false},{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;客户案例&lt;/p&gt;&quot;,&quot;isBlank&quot;:false},{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;最佳实践&lt;/p&gt;&quot;,&quot;isBlank&quot;:false}]},&quot;isShowSelect&quot;:false},{&quot;actionName&quot;:&quot;润达智慧医疗云解决方案&quot;,&quot;actionUrl&quot;:&quot;https://www.huaweicloud.com/solution/health/hospital/rdwmc.html&quot;,&quot;isBlank&quot;:false,&quot;isShowSelect&quot;:false,&quot;isChecked&quot;:false,&quot;selectMenu&quot;:{&quot;selectList&quot;:[{&quot;name&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;isBlank&quot;:false},{&quot;name&quot;:&quot;&quot;,&quot;url&quot;:&quot;&quot;,&quot;isBlank&quot;:false}]}},{&quot;isBlank&quot;:false,&quot;actionUrl&quot;:&quot;https://www.huaweicloud.com/solution/health/internet-hospital-overview.html&quot;,&quot;isChecked&quot;:false,&quot;actionName&quot;:&quot;源康健互联网医院&quot;,&quot;selectMenu&quot;:{&quot;selectList&quot;:[{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;开发者资源开发者资源开发者资源&lt;/p&gt;&quot;,&quot;isBlank&quot;:false},{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;客户案例&lt;/p&gt;&quot;,&quot;isBlank&quot;:false},{&quot;url&quot;:&quot;https://www.huaweicloud.com&quot;,&quot;name&quot;:&quot;&lt;p&gt;最佳实践&lt;/p&gt;&quot;,&quot;isBlank&quot;:false}]},&quot;isShowSelect&quot;:false}],&quot;mobileSelectText&quot;:&quot;&quot;},&quot;btnList&quot;:[{&quot;btnUrl&quot;:&quot;https://www.huaweicloud.com/consultation/?type=smarthealthcare&quot;,&quot;btnText&quot;:&quot;专家咨询&quot;,&quot;btnStyle&quot;:&quot;por-btn-primary&quot;}],&quot;moreText&quot;:&quot;&quot;,&quot;columnNumberMB&quot;:&quot;2&quot;},&quot;advancedInfo&quot;:{&quot;isShowTitle&quot;:true,&quot;isShowBtn&quot;:true},&quot;_id&quot;:&quot;pep-solution-page-navigate-v2_1690956389474&quot;}"
+							style="display: none">
+							</textarea>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-solution-page-navigate-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-solution-page-navigate-v2": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.3.83/cnpm-pep-solution-page-navigate-v2/",
+											"version": "2.3.83"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										},
+										"@cloud/portal-utils": {
+											"path": "//portal.hc-cdn.com/cnpm-portal-utils/1.4.29/",
+											"version": "1.4.29"
+										},
+										"@cloud/activity-iframe": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-iframe/1.2.21/",
+											"version": "1.2.21"
+										},
+										"@cloud/activity-npm": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-npm/1.0.17/",
+											"version": "1.0.17"
+										},
+										"@cloud/activity-uba": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-uba/1.0.8/",
+											"version": "1.0.8"
+										},
+										"@cloud/dialog": {
+											"path": "//portal.hc-cdn.com/cnpm-dialog/1.0.2/",
+											"version": "1.0.2"
+										},
+										"@cloud/login": {
+											"path": "//portal.hc-cdn.com/cnpm-login/3.1.34/",
+											"version": "3.1.34"
+										}
+									},
+									"modules": {
+										"@cloud/pep-solution-page-navigate-v2/m/index": {
+											"requires": ["@cloud/portal-utils", "@cloud/xtemplate-runtime"]
+										},
+										"@cloud/pep-solution-page-navigate-v2/pc/index": {
+											"requires": ["@cloud/portal-utils", "@cloud/xtemplate-runtime"]
+										},
+										"@cloud/activity-iframe/index": {
+											"requires": ["@cloud/activity-uba", "@cloud/login", "@cloud/activity-npm", "@cloud/dialog", "@cloud/link-to", "@cloud/portal-utils"]
+										},
+										"@cloud/login/index": {
+											"requires": ["@cloud/portal-utils", "@cloud/link-to"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-common-banner-v2_1691026477446">
+					<div data-mod-name-pc="@cloud/pep-common-banner-v2/pc/index" data-mod-name-m="@cloud/pep-common-banner-v2/m/index"
+					class="pep-common-banner-v2 height-450 icon-type " data-mod-name="pep-common-banner-v2"
+					data-bg="transblack" style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/banner.jpg)">
+						<div class="bg-mb mb" style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/1693309434490943755.jpg)">
+						</div>
+						<div class="por-section  merge-spacing-bottom">
+							<div class="por-container">
+								<div class="por-section-body">
+									<div class="prodoc-banner-main">
+										<div class="prodoc-title-content half-content ">
+											<div class="prodoc-banner-title">
+												<div class="product-icon">
+													<span style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/Solutions-icon/华为云智慧医疗解决方案.svg); filter: drop-shadow(0px 8px 6px rgba(37, 194, 81, 0.25))">
+													</span>
+												</div>
+												<h2 class="pc">
+													华为云智慧医疗解决方案
+												</h2>
+												<h2 class="mb">
+													华为云智慧医疗解决方案
+												</h2>
+											</div>
+											<div class="por-text-body-t2  pc">
+												<p>
+													基于华为云先进的数据基础设施平台，打造医院统一数据中心底座，支持三位一体的智慧医院高质量发展
+												</p>
+											</div>
+											<div class="por-text-title-t7 mb">
+												<p>
+													加速数字技术和医疗健康全场景融合
+												</p>
+											</div>
+										</div>
+										<div class="prodoc-banner-labelGroup">
+											<span class="por-label por-label-orange">
+												华为方案
+											</span>
+											<span class="por-label ">
+												公有云/HCSO/HCS
+											</span>
+											<span class="por-label ">
+												试商用
+											</span>
+										</div>
+										<div class="prodoc-banner-btnGroup ">
+											<a href="https://www.huaweicloud.com/consultation/?type=smarthealthcare"
+											target="_blank" class="por-btn por-btn-primary por-btn-middle por-btn-md-default">
+												专家咨询
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-common-banner-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-common-banner-v2": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.3.74/cnpm-pep-common-banner-v2/",
+											"version": "2.3.74"
+										},
+										"@cloud/link-to": {
+											"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//portal.hc-cdn.com/cnpm-lazyload/2.0.10/",
+											"version": "2.0.10"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-common-banner-v2/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-common-banner-v2/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-common-card-v2_1691027056044">
+					<div data-mod-name-pc="@cloud/pep-common-card-v2/pc/index" data-mod-name-m="@cloud/pep-common-card-v2/m/index"
+					class="pep-common-card-v2" data-mod-name="pep-common-card-v2" bi_parent_name="华为云智慧医疗解决方案能为您带来什么">
+						<div class="por-section   showMb" data-bg="grey">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title show-pc">
+										华为云智慧医疗解决方案能为您带来什么
+									</h2>
+									<h2 class="por-section-title show-mb">
+										数据驱动智慧医院建设
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="por-tab-container">
+										<div class="por-tab-wrapper">
+											<div class="por-tab-content active" data-mod-id="tabList[0].cards.products"
+											data-mod-name="child-component" bi_name="精选推荐" data-col-num="3" current-card-num=""
+											with-show-more="false">
+												<div class="por-row" data-layout-mb="" bi_name="精选推荐" count-down="false">
+													<div class="por-col card-container card-3" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="打造院内健康数据底座">
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																	打造院内健康数据底座
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			打破数据孤岛，建立统一数字平台，沉淀数据资产沉淀
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-3" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="提升医患体验">
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																	提升医患体验
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			医、教、研、管各领域业务过程、业务规则数字化
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-3" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="推动医院数字转型">
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																	推动医院数字转型
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			建设智慧医疗、智慧管理、智慧服务三位一体的智慧医院
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-common-card-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-common-card-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.3.24/cnpm-pep-common-card-v2/",
+											"version": "2.3.24"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										},
+										"@cloud/portal-utils": {
+											"path": "//res.hc-cdn.com/cnpm-portal-utils/1.4.16/",
+											"version": "1.4.16"
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-product-advantage-v2_1691027450840">
+					<div data-mod-name-pc="@cloud/pep-product-advantage-v2/pc/index" data-mod-name-m="@cloud/pep-product-advantage-v2/m/index"
+					class="pep-product-advantage-v2" data-mod-name="pep-product-advantage-v2">
+						<div class="por-section" data-bg="light">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title">
+										为什么选择华为云智慧医疗
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="por-row type-2">
+										<div class="por-col-12 por-col-xs-24" data-mod-id="cardItemLists[0].cardItem[0]"
+										data-mod-name="child-component">
+											<div class="por-card por-card-m">
+												<div class="por-collapse-container" data-hide-siblings="">
+													<a class="por-collapse-trigger" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															丰富的智慧医院应用提升方案
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse">
+														<div class="por-card-content">
+															<div class="card-content">
+																<h3 class="card-title">
+																	丰富的智慧医院应用提升方案
+																</h3>
+																<ul class="lists">
+																	<li class="text">
+																		<p>
+																			面向医院的临床诊疗、运营管理、便民服务、科研创新等领域联合行业生态合作伙伴推出一系列智慧应用提升方案
+																		</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="card-image">
+																<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/丰富的智慧医院应用提升方案.png"
+																alt="" srcset="" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="por-col-12 por-col-xs-24" data-mod-id="cardItemLists[0].cardItem[1]"
+										data-mod-name="child-component">
+											<div class="por-card por-card-m">
+												<div class="por-collapse-container" data-hide-siblings="">
+													<a class="por-collapse-trigger" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															专业的数据治理实施服务
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse">
+														<div class="por-card-content">
+															<div class="card-content">
+																<h3 class="card-title">
+																	专业的数据治理实施服务
+																</h3>
+																<ul class="lists">
+																	<li class="text">
+																		<p>
+																			通过数据治理实现数据清洁，形成统一的数据资源，为应用提供智能数据服务；通过数据运营构建持续机制释放数据价值，实现数据驱动运营
+																		</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="card-image">
+																<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/专业的数据治理实施服务.png"
+																alt="" srcset="" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="por-row type-2">
+										<div class="por-col-12 por-col-xs-24" data-mod-id="cardItemLists[1].cardItem[0]"
+										data-mod-name="child-component">
+											<div class="por-card por-card-m">
+												<div class="por-collapse-container" data-hide-siblings="">
+													<a class="por-collapse-trigger" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															先进的数据基础设施平台
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse">
+														<div class="por-card-content">
+															<div class="card-content">
+																<h3 class="card-title">
+																	先进的数据基础设施平台
+																</h3>
+																<ul class="lists">
+																	<li class="text">
+																		<p>
+																			面向数据湖、数据治理、资产管理、应用构建、可信流通等场景，提供丰富的云服务组合及先进的数据基础实施平台，为数据驱动企业加速发展提供保障
+																		</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="card-image">
+																<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/先进的数据基础设施平台.png"
+																alt="" srcset="" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="por-col-12 por-col-xs-24" data-mod-id="cardItemLists[1].cardItem[1]"
+										data-mod-name="child-component">
+											<div class="por-card por-card-m">
+												<div class="por-collapse-container" data-hide-siblings="">
+													<a class="por-collapse-trigger" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															人工智能助力诊疗效率提升
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse">
+														<div class="por-card-content">
+															<div class="card-content">
+																<h3 class="card-title">
+																	人工智能助力诊疗效率提升
+																</h3>
+																<ul class="lists">
+																	<li class="text">
+																		<p>
+																			基于盘古医疗大模型，通过公开获取、采购、生态合作等多渠道获取海量高质量医疗行业数据进行预训练，结合向量搜索和知识图谱能力，打造多场景、高准确性医疗行业应用
+																		</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="card-image">
+																<img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/人工智能助力诊疗效率提升.png"
+																alt="" srcset="" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-product-advantage-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-product-advantage-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.3.24/cnpm-pep-product-advantage-v2/",
+											"version": "2.3.24"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-product-advantage-v2/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-product-advantage-v2/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-product-scene-diagram-v3_1693358323538">
+					<div data-mod-name-pc="@cloud/pep-product-scene-diagram-v3/pc/index" data-mod-name-m="@cloud/pep-product-scene-diagram-v3/m/index"
+					class="pep-product-scene-diagram-v3" data-mod-name="pep-product-scene-diagram-v3">
+						<div class="por-section lazyload    " data-bg="grey" bi_parent_name="应用场景">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title hidden-mb">
+										数据驱动“三位一体”智慧医院建设
+									</h2>
+									<h2 class="por-section-title hidden-pc">
+										数据驱动“三位一体”智慧医院建设
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="por-tab-container combination">
+										<div class="por-tab" id="product-scene-diagram-v3-tab">
+											<ul data-cols="4">
+												<li class="active" data-clickable>
+													<a data-clickable style="pointer-events: auto;">
+														<div class="por-tab-text" data-clickable>
+															多源数据汇聚
+														</div>
+													</a>
+												</li>
+												<li class="" data-clickable>
+													<a data-clickable style="pointer-events: auto;">
+														<div class="por-tab-text" data-clickable>
+															医疗健康数据中心
+														</div>
+													</a>
+												</li>
+												<li class="" data-clickable>
+													<a data-clickable style="pointer-events: auto;">
+														<div class="por-tab-text" data-clickable>
+															智慧医院应用
+														</div>
+													</a>
+												</li>
+												<li class="" data-clickable>
+													<a data-clickable style="pointer-events: auto;">
+														<div class="por-tab-text" data-clickable>
+															数据可信流通
+														</div>
+													</a>
+												</li>
+											</ul>
+										</div>
+										<div class="por-tab-wrapper">
+											<div class="por-tab-content active" data-mod-name="child-component" data-mod-id="tabs[0].showItems">
+												<div class="por-collapse-container">
+													<a class="por-collapse-trigger expended" data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															多源数据汇聚
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse show">
+														<div class="scence-content-wrapper row-reverse   ">
+															<div class="scence-content-img normal-image " data-mod-name="child-component"
+															data-mod-id="tabs[0].leftContent" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/多源数据.jpg')">
+																<img class="lazyload" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/多源数据.jpg"
+																alt="">
+															</div>
+															<div class="scence-content-detail-outer">
+																<div class="scence-content-detail por-scrollbar-m">
+																	<div class="scroll-container">
+																		<div class="scence-content-detail-block" id="scence-maintitle-block" data-mod-name="child-component"
+																		data-mod-id="tabs[0].maintitle">
+																			<div class="por-text-title-t6 scence-maintitle-block_title hidden-mb">
+																				多源数据汇聚
+																			</div>
+																			<div class="scence-content-block_detail scence-maintitle-block_detail">
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-heading-block" data-mod-name="child-component"
+																		data-mod-id="tabs[0].heading">
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					业务挑战
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							多厂家异构数据源数据难集成、无法实现异构数据统一管理
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							OT与IT数据割裂，OT数据手工采集
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					解决方案
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							院内业务系统的实时/批量采集，数据统一管理
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							物联网平台实现OT数据实时集成接入
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					方案价值
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							主动、实时、准实时、异步等多样化数据采集
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							IT与OT数据实时采集，融合分析
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-btn-block" bi_parent_name="按钮"
+																		data-mod-name="child-component" data-mod-id="tabs[0].btn">
+																			<div class="scence-btn-list">
+																				<a class="por-btn por-btn-dark por-btn-middle por-btn-md-default" href="https://www.huaweicloud.com/consultation/?type=smarthealthcare"
+																				target="_blank">
+																					专家咨询
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="por-tab-content " data-mod-name="child-component" data-mod-id="tabs[1].showItems">
+												<div class="por-collapse-container">
+													<a class="por-collapse-trigger " data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															医疗健康数据中心
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse ">
+														<div class="scence-content-wrapper row-reverse   ">
+															<div class="scence-content-img normal-image " data-mod-name="child-component"
+															data-mod-id="tabs[1].leftContent" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/医疗健康数据中心.jpg')">
+																<img class="lazyload" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/医疗健康数据中心.jpg"
+																alt="">
+															</div>
+															<div class="scence-content-detail-outer">
+																<div class="scence-content-detail por-scrollbar-m">
+																	<div class="scroll-container">
+																		<div class="scence-content-detail-block" id="scence-maintitle-block" data-mod-name="child-component"
+																		data-mod-id="tabs[1].maintitle">
+																			<div class="por-text-title-t6 scence-maintitle-block_title hidden-mb">
+																				医疗健康数据中心
+																			</div>
+																			<div class="scence-content-block_detail scence-maintitle-block_detail">
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-heading-block" data-mod-name="child-component"
+																		data-mod-id="tabs[1].heading">
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					业务挑战
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							数据散乱无标准，业务无法联动，制约医院数字化转型
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							数据来源多样，诉求不同，需要多种技术构建，门槛高
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							数据按照成熟的方法论进行治理，人力投入大，耗时长
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					解决方案
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							构建统一架构的数据基础设施，满足各类企业业务诉求
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							提供专业的数据治理服务，有序、高质量地支撑业务
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					方案价值
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							继承华为10+年的数据治理实践经验
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							数据治理效率提升1倍以上
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-btn-block" bi_parent_name="按钮"
+																		data-mod-name="child-component" data-mod-id="tabs[1].btn">
+																			<div class="scence-btn-list">
+																				<a class="por-btn por-btn-dark por-btn-middle por-btn-md-default" href="https://www.huaweicloud.com/consultation/?type=smarthealthcare"
+																				target="_blank">
+																					专家咨询
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="por-tab-content " data-mod-name="child-component" data-mod-id="tabs[2].showItems">
+												<div class="por-collapse-container">
+													<a class="por-collapse-trigger " data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															智慧医院应用
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse ">
+														<div class="scence-content-wrapper row-reverse   ">
+															<div class="scence-content-img normal-image " data-mod-name="child-component"
+															data-mod-id="tabs[2].leftContent" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/智慧医院应用.jpg')">
+																<img class="lazyload" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/智慧医院应用.jpg"
+																alt="">
+															</div>
+															<div class="scence-content-detail-outer">
+																<div class="scence-content-detail por-scrollbar-m">
+																	<div class="scroll-container">
+																		<div class="scence-content-detail-block" id="scence-maintitle-block" data-mod-name="child-component"
+																		data-mod-id="tabs[2].maintitle">
+																			<div class="por-text-title-t6 scence-maintitle-block_title hidden-mb">
+																				智慧医院应用
+																			</div>
+																			<div class="scence-content-block_detail scence-maintitle-block_detail">
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-heading-block" data-mod-name="child-component"
+																		data-mod-id="tabs[2].heading">
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					业务挑战
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							临床科研创新不足、缺乏数据深入挖掘应用
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							精细化管理缺乏数据支撑，面临巨大挑战
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							患者主动服务不足，满意度低
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					解决方案
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							临床数据中心，提供患者360全场景视图
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							运营数据中心，专题分析助力医院高质量发展
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							科研数据中心，汇聚高质量医疗数据，让科研更高效
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					方案价值
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							智慧医疗：辅助医护人员提供更精确的医疗服务
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							智慧管理：医疗资源的科学配置和优化，提高医疗效率和质量
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							智慧服务：提供线上线下一体式主动式患者自助服务
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-btn-block" bi_parent_name="按钮"
+																		data-mod-name="child-component" data-mod-id="tabs[2].btn">
+																			<div class="scence-btn-list">
+																				<a class="por-btn por-btn-dark por-btn-middle por-btn-md-default" href="https://www.huaweicloud.com/consultation/?type=smarthealthcare"
+																				target="_blank">
+																					专家咨询
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="por-tab-content " data-mod-name="child-component" data-mod-id="tabs[3].showItems">
+												<div class="por-collapse-container">
+													<a class="por-collapse-trigger " data-toggle="por-collapse">
+														<div class="por-collapse-head-text">
+															数据可信流通
+														</div>
+														<i class="por-icon por-icon-down">
+														</i>
+													</a>
+													<div class="por-collapse ">
+														<div class="scence-content-wrapper row-reverse   ">
+															<div class="scence-content-img normal-image " data-mod-name="child-component"
+															data-mod-id="tabs[3].leftContent" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/数据可信流通.jpg')">
+																<img class="lazyload" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/Final/数据可信流通.jpg"
+																alt="">
+															</div>
+															<div class="scence-content-detail-outer">
+																<div class="scence-content-detail por-scrollbar-m">
+																	<div class="scroll-container">
+																		<div class="scence-content-detail-block" id="scence-maintitle-block" data-mod-name="child-component"
+																		data-mod-id="tabs[3].maintitle">
+																			<div class="por-text-title-t6 scence-maintitle-block_title hidden-mb">
+																				数据可信流通
+																			</div>
+																			<div class="scence-content-block_detail scence-maintitle-block_detail">
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-heading-block" data-mod-name="child-component"
+																		data-mod-id="tabs[3].heading">
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					业务挑战
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							数据流通互信难，缺乏权威、可信的数据流通基础环境
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							数据使用控制难，一旦“失控”，数据主体权益无法保障
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					解决方案
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							跨域数据交换“可信、可控、可证”
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							多种技术实现原始数据不出域，让数据“可用不可见”
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							面向多种数据角色，实现数据合规认证、可信、可计量、可追溯
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					方案价值
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							解决数据交换互信难的问题，确保数据可控流转
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							打破行业、企业间的数据孤岛，释放数据价值
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-btn-block" bi_parent_name="按钮"
+																		data-mod-name="child-component" data-mod-id="tabs[3].btn">
+																			<div class="scence-btn-list">
+																				<a class="por-btn por-btn-dark por-btn-middle por-btn-md-default" href="https://www.huaweicloud.com/consultation/?type=smarthealthcare"
+																				target="_blank">
+																					专家咨询
+																				</a>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-product-scene-diagram-v3',
+								data: {
+									"packages": {
+										"@cloud/pep-product-scene-diagram-v3": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.3.71/cnpm-pep-product-scene-diagram-v3/",
+											"version": "2.3.71"
+										},
+										"@cloud/lazyload": {
+											"path": "//portal.hc-cdn.com/cnpm-lazyload/2.0.10/",
+											"version": "2.0.10"
+										},
+										"@cloud/link-to": {
+											"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-product-scene-diagram-v3/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-product-scene-diagram-v3/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-product-scene-diagram-v3_1693358346872">
+					<div data-mod-name-pc="@cloud/pep-product-scene-diagram-v3/pc/index" data-mod-name-m="@cloud/pep-product-scene-diagram-v3/m/index"
+					class="pep-product-scene-diagram-v3" data-mod-name="pep-product-scene-diagram-v3">
+						<div class="por-section lazyload  por-section-merge-spacing  " data-bg="grey"
+						bi_parent_name="应用场景">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title hidden-mb">
+										端到端解决方案，加速释放数据价值
+									</h2>
+									<h2 class="por-section-title hidden-pc">
+										端到端解决方案，加速释放数据价值
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="por-tab-container combination">
+										<div class="por-tab-wrapper">
+											<div class="por-tab-content active" data-mod-name="child-component" data-mod-id="tabs[0].showItems">
+												<div class="por-collapse-container">
+													<div class="por-collapse show">
+														<div class="scence-content-wrapper  half  single-tab">
+															<div class="scence-content-img scence-image " data-mod-name="child-component"
+															data-mod-id="tabs[0].leftContent">
+																<img class="lazyload" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/智慧医疗架构图_2.png"
+																alt="">
+															</div>
+															<div class="scence-content-detail-outer">
+																<div class="scence-content-detail por-scrollbar-m">
+																	<div class="scroll-container">
+																		<div class="scence-content-detail-block" id="scence-heading-block" data-mod-name="child-component"
+																		data-mod-id="tabs[0].heading">
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					智慧应用
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							联合伙伴，以云商店联营模式为主，提供智慧医院行业应用
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							面向临床、运营、科研等场景提供数据分析应用
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					数据服务
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							基于华为制造数据管理方法论和实践，提供数据治理全价值链服务
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							通过健康服务总线实现医疗数据的实时共享交换
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																			<div class="scence-content-detail-subblock">
+																				<div class="por-text-title-t8 scence-heading-block_detail">
+																					数据平台
+																				</div>
+																				<div class="scence-secondary-block">
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							提供采集、存储、计算、管理、消费的数据全生命周期管理
+																						</p>
+																					</div>
+																					<div class="scence-content-block_detail scence-heading-block_detail decoration-dot">
+																						<p>
+																							支持公有云（HC）、私有云（HCS）及轻量化部署
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="scence-content-detail-block" id="scence-product-list" bi_parent_name="产品列表"
+																		data-mod-name="child-component" data-mod-id="tabs[0].productsList">
+																			<div class="por-text-title-t8 scence-content-detail_title">
+																				关联产品
+																			</div>
+																			<div class="por-row por-link-btn-group scence-content-detail-products">
+																				<div class="scence-content-block_detail por-col-12">
+																					<a href="https://www.huaweicloud.com/product/dayu.html" target="_blank"
+																					class="por-link-btn">
+																						<i class="scence-product-icon" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/DataArts.png')">
+																						</i>
+																						<span>
+																							数据治理中心 DataArts Studio
+																						</span>
+																					</a>
+																				</div>
+																				<div class="scence-content-block_detail por-col-12">
+																					<a href="https://www.huaweicloud.com/product/mrs.html" target="_blank"
+																					class="por-link-btn">
+																						<i class="scence-product-icon" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/MapReduce.png')">
+																						</i>
+																						<span>
+																							MapReduce服务 MRS
+																						</span>
+																					</a>
+																				</div>
+																				<div class="scence-content-block_detail por-col-12">
+																					<a href="https://www.huaweicloud.com/product/dws.html" target="_blank"
+																					class="por-link-btn">
+																						<i class="scence-product-icon" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/DWS.png')">
+																						</i>
+																						<span>
+																							云数据仓库 GaussDB(DWS)
+																						</span>
+																					</a>
+																				</div>
+																				<div class="scence-content-block_detail por-col-12">
+																					<a href="https://www.huaweicloud.com/product/iothub.html" target="_blank"
+																					class="por-link-btn">
+																						<i class="scence-product-icon" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/IoTDA.png')">
+																						</i>
+																						<span>
+																							设备接入 IoTDA
+																						</span>
+																					</a>
+																				</div>
+																				<div class="scence-content-block_detail por-col-12">
+																					<a href="https://www.huaweicloud.com/product/tics.html" target="_blank"
+																					class="por-link-btn">
+																						<i class="scence-product-icon" style="background-image: url('https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/YiLiao/YiYuan/ZhiHuiYiLiao/TICS.png')">
+																						</i>
+																						<span>
+																							可信智能计算服务 TICS
+																						</span>
+																					</a>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-product-scene-diagram-v3',
+								data: {
+									"packages": {
+										"@cloud/pep-product-scene-diagram-v3": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.3.71/cnpm-pep-product-scene-diagram-v3/",
+											"version": "2.3.71"
+										},
+										"@cloud/lazyload": {
+											"path": "//portal.hc-cdn.com/cnpm-lazyload/2.0.10/",
+											"version": "2.0.10"
+										},
+										"@cloud/link-to": {
+											"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-product-scene-diagram-v3/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-product-scene-diagram-v3/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-common-card-v2_1698999324127">
+					<div data-mod-name-pc="@cloud/pep-common-card-v2/pc/index" data-mod-name-m="@cloud/pep-common-card-v2/m/index"
+					class="pep-common-card-v2" data-mod-name="pep-common-card-v2" bi_parent_name="与领先的行业合作伙伴携手加速发展">
+						<div class="por-section   showMb" data-bg="grey">
+							<div class="por-container">
+								<div class="por-section-head">
+									<h2 class="por-section-title show-pc">
+										与领先的行业合作伙伴携手加速发展
+									</h2>
+									<h2 class="por-section-title show-mb">
+										与领先的行业合作伙伴携手加速发展
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="por-tab-container">
+										<div class="por-tab-wrapper">
+											<div class="por-tab-content active" data-mod-id="tabList[0].cards.products"
+											data-mod-name="child-component" bi_name="精选推荐" data-col-num="5" current-card-num=""
+											with-show-more="false">
+												<div class="por-row" data-layout-mb="" bi_name="精选推荐" count-down="false">
+													<div class="por-col card-container card-5" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/1699001017977470463.png"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/1699001017977470463.png"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			医渡云利用医疗人工智能，推动技术融合、业务融合，打通信息壁垒，帮助政府、医院和整个产业界充分挖掘医疗智能化政用和民用价值，践行健康中国战略
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-5" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo/旗云健康_1.jpg"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo/旗云健康_1.jpg"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			旗云健康利用自身中台+微服务的大数据和AI能力，在数据采集、治理和应用三个方面持续深耕，使得数据标准化程度更高，数据互联互通更优，数据应用更加有效
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-5" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/1699000994660768110.png"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/1699000994660768110.png"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			卫宁健康科技集团股份有限公司以“科技赋能，提升人们健康水平”为使命，业务覆盖智慧医院，智慧区域卫生，互联网+医疗健康等，致力于成为“数字健康领域值得信赖的服务提供者”
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-5" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo/众阳健康.jpg"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo/众阳健康.jpg"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			众阳健康科技集团专注我国医疗信息化事业20余年，是集软件研发、销售、培训和服务于一体的健康医疗信息技术综合解决方案提供商，以及互联网+医疗健康运营商
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="por-col card-container card-5" data-theme-bg="white" data-show="true"
+													data-end-time="">
+														<div class="card-link card-left" data-href="" rel="noopener noreferrer"
+														bi_name="">
+															<div class="por-card-icon">
+																<img class="lazyload show-pc" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/1698999900453365407.png"
+																data-image-size="80px" />
+																<img class="lazyload show-mb" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/logo2/1698999900453365407.png"
+																data-image-size="80px" />
+															</div>
+															<div class="por-card-content">
+																<h3 class="por-text-title-t8">
+																</h3>
+																<div style="display:block">
+																	<div class="desc por-text-body-t2">
+																		<p>
+																			坐标软件集团深耕大健康、大数据、人工智能、互联网+智慧医疗等前沿领域，始终专注于医疗信息化系统研发与升级，为全国医疗机构提供高品质的产品与服务
+																		</p>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-common-card-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-common-card-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.3.24/cnpm-pep-common-card-v2/",
+											"version": "2.3.24"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										},
+										"@cloud/portal-utils": {
+											"path": "//res.hc-cdn.com/cnpm-portal-utils/1.4.16/",
+											"version": "1.4.16"
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-product-customer-v2_1691029676090">
+				</div>
+				<div data-mod-id="pep-product-process-v2_1693385080957">
+					<div data-mod-name-pc="@cloud/pep-product-process-v2/pc/index" data-mod-name-m="@cloud/pep-product-process-v2/m/index"
+					class="pep-product-process-v2" data-mod-name="pep-product-process-v2" data-with-cps="">
+						<div class="por-section  " data-bg="light" pc-src="" mb-src="">
+							<div class="por-container">
+								<div class="por-section-head" data-theme="">
+									<h2 class="por-section-title hide-pc">
+										咨询流程
+									</h2>
+									<h2 class="por-section-title hide-mb">
+										咨询流程
+									</h2>
+								</div>
+								<div class="por-section-body">
+									<div class="section-content">
+										<div class="por-carousel">
+											<div class="por-row por-carousel-wrapper">
+												<div class="por-col process-container process-4 por-carousel-slide">
+													<p class="icon-process">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/1.png"
+														/>
+													</p>
+													<div class="process-text-container">
+														<a class="process-title-container">
+															<h3 class="por-text-title-t8 process-title">
+																需求咨询
+															</h3>
+														</a>
+														<div class="por-text-body-t2 process-desc">
+															<p>
+																提交相关需求，描述需求背景
+															</p>
+														</div>
+													</div>
+													<div class="process-arrow-container">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/JiaoYu/JiChuJiaoYu/QuYuJiaoYuYun/1691046194442353775.png"
+														/>
+													</div>
+												</div>
+												<div class="por-col process-container process-4 por-carousel-slide">
+													<p class="icon-process">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/2.png"
+														/>
+													</p>
+													<div class="process-text-container">
+														<a class="process-title-container">
+															<h3 class="por-text-title-t8 process-title">
+																初步沟通
+															</h3>
+														</a>
+														<div class="por-text-body-t2 process-desc">
+															<p>
+																需求答疑，对齐核心诉求，确定合作意向
+															</p>
+														</div>
+													</div>
+													<div class="process-arrow-container">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/JiaoYu/JiChuJiaoYu/QuYuJiaoYuYun/1691046194442353775.png"
+														/>
+													</div>
+												</div>
+												<div class="por-col process-container process-4 por-carousel-slide">
+													<p class="icon-process">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/3.png"
+														/>
+													</p>
+													<div class="process-text-container">
+														<a class="process-title-container">
+															<h3 class="por-text-title-t8 process-title">
+																方案交流
+															</h3>
+														</a>
+														<div class="por-text-body-t2 process-desc">
+															<p>
+																针对相关方案进行线上或线下的交流探讨
+															</p>
+														</div>
+													</div>
+													<div class="process-arrow-container">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/JiaoYu/JiChuJiaoYu/QuYuJiaoYuYun/1691046194442353775.png"
+														/>
+													</div>
+												</div>
+												<div class="por-col process-container process-4 por-carousel-slide">
+													<p class="icon-process">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/4.png"
+														/>
+													</p>
+													<div class="process-text-container">
+														<a class="process-title-container">
+															<h3 class="por-text-title-t8 process-title">
+																商务流程
+															</h3>
+														</a>
+														<div class="por-text-body-t2 process-desc">
+															<p>
+																方案确定后，开始执行商务流程
+															</p>
+														</div>
+													</div>
+													<div class="process-arrow-container">
+														<img class="lazyload" data-src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/HangYe/JiaoYu/JiChuJiaoYu/QuYuJiaoYuYun/1691046194442353775.png"
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="por-carousel-prev-container">
+											<span class="por-carousel-prev">
+											</span>
+										</div>
+										<div class="por-carousel-next-container">
+											<span class="por-carousel-next">
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-product-process-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-product-process-v2": {
+											"path": "//portal.hc-cdn.com/cnpm-pep-components/2.4.31/cnpm-pep-product-process-v2/",
+											"version": "2.4.31"
+										},
+										"@cloud/activity-iframe": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-iframe/1.2.21/",
+											"version": "1.2.21"
+										},
+										"@cloud/activity-npm": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-npm/1.0.17/",
+											"version": "1.0.17"
+										},
+										"@cloud/activity-uba": {
+											"path": "//portal.hc-cdn.com/cnpm-activity-uba/1.0.8/",
+											"version": "1.0.8"
+										},
+										"@cloud/dialog": {
+											"path": "//portal.hc-cdn.com/cnpm-dialog/1.0.2/",
+											"version": "1.0.2"
+										},
+										"@cloud/login": {
+											"path": "//portal.hc-cdn.com/cnpm-login/3.1.34/",
+											"version": "3.1.34"
+										},
+										"@cloud/link-to": {
+											"path": "//portal.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//portal.hc-cdn.com/cnpm-lazyload/2.0.10/",
+											"version": "2.0.10"
+										},
+										"@cloud/portal-utils": {
+											"path": "//portal.hc-cdn.com/cnpm-portal-utils/1.4.29/",
+											"version": "1.4.29"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//portal.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-product-process-v2/pc/index": {
+											"requires": ["@cloud/dialog", "@cloud/lazyload", "@cloud/link-to", "@cloud/login", "@cloud/portal-utils"]
+										},
+										"@cloud/pep-product-process-v2/m/index": {
+											"requires": ["@cloud/dialog", "@cloud/lazyload", "@cloud/link-to", "@cloud/login", "@cloud/portal-utils"]
+										},
+										"@cloud/activity-iframe/index": {
+											"requires": ["@cloud/activity-uba", "@cloud/login", "@cloud/activity-npm", "@cloud/dialog", "@cloud/link-to", "@cloud/portal-utils"]
+										},
+										"@cloud/login/index": {
+											"requires": ["@cloud/portal-utils", "@cloud/link-to"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div data-mod-id="pep-common-ad-v2_1691030610216">
+					<div data-mod-name-pc="@cloud/pep-common-ad-v2/pc/index" data-mod-name-m="@cloud/pep-common-ad-v2/m/index"
+					class="pep-common-ad-v2" data-mod-name="pep-common-ad-v2" data-bg="grey"
+					style="background-image: url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/solution/PEP2.0/1691045395978486888.jpg)">
+						<div class="bg-mb mb" style="background-image: url()">
+						</div>
+						<div class="por-section por-section-merge-spacing-top">
+							<div class="por-container">
+								<div class="por-section-body">
+									<div class="common-ad-title">
+										进一步了解
+										<br>
+										您的
+										<p style='background-image:url(https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/commons/gradient.jpg)'>
+											智慧医疗
+										</p>
+										需求
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<script>
+							window.gConfig = window.gConfig || {};
+							window.gConfig.seed = window.gConfig.seed || [];
+							window.gConfig.seed.push({
+								name: '@cloud/pep-common-ad-v2',
+								data: {
+									"packages": {
+										"@cloud/pep-common-ad-v2": {
+											"path": "//res.hc-cdn.com/cnpm-pep-components/2.2.49/cnpm-pep-common-ad-v2/",
+											"version": "2.2.49"
+										},
+										"@cloud/link-to": {
+											"path": "//res.hc-cdn.com/cnpm-link-to/3.1.9/",
+											"version": "3.1.9"
+										},
+										"@cloud/lazyload": {
+											"path": "//res.hc-cdn.com/cnpm-lazyload/2.0.8/",
+											"version": "2.0.8"
+										},
+										"@cloud/xtemplate-runtime": {
+											"path": "//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/",
+											"version": "1.0.1"
+										}
+									},
+									"modules": {
+										"@cloud/pep-common-ad-v2/m/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										},
+										"@cloud/pep-common-ad-v2/pc/index": {
+											"requires": ["@cloud/link-to", "@cloud/lazyload"]
+										}
+									}
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<script>
+					window.gConfig = window.gConfig || {};
+					window.gConfig.seed = window.gConfig.seed || [];
+					window.$devPath = {};
+					for (var i = 0; i < window.gConfig.seed.length; i++) {
+						var tmpSeed = window.gConfig.seed[i].data;
+						var name = window.gConfig.seed[i].name;
+						if (tmpSeed && tmpSeed.packages && window.$devPath[name]) {
+							tmpSeed.packages[name] = window.$devPath[name];
+						}
+					}
+				</script>
+			</div>
+		</div>
+		<script>
+			var components = $("#common-components-container").children("div:not([data-mod-id='pep-empty-page'])");
+			var count = 0;
+			for (var i = 0; i < components.length; i++) {
+				var tempComponent = $(components[i]);
+				if (tempComponent.children().length > 0) {
+					tempComponent.attr("id", "section-" + count);
+					count++;
+				}
+
+				tempComponent = null;
+			}
+		</script>
+		<div id="register">
+		</div>
+		<div id="service">
+		</div>
+
+		<div id="footer" bi_parent_name="footer" meta-data-adjust-app="hide">
+
+			<div class="footer-nav" meta-data-adjust-app="hide">
+				<div class="footer-nav-wrapper">
+
+				</div>
+			</div>
+			<div class="footer-copyright-container">
+
+			</div>
+			<script>
+				if (window.screen.width < 1024) {
+					$('#footer-nav-app').attr('href', $('#footer-nav-app').attr("src-href"));
+				}
+			</script>
+		</div>
+		<script>
+			var originsWhiteList = ['https://www.huaweicloud.com', 'https://activity.huaweicloud.com', 'https://support.huaweicloud.com', 'https://beian.huaweicloud.com'];
+			var currentOrigin = originsWhiteList.includes(window.location.origin) ? window.location.origin: 'https://www.huaweicloud.com';
+			var url = currentOrigin + "/common/header-footer-china-zh-2023.html";
+			var $tmpForPEP = document.createElement("div");
+			$.ajax({
+				url: url,
+				async: true,
+				timeout: 10000,
+				success: function(response) {
+					$tmpForPEP.innerHTML = response;
+					// 下拉部分
+					$("#footer").append($tmpForPEP.querySelector("#edit-header-drop").innerHTML);
+					var scripts = ["https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.39/header-and-footer-china.umd.js?sttl=1.1.94&ttr=1.1.94", "https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/js/portalLogin.min.js?sttl=1.1.94&ttr=1.1.94"];
+					for (var i = 0; i < scripts.length; i++) {
+						var script = document.createElement('script');
+						script.type = 'text/javaScript';
+						script.setAttribute('crossorigin', 'anonymous');
+						script.src = scripts[i];
+						document.getElementsByTagName('body')[0].appendChild(script);
+					}
+				},
+				error: function(response) {
+					var scripts = ["https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.39/header-and-footer-china.umd.js?sttl=1.1.94&ttr=1.1.94", "https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/js/portalLogin.min.js?sttl=1.1.94&ttr=1.1.94"]
+					for (var i = 0; i < scripts.length; i++) {
+						var script = document.createElement('script');
+						script.type = 'text/javaScript';
+						script.setAttribute('crossorigin', 'anonymous');
+						script.src = scripts[i];
+						document.getElementsByTagName('body')[0].appendChild(script);
+					}
+				}
+			});
+
+			if (!window.gConfig) {
+				window.gConfig = {}
+			}
+			window.gConfig.isApp = /galaxy/i.test(navigator.userAgent) && window.galaxy;
+			// 初始化全局变量
+			var jsonParamInit = {}
+			var jsonParamView = {}
+			var jsonParamEvent = {}
+			jsonParamInit['UserAccount'] = 'host'jsonParamEvent['rec_account'] = getUaCookie('ua') jsonParamView['rec_account'] = getUaCookie('ua') var portalDomain = 'https://portal.huaweicloud.com',
+			ssoDomain = 'https://auth.huaweicloud.com'
+			var isVerified = false
+			var isLogin = false
+			var totalMsg = 0;
+			function getUaCookie(c_name) {
+				if (document.cookie.length > 0) {
+					var c_start = document.cookie.indexOf(c_name + '=') if (c_start != -1) {
+						c_start = c_start + c_name.length + 1
+						var c_end = document.cookie.indexOf(';', c_start) if (c_end == -1) c_end = document.cookie.length
+						return decodeURI(document.cookie.substring(c_start, c_end))
+					}
+				}
+				return ''
+			}
+		</script>
+		<script>
+			if (window.location.href.indexOf('subsite') < 0) {
+				window.addEventListener('DOMContentLoaded',
+				function(event) {
+					if (/pcloudApp/i.test(navigator.userAgent)) {
+						$("#footer").css('display', 'none');
+					} else {
+						$("#footer").css('display', 'block');
+					}
+				})
+			}
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/ViewMotion.min.1.2.js?sttl=1.1.94">
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/v2/dcSlideShow.min.js?20171012&sttl=1.1.94">
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/swiper-3.4.2.jquery.min.js?20171012&sttl=1.1.94">
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/product/js/checkURL.js?sttl=1.1.94">
+		</script>
+		<div class="por-modal por-modal-player" data-hide="modal" id="common-video-play-modal">
+			<div class="por-player">
+				<video class="por-native" controls="" src="">
+				</video>
+				<i class="por-player-close" data-hide="modal">
+				</i>
+			</div>
+		</div>
+		<script>
+			// 链接为视频链接，处理统一使用portalUI播放器打开
+			$("[href*='mp4']").on('click',
+			function(event) {
+				if ($(event.target).closest("[data-show],[data-src],[video-src]").length === 0) {
+					var $target = $(event.target).closest("[href*='mp4']");
+					// 当前触发target的href属性为视频链接
+					var targetHref = $target.attr('href');
+					if (targetHref && targetHref.includes('mp4')) {
+						var $videoModal = $('#common-video-play-modal');
+						var $videoInModal = $('#common-video-play-modal video');
+						if ($videoModal.length && $videoInModal.length) {
+							event.preventDefault();
+							$videoInModal.attr('src', targetHref) $videoModal.porModal('show') event.stopPropagation();
+						}
+					}
+				}
+			});
+		</script>
+		<style type="text/css">
+			#header { height: 100px; } @media (max-width: 768px) { #header { height:
+			44px; } }
+		</style>
+		<script>
+			function dealWithImageHTL() {
+				if (/pcloudApp/i.test(navigator.userAgent)) {
+					$("[data-pep-src]").hide();
+					return;
+				} else {
+					var str = window.location.search;
+					var suband = "type=android";
+					var subios = "type=ios";
+					if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+						$("[data-pep-src]").hide();
+						return;
+					}
+				}
+				$("[data-pep-src]").each(function() {
+					$(this).attr("src", $(this).attr("data-pep-src"));
+				});
+			}
+
+			dealWithImageHTL();
+		</script>
+		<script>
+			//display video for product-VideoTutorials-v5
+			$('.product-video-list li').each(function() {
+				var pcUrl = $(this).attr("data-vedio-pc-url") || '';
+				var mbUrl = $(this).attr("data-video-mb-url") || pcUrl || '';
+				var ua = navigator && navigator.userAgent;
+				if ((/Android|webOS|iPhone|iPod|Windows Phone|(BlackBerry).*Version|(BB10).*Version|IEMobile|Opera Mini/i).test(ua)) {
+					$(this).find(".product-play-btn2").on('click',
+					function() {
+						play(encodeURI(mbUrl), '')
+					})
+				} else {
+					$(this).find(".product-play-btn2").on('click',
+					function() {
+						play(encodeURI(pcUrl), '')
+					})
+				}
+			}) window.channelFrom = $('#content').attr('data-channelFrom');
+			window.hrefName = $('#content').attr('data-hrefName');
+			if ($('#content').attr('data-site') == 'hk') {
+				localStorage.setItem('currentActivitySite', 'hk');
+			} else {
+				localStorage.setItem('currentActivitySite', 'china');
+			}
+		</script>
+		<script>
+			var furionAppCode = '';
+			var $currentUrl = location.href;
+			if ($currentUrl.indexOf("/price_detail.html") != -1 || $currentUrl.indexOf("/pricing.html") != -1 || $currentUrl.indexOf("/pricing/index.html") != -1) {
+				furionAppCode = 'D00903385CF649FCA048B5DE1C1E6D4E';
+			} else if ($currentUrl.indexOf("https://activity.huaweicloud.com") == 0) {
+				furionAppCode = '51D7385A7D2B4937BB45DC755E82C48C';
+			} else if ($currentUrl.indexOf("https://www.huaweicloud.com") == 0) {
+				furionAppCode = '7D9AB7C5E01D4698B7B918065C762796';
+			} else if ($currentUrl.indexOf("https://support.huaweicloud.com") == 0) {
+				furionAppCode = '1C04D12EB0F8479A9DA9A24639FCA81C';
+			}
+			if (!window.__fr && furionAppCode) { !
+				function(x, n) {
+					window[n] = window[n] || {};
+					window[n].config = {
+						appId: furionAppCode,
+						setting: "api,jsTrack,uba,longtask,rtti",
+						hashMode: true,
+						closeReportFMP: true,
+					};
+					var o = document.createElement('script');
+					o.src = x,
+					o.async = !0;
+					var d = document.body.firstChild;
+					document.body.insertBefore(o, d);
+				} ('https://portal.hc-cdn.com/FurionSdkStatic/3.6.30/furion-cdn.min.js', '__fr');
+			}
+		</script>
+		<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/bi_new.js?sttl=1.1.94">
+		</script>
+		<script src="https://portal.hc-cdn.com/cnpm-baseui/3.0.16/theme-token.js?sttl=1.1.94&ttr=1.1.94"
+		crossorigin="anonymous">
+		</script>
+		<script type="text/javascript" src="https://res-static.hc-cdn.cn/aem/content/cloudbu-site/resource/common/feloader.js?sttl=1.1.94&ttr=1.1.94"
+		crossorigin="anonymous">
+		</script>
+		<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.94/js/global.min.js"
+		crossorigin="anonymous">
+		</script>
+		<div class="hide-sttl" style="height:0;width:0" data-sttl="1.1.94">
+		</div>
+		<script>
+			window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
+		</script>
+		<script>
+			$('body').addClass('header-white');
+
+			if (!/pcloudApp/i.test(navigator.userAgent)) {
+				$("#header").css("display", "block");
+			}
+		</script>
+		<script>
+			// edit--china--en-us--declaration
+			var $ts_site = "china";
+			var $ts_lang = "zh-cn".replace("_", "-");
+			var $lang_site_gate = $ts_site !== "eu" && $ts_lang !== "tr-tr";
+			var $ts_domain = window.location.host.split('.')[1] ? window.location.host.split('.')[0] : 'localhost';
+			var $pepchannel = "solution/health/hospital/smarthealthcare.html".split("/").join("_").replace(".html", "");
+			window.matedataDomain = $ts_domain;
+
+			// if open in app, should change ts_domain in to "app"
+			if (/pcloudApp/i.test(navigator.userAgent)) {
+				window.matedataDomain = "app";
+			} else {
+				var str = window.location.search;
+				var suband = "type=android";
+				var subios = "type=ios";
+				if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+					window.matedataDomain = "app";
+				}
+			}
+
+			// 新系统中生成的方式需要改下
+			window.pageMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + ".click.";
+			window.headerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_navigation.click.";
+			window.footerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_footer.click.";
+			window.registerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_register.click.";
+			window.serviceMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_service.click.";
+			window.pep_uaid = ($ts_site == "china") ? "UA-55836286-1": "UA-55836286-39";
+			window.mate_data_ts_pageType = $pepchannel;
+		</script>
+		<script>
+			function showFooter() {
+				if (window.matedataDomain != "app") {
+					$("#footer .footer-nav").css('display', 'block');
+					$("#footer .footer-copyright-container").css('display', 'block');
+					$(".footer-service .footer-wrapper").css('display', 'block');
+					$("#footer #videoDiv").css('display', 'none');
+				}
+			}
+			if (window.feloader) {
+				feloader.onLoad(function() {
+					feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css');
+					feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css');
+					feloader.getScript('https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js?sttl=' + window.sttlVersion);
+					feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=' + new Date().getTime());
+					showFooter();
+				})
+			} else {
+				document.write("<script src='https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js'><\/script>");
+				document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css'>");
+				document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css'>");
+				document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=" + new Date().getTime() + "'>");
+				showFooter();
+			}
+		</script>
+		<script src="https://portal.hc-cdn.com/bi/uba.in.js?v=2.17">
+		</script>
+		<script>
+			function guidGenerator() {
+				var d = (new Date).getTime();
+				var uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,
+				function(c) {
+					var r = (d + Math.random() * 16) % 16 | 0;
+					d = Math.floor(d / 16);
+					return (c == "x" ? r: r & 3 | 8).toString(16)
+				});
+				return uuid
+			}
+
+			var _ubaParams = _ubaParams || {};
+			_ubaParams.cloudBIType = 2;
+			_ubaParams.download;
+			_ubaParams.download_suc = 1;
+			_ubaParams.Num2 = 2;
+			_ubaParams.Num4 = 4;
+			_ubaParams.sdkGaUpload = "2";
+			_ubaParams.biReqQueue = _ubaParams.biReqQueue || [];
+			_ubaParams.gaReqQueue = _ubaParams.gaReqQueue || [];
+			_ubaParams.isGAReady = false;
+			_ubaParams.isGAUpload = false;
+			_ubaParams.userAccount;
+			_ubaParams.pageViewID = _ubaParams.pageViewID || guidGenerator();
+			_ubaParams.bi_C1_20 = ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C20"];
+			_ubaParams.bi_D1_20 = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12", "D13", "D14", "D15", "D16", "D17", "D18", "D19", "D20"];
+			_ubaParams.timinhObj = window.performance ? window.performance.timing: "";
+			_ubaParams.memberID = "";
+			_ubaParams.siteId = "";
+			_ubaParams.companyID = "";
+			_ubaParams.downloadHeat;
+			_ubaParams.downloadHeat_suc = 1;
+			_ubaParams.ReqQueueSend = function(ReqQueue) {
+				if (ReqQueue && ReqQueue.length > 0) {
+					while (ReqQueue.length > 0) {
+						var req = ReqQueue.pop();
+						if (typeof req == "object") {
+							if (req.type == "event") {
+								if (req.jp) {
+									req.jp.transport = "beacon"
+								}
+								ga("send", "event", req.ec, req.ea, req.el, req.ev, req.jp)
+							} else if (req.type == "pageview") {
+								if (req.jp) {
+									req.jp.transport = "beacon"
+								}
+								ga("send", "pageview", req.page, req.jp)
+							} else if (req.type == "sendPageView") {
+								_sendPageView(req.page, req.jp)
+							} else if (req.type == "sendEvent") {
+								_sendEvent(req.en, req.ec, req.ea, req.el, req.ev, req.jp)
+							}
+						}
+					}
+				}
+			};
+
+			window.ifInitBi = false;
+
+			function getGrayCookie(name) {
+				var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+				if (arr = document.cookie.match(reg)) return unescape(arr[2]);
+				else return '';
+			}
+
+			if ((document.referrer && document.referrer.indexOf('huaweicloud') === -1) || // 渠道来源，立即上报
+			window.location.search.indexOf('pageviewNow') !== -1) { // 强制上报，也进行
+				if ($lang_site_gate) {
+					pageViewNow();
+					// 然后引入ubajs，保证页面埋点事件的正常上报
+					var isGray = getGrayCookie("gpbc");
+					var ubajs = "https://portal.hc-cdn.com/bi/uba.js";
+					if (isGray && isGray.length > 10) {
+						ubajs = "https://portal.hc-cdn.com/bi/alpha/uba.js"
+					}
+					$(document).ready(function() {
+						$.getScript(ubajs,
+						function() {});
+					});
+				}
+
+			}
+
+			window.cnpmDefaultLoginCallback = function(_loginData) {
+				if (!window.ifInitBi) {
+					window.ifInitBi = true;
+					try {
+						if (typeof window.initBi === 'function') {
+							window.initBi(window.jsonParamInit, window.jsonParamView, window.jsonParamEvent);
+						}
+						if (!window.isLogin) {
+							window.promptQueryIP && window.promptQueryIP();
+						}
+					} catch(e) {}
+				}
+			};
+
+			function init(statType, appKey, gaid, jsonParam) {
+				if (arguments.length != _ubaParams.Num4) {
+					return
+				}
+				if (! (jsonParam.UserAccount && typeof appKey == "string")) {
+					return
+				}
+				if (jsonParam && jsonParam.siteId) {
+					_ubaParams.siteId = jsonParam.siteId
+				}
+				if (jsonParam && jsonParam.companyID) {
+					_ubaParams.companyID = jsonParam.companyID
+				}
+				_ubaParams.memberID = jsonParam.MemberID || "";
+				_ubaParams.userAccount = jsonParam.UserAccount;
+				if (_ubaParams.download === _ubaParams.download_suc) {
+					_initCloudBI(appKey, jsonParam)
+				} else {
+					_initCloudBI(appKey, jsonParam);
+					_ubaParams.download = _ubaParams.download_suc;
+					_ubaParams.ReqQueueSend(_ubaParams.biReqQueue)
+				}
+			}
+
+			var initCBISDK = init;
+
+			function isLoadStarted() {
+				var flag = true;
+				return flag
+			}
+
+			function onEvent(eventCategory, eventAction, eventLabel, eventValue, jsonParam) {
+				if (arguments.length < _ubaParams.Num2) {
+					return
+				}
+				if (! (eventCategory && typeof eventCategory == "string")) {
+					return
+				}
+				if (! (eventAction && typeof eventAction == "string")) {
+					return
+				}
+				var eventName = eventCategory + "_" + eventAction;
+				if (jsonParam && jsonParam.eventPrivacyName) {
+					eventName = jsonParam.eventPrivacyName
+				}
+				if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+					_sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+				} else if (_ubaParams.download == _ubaParams.download_suc && !isLoadStarted()) {
+					window.addEventListener("load",
+					function(event) {
+						_sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+					})
+				} else {
+					_ubaParams.biReqQueue.push({
+						type: "sendEvent",
+						en: eventName,
+						ec: eventCategory,
+						ea: eventAction,
+						el: eventLabel,
+						ev: eventValue,
+						jp: jsonParam
+					})
+				}
+			}
+
+			function onPageView(page, jsonParam) {
+				if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+					_sendPageView(page, jsonParam)
+				} else {
+					_ubaParams.biReqQueue.push({
+						type: "sendPageView",
+						page: page,
+						jp: jsonParam
+					});
+					_ubaParams.ReqQueueSend(_ubaParams.biReqQueue);
+				}
+			}
+			function onDmpa(userId, jsonParam) {}
+			function onException(exceptionMessage, exceptionStack, jsonParam) {}
+
+			function pageViewNow() {
+				// uba.js start
+				if (!Array.prototype.indexOf) {
+					Array.prototype.indexOf = function(val) {
+						var value = this;
+						for (var i = 0; i < value.length; i++) {
+							if (value[i] == val) return i
+						}
+						return - 1
+					}
+				}
+				// uba.js end
+				if (!window.ifInitBi) {
+					window.ifInitBi = true;
+					var $ts_site = "china";
+					window.pep_uaid = ($ts_site == "china") ? "UA-55836286-1": "UA-55836286-39";
+
+					init(2, "c9770c4dac06fe3b76ec9c7ad47273d0", window.pep_uaid, jsonParamInit);
+					var domain_pre = (window.location.host || "").split(".")[0] || "";
+					autoEventTracking(domain_pre, jsonParamEvent) if (window.ab_test) {
+						jsonParamView.ab_test = window.ab_test
+					}
+					if (window.ab_version) {
+						jsonParamView.ab_version = window.ab_version
+					}
+					window.channelFrom = window.channelFrom || $('#content').attr('data-channelFrom');
+					if (typeof channelFrom != "undefined") {
+						if (channelFrom) {
+							jsonParamInit["D17"] = channelFrom;
+							jsonParamView["D17"] = channelFrom;
+						}
+					}
+
+					jsonParamView['rec_account'] = getUaCookie('ua') jsonParamView["C1"] = $(document).attr("title");
+					jsonParamView["D15"] = "HC";
+
+					onPageView(window.location.pathname + window.location.search, jsonParamView);
+
+				}
+			}
+		</script>
+		<script>
+			if (window.$aioList && window.$aioList.length > 0) {
+				for (var i = 0; i < window.$aioList.length; i++) {
+					var tmpComponent = window.$aioList[i];
+					if (tmpComponent) {
+						var tmpComponentInfo = tmpComponent.split("/");
+						if (tmpComponentInfo.length == 2) {
+							var name = tmpComponentInfo[0];
+							var version = tmpComponentInfo[1];
+							var tmpComponentWrapperEle = $('[data-mod-name="' + name + '"]');
+							var eleVersionAttr = tmpComponentWrapperEle.attr("data-mod-version");
+							if (eleVersionAttr && eleVersionAttr != version) {
+								var linkEle = $('head link[href*="' + name + '/' + version + '"]');
+								linkEle.attr("href", linkEle.attr("href").replace(version, eleVersionAttr));
+							}
+						}
+					}
+				}
+			}
+		</script>
+		<script>
+			// document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
+			window.refLan = "";
+			window.$PEP = true;
+
+			function getSiteFromURL() {
+				url = window.location.host;
+				urlArr = url.split(".");
+				if (urlArr[0] == "www") {
+					reg = "CN";
+				} else {
+					reg = "HK"
+				}
+				return reg;
+			}
+			var siteStr = $('html').attr("site") if (siteStr) {
+				window.reg = siteStr == "china" ? "CN": siteStr.toUpperCase();
+			} else {
+				window.reg = getSiteFromURL();
+			}
+
+			window.promptLan = $('html').attr("lang");
+
+			if (document.referrer != "") {
+				if (document.referrer.indexOf("/authui/login") == -1) {
+					if (document.referrer.indexOf(".com/intl") != -1) {
+						window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN": ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US": "es-US");
+					} else {
+						window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US": "zh-CN";
+					}
+				} else {
+					//window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
+					if (document.referrer.indexOf("locale=") != -1) {
+						window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN": ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US": "es-US");
+					} else {
+						window.refLan = window.promptLan;
+					}
+				}
+			} else {
+				window.refLan = window.promptLan;
+			}
+		</script>
+		<!--/* 55 trace for some special page */-->
+		<script>
+			!
+			function($) {
+				if (window.dataLayer && window.dataLayer.push) {
+
+					if (window.location.pathname == "/consultation/") {
+						$("#submitBtn").click(function(e) {
+							window.dataLayer.push({
+								"event": "consultSubmit",
+								"productName": $("#applicationscene").val()
+							});
+						})
+					}
+
+					$("#header .header-login").click(function(e) {
+						window.dataLayer.push({
+							"event": "loginIntention"
+						})
+					});
+
+					$("#header .header-register").click(function(e) {
+						window.dataLayer.push({
+							"event": "creationIntention",
+							"pageType": window.mate_data_ts_pageType,
+							"pagePosition": "Header"
+						})
+					});
+
+				}
+			} (jQuery);
+		</script>
+		<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/apm/wise_trace.min.js?sttl=1.1.94">
+		</script>
+		<script>
+			$("a[href*='/pep-dialog/']").each(function() {
+				var ele = $(this);
+				var href = ele.attr("href");
+				var path = href.replace(/.html/g, "");
+				var ajaxPath = path.indexOf("activity/") == -1 ? path: path.split("activity/")[1];
+				var arr = path.split("/");
+				var dialogName = arr[arr.length - 1];
+				var location_lang = $('html').attr('lang').toLowerCase();
+				var site = $('html').attr('site').toLowerCase() == 'china' ? 'china': 'hk'; //  站点判断，国内：china；国际站：hk
+				var dialogUrl = (window.location.host.indexOf(".com") != -1 && window.location.host.indexOf("pep.huaweicloud.com") == -1) ? "https://" + window.location.host + "/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled": "/content/cloudbu-site/" + site + "/" + location_lang + "/activity/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled";
+				ele.css('pointer-events', 'auto');
+				ele.on("click",
+				function(e) {
+					e.stopPropagation();
+					e.preventDefault();
+					if ($("body [data-pep-path*='" + dialogName + "']").length !== 0) {
+						$("body [data-pep-path*='" + dialogName + "']").remove();
+					}
+					// dialog for activity
+					$.ajax({
+						url: dialogUrl,
+						success: function(data) {
+							if (data) {
+								data = data.replace('block', 'none');
+								$("body").append(data);
+								$("#modal-rule").html($("body [data-pep-path*='" + dialogName + "']").html());
+								window.activityModal.show('#modal-rule', true);
+							}
+						}
+					})
+				});
+			});
+		</script>
+	</body>
+
+</html>
+{% endblock %}

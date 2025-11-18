@@ -1,4 +1,3 @@
-markdown
 # 华为云代理商企业官网
 
 ![华为云](https://img.shields.io/badge/华为云-金牌代理商-FF6A00.svg)

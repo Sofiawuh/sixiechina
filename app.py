@@ -111,7 +111,9 @@ def call_ai_api(user_message, conversation_history):
 def index():
     return render_template('index.html')
 
-
+@app.route('/product')
+def product():
+    return render_template('product.html')
 @app.route('/case/')
 def case():
     return render_template('case.html')

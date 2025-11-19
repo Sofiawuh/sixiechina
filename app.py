@@ -171,7 +171,13 @@ def insight():
 @app.route('/20250702/')
 def news_20250702():
     return render_template('20250702.html')
+@app.route('/20251114/')
+def news_20251114():
+    return render_template('20251114.html')
 
+@app.route('/20250929/')
+def news_20250929():
+    return render_template('20250929.html')
 
 @app.route('/20250626/')
 def news_20250626():
@@ -186,6 +192,14 @@ def news_20250625():
 @app.route('/20250624/')
 def news_20250624():
     return render_template('20250624.html')
+
+@app.route('/youyun/')
+def youyun():
+    return render_template('youyun.html')
+
+@app.route('/pioneers100/')
+def pioneers100():
+    return render_template('pioneers100.html')
 
 
 @app.route('/20250621/')
@@ -211,6 +225,10 @@ def news_20250604():
 @app.route('/20250529/')
 def news_20250529():
     return render_template('20250529.html')
+
+@app.route('/20250812/')
+def news_20250812():
+    return render_template('20250812.html')
 
 
 # ========== 案例页面路由 ==========

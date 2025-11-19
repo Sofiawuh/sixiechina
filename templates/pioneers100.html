@@ -1,0 +1,2162 @@
+{% extends "base.html" %} {% block title %}案例{% endblock %} {% block content %}
+
+<!doctype html>
+<div class="case-detail-page" style="margin-top: 80px; padding-top: 7px;">
+
+<!doctype html>
+
+<html lang="zh-CN" site="china">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="applicable-device" content="pc,mobile">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="baidu-site-verification" content="nsMgQr28vc" />
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        
+        
+        <meta name="templateName" content="common-pep2.0">
+        
+        
+
+<title>云上万象中国_华为云</title>
+<meta name="keywords" content="华为云stack,案例,深度用云  " />
+<meta name="description" content="精选先锋优质案例，华为云Stack服务于全球5500+政企客户，与深度用云先行者一路同行。" />
+<link rel="canonical" href="https://www.huaweicloud.com/cases/pioneers100.html"/>
+
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta name="pep-template-version" content="1.9.4" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests;" />
+
+
+
+
+
+<link rel="icon" href="https://www.huaweicloud.com/favicon.ico">
+
+
+
+
+    
+        <link rel="stylesheet"
+            href="https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/css/global.min.css?sttl=1.2.3&ttr=1.2.3" crossorigin="anonymous"/>
+        <!--/* header css */-->
+        <link rel="stylesheet"
+            href="https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.46/index.css?sttl=1.2.3&ttr=1.2.3" crossorigin="anonymous">
+        <style>
+            @media(max-width:768px) {
+                #header {
+                    display: none;
+                }
+            }
+
+            #footer .footer-nav {
+                display: none;
+            }
+
+            #footer .footer-copyright-container {
+                display: none;
+            }
+
+            .footer-service .footer-wrapper {
+                display: none;
+            }
+        </style>
+    
+
+
+
+<link rel="stylesheet" href="https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.css">
+
+<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/jquery.min.js" crossorigin="anonymous"></script>
+
+<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/js/libs.min.js"></script>
+
+<!--  -->
+
+<meta name="google-site-verification" content="wQwSWDVSYQzH1niLqcUE15XH1_j_rN1T9-mbq2r6Dmw" />
+<meta name="sogou_site_verification" content="u4x6sJNooE" />
+<link rel="dns-prefetch" href="https://res-static.hc-cdn.cn" />
+<link rel="dns-prefetch" href="https://portal.hc-cdn.com" />
+<link rel="dns-prefetch" href="https://support.huaweicloud.com" />
+<link rel="dns-prefetch" href="https://activity.huaweicloud.com" />
+<link rel="dns-prefetch" href="https://portal.huaweicloud.com" />
+<link rel="dns-prefetch" href="https://uba.huaweicloud.com" />
+<link rel="dns-prefetch" href="https://uba-intl.huaweicloud.com" />
+
+<!--  -->
+
+
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    window.$closeBiReport2018 = true
+
+    window.$siteInfo = window.$siteInfo || {};
+    window.$siteInfo.site = "china";
+    window.$siteInfo.lang = "zh-cn".replace("_", "-");
+</script>
+
+
+
+        
+        
+      <script>window.$cssList = ["https://res.hc-cdn.com/cnpm-pep-htmlcomponent/1.0.2"];window.$aioList = [];window.$aioCdnPrefix = 'https://res.hc-cdn.com/';</script>
+      <script>
+        window.gConfig =  window.gConfig || {};
+        window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+        var hClassName ;
+        if(window.gConfig.isMobile) {
+          hClassName = ' phone';
+        } else {
+          hClassName = ' pc';
+        }
+        if(window.$cssList) {
+          for(var i=0; i<window.$cssList.length; i++) {
+            document.write('<link rel="stylesheet" href="'+window.$cssList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+          }
+        }
+        var root = document.documentElement;
+        root.className += hClassName ;
+    </script>
+      
+
+        
+        <script>
+    window.gConfig =  window.gConfig || {};
+    window.gConfig.isMobile = /iPhone|iPad|iPod|Android|Mobile/i.test(navigator.userAgent);
+    var hClassName;
+    if(window.gConfig.isMobile){
+        hClassName = ' phone';
+    }else{
+        hClassName = ' pc';  
+    }
+    if(window.$aioList) {
+        for(var i=0; i<window.$aioList.length; i++) {
+            if(window.$aioCdnPrefix){
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="'+window.$aioCdnPrefix+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            } else {
+                if(window.$aioList[i].length>0) {
+                    document.write('<link rel="stylesheet" href="https://res.hc-cdn.com/'+window.$aioList[i]+'/'+(window.gConfig.isMobile?'m':'pc')+'/index.css" />');
+                }
+            }
+            
+        }
+    }
+    var root = document.documentElement;
+    root.className += hClassName ; 
+    window.gConfig.seed = window.gConfig.seed || [];
+    window.gConfig.seed.push({
+        name: '@cloud/link-to',
+        data: {
+            "packages": {
+                "@cloud/link-to": {
+                    "path": "//portal.hc-cdn.com/cnpm-link-to/3.1.12/",
+                    "version": "3.1.12"
+                }
+            }
+        }
+    });
+</script>
+    </head>
+    <body>
+        
+        
+    
+        
+
+    
+
+
+
+    
+
+
+
+    
+
+
+        
+        <div id="content" data-site="china"
+            data-channelFrom="" 
+            data-promotion-theme="black"
+            data-promotion-title-align="center">
+            
+            <div id="common-components-container">
+                
+      <div data-mod-id="pep-htmlcomponent_1692152849656">
+<div data-mod-name-pc="@cloud/pep-htmlcomponent/pc/index" data-mod-name-m="@cloud/pep-htmlcomponent/m/index" class="pep-htmlcomponent" data-mod-name="pep-htmlcomponent">
+    <body>
+    <link rel="stylesheet"
+        href="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/css/index-min.css" />
+    <link rel="stylesheet"
+        href="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/css/index-middle_4.css" />
+    <link rel="stylesheet"
+        href="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/css/index-mb.min.css" />
+
+    <link rel="stylesheet"
+        href="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/product/huaweicloudstack/utils/swiper-bundle.min.css" />
+    
+    <script
+        src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/swiper-3.4.2.jquery.min.js?20171012&sttl=1.7.22">
+    </script>
+    <style>
+        @font-face {
+            font-family: "方正兰亭";
+            src: url("https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/font/方正兰亭中黑_GBK.TTF") format("truetype");
+        }
+
+        body {
+            font-family: "方正兰亭";
+        }
+    </style>
+    <div class="page">
+        <div class="header" style="display: none">
+            <div class="nav-list">
+                <div class="nav-item active" onclick="menuClick(this)">
+                    <span>合作案例</span>
+                </div>
+                <div class="nav-item" onclick="menuClick(this)">
+                    <span>合作伙伴</span>
+                </div>
+                <div class="nav-item" onclick="menuClick(this)">
+                    <span>客户之声</span>
+                </div>
+                <div class="nav-item" onclick="menuClick(this)">
+                    <span>行业案例</span>
+                </div>
+                <div class="nav-item" onclick="menuClick(this)">
+                    <span>新闻资讯</span>
+                </div>
+            </div>
+        </div>
+        <div class="banner banner-swiper swiper section">
+            <div class="swiper-wrapper">
+                <div class="banner-item swiper-slide">
+                    <video class="banner-img pc"
+                        src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-pc_1.mp4"
+                        muted autoplay loop preload="auto"></video>
+                    <div class="banner-icon"></div>
+                    <div class="banner-text pc">了解华为云Stack深度用云先锋故事</div>
+                    <!-- <img class="banner-img mb" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-mb_4.gif" alt=""> -->
+                    <img class="banner-img mb"
+                        src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-mb_1.png"
+                        alt="" />
+                    <div class="mask"></div>
+                    <div class="banner-content">
+                        <span class="banner-title mb">AI实干看湘钢</span>
+                        <!-- <span class="banner-introduct"
+                  >四川林草局和华为联合打造”天空地人”一体的森林草原火情监测即报系统，用一双智慧的眼睛，守护大熊猫栖息地</span
+                > -->
+                        <span class="line mb"></span>
+                        <img class="play-btn"
+                            src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/play-btn.png"
+                            alt="" data-show="player"
+                            data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/xgalsp.mp4" />
+                        <div class="banner-text mb">了解华为云Stack深度用云先行者故事</div>
+                    </div>
+                </div>
+                <div class="banner-item swiper-slide">
+                    <video class="banner-img pc"
+                        src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-pc_2.mp4"
+                        muted autoplay loop preload="auto"></video>
+                    <div class="banner-icon"></div>
+                    <div class="banner-text pc">了解华为云Stack深度用云先行者故事</div>
+                    <!-- <img class="banner-img mb" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-mb_3.png" alt=""> -->
+                    <img class="banner-img mb"
+                        src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-mb_2.png"
+                        alt="" />
+                    <div class="mask"></div>
+                    <div class="banner-content">
+                        <span class="banner-title mb">云上勘探，叩问地心蓝金</span>
+                        <!-- <span class="banner-introduct pc"
+                  >煤矿里挖出数据金矿，用智慧管控减少井下工作，增安提效看见矿井下的阳光</span
+                > -->
+                        <span class="line mb"></span>
+                        <img class="play-btn"
+                            src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/play-btn.png"
+                            alt="" data-show="player"
+                            data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xnyqt/xinanyouqitian_batch.mp4" />
+                        <div class="banner-text mb">了解华为云Stack深度用云先行者故事</div>
+                    </div>
+                </div>
+                <div class="banner-item swiper-slide">
+                    <video class="banner-img pc"
+                        src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-pc_4.mp4"
+                        muted autoplay loop preload="auto"></video>
+                    <div class="banner-icon"></div>
+                    <div class="banner-text pc">了解华为云Stack深度用云先行者故事</div>
+                    <!-- <img class="banner-img mb" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-mb_4.gif" alt=""> -->
+                    <img class="banner-img mb"
+                        src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-mb_4.png"
+                        alt="" />
+                    <div class="mask"></div>
+                    <div class="banner-content">
+                        <span class="banner-title mb">草原之下，乌金之上</span>
+                        <!-- <span class="banner-introduct"
+                  >四川林草局和华为联合打造”天空地人”一体的森林草原火情监测即报系统，用一双智慧的眼睛，守护大熊猫栖息地</span -->
+                        >
+                        <span class="line mb"></span>
+                        <img class="play-btn"
+                            src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/play-btn.png"
+                            alt="" data-show="player"
+                            data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/eerduosi/eerduosi.mp4" />
+                        <div class="banner-text mb">了解华为云Stack深度用云先行者故事</div>
+                    </div>
+                </div>
+                <div class="banner-item swiper-slide">
+                    <video class="banner-img pc"
+                        src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-pc_3.mp4"
+                        muted autoplay loop preload="auto"></video>
+                    <div class="banner-icon"></div>
+                    <div class="banner-text pc">了解华为云Stack深度用云先行者故事</div>
+                    <!-- <img class="banner-img mb" src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-mb_3.png" alt=""> -->
+                    <img class="banner-img mb"
+                        src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner/banner-mb_3.png"
+                        alt="" />
+                    <div class="mask"></div>
+                    <div class="banner-content">
+                        <span class="banner-title mb">时间的脚步</span>
+                        <!-- <span class="banner-introduct pc"
+                  >煤矿里挖出数据金矿，用智慧管控减少井下工作，增安提效看见矿井下的阳光</span
+                > -->
+                        <span class="line mb"></span>
+                        <img class="play-btn"
+                            src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/play-btn.png"
+                            alt="" data-show="player"
+                            data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/shijiandejiaobu_batch.mp4" />
+                        <div class="banner-text mb">了解华为云Stack深度用云先行者故事</div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-list">
+                <div class="navigation-item active">
+                    <div class="text">
+                        <span>AI实干看湘钢</span>
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/play-btn.png"
+                            alt="" data-show="player"
+                            data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/xgalsp.mp4" />
+                    </div>
+                    <!-- <div class="line"></div> -->
+                </div>
+                <div class="navigation-item">
+                    <div class="text">
+                        <span>云上勘探，叩问地心蓝金</span>
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/play-btn.png"
+                            alt="" data-show="player"
+                            data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xnyqt/xinanyouqitian_batch.mp4" />
+                    </div>
+                    <!-- <div class="line"></div> -->
+                </div>
+                <div class="navigation-item">
+                    <div class="text">
+                        <span>草原之下，乌金之上</span>
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/play-btn.png"
+                            alt="" data-show="player"
+                            data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/eerduosi/eerduosi.mp4" />
+                    </div>
+                    <!-- <div class="line"></div> -->
+                </div>
+                <div class="navigation-item">
+                    <div class="text">
+                        <span>时间的脚步</span>
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/play-btn.png"
+                            alt="" data-show="player"
+                            data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/shijiandejiaobu_batch.mp4" />
+                    </div>
+                    <!-- <div class="line"></div> -->
+                </div>
+            </div>
+            <div class="banner-swiper-group mb">
+                <img class="banner-btn-prev"
+                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner-prev-arrow.png"
+                    alt="" />
+                <div class="banner-pagination swiper-pagination"></div>
+                <img class="banner-btn-next"
+                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/banner-next-arrow.png"
+                    alt="" />
+            </div>
+        </div>
+        <div class="innovate section">
+            <div class="safeplace">
+                <div class="section-title">
+                    <span class="en">cooperation</span>
+                    <span class="cn">携手客户实现创新突破</span>
+                </div>
+                <div class="innovate-list swiper innovate-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="innovate-item swiper-slide">
+                            <div class="innovate-item-img">
+                                <img class="innovate-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/innovate/innovate-img_1.png"
+                                    alt="" />
+                                <img class="innovate-play-btn"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                    alt="" data-show="player"
+                                    data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xg/xgalsp.mp4" />
+                            </div>
+                            <a class="innovate-info" href="/xg" target="_blank">
+                                <div class="title">湘潭钢铁集团</div>
+                                <div class="text">淬炼中国钢铁新力量</div>
+                                <div class="link">
+                                    <span>查看更多</span>
+                                    <div class="arrow"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="innovate-item swiper-slide">
+                            <div class="innovate-item-img">
+                                <img class="innovate-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/innovate/innovate-img_2.png"
+                                    alt="" />
+                                <img class="innovate-play-btn"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                    alt="" data-show="player"
+                                    data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xnyqt/xinanyouqitian_batch.mp4" />
+                            </div>
+                            <a class="innovate-info" href="/southwest"
+                                target="_blank">
+                                <div class="title">西南油气田</div>
+                                <div class="text">云上勘探，叩问地心蓝金</div>
+                                <div class="link">
+                                    <span>查看更多</span>
+                                    <div class="arrow"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="innovate-item swiper-slide">
+                            <div class="innovate-item-img">
+                                <img class="innovate-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/innovate/innovate-img_3.png"
+                                    alt="" />
+                                <img class="innovate-play-btn"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                    alt="" data-show="player"
+                                    data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/eerduosi/eerduosi.mp4" />
+                            </div>
+                            <a class="innovate-info" href="/eerduosi"
+                                target="_blank">
+                                <div class="title">鄂尔多斯工业互联网平台</div>
+                                <div class="text">推动区域工业数智化转型</div>
+                                <div class="link">
+                                    <span>查看更多</span>
+                                    <div class="arrow"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="innovate-btn-prev"></div> -->
+                <!-- <div class="innovate-btn-next"></div> -->
+                <div class="innovate-pagination swiper-pagination mb"></div>
+            </div>
+        </div>
+        <div class="guest section">
+            <div class="safeplace">
+                <div class="section-title">
+                    <span class="en">Voices of customers</span>
+                    <span class="cn">深度用云先锋时间</span>
+                </div>
+                <div class="guest-list swiper guest-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_15.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/haoluoshuini.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_12.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/ng/ng.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_13.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/paetners.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_14.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/data-circulation.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_11.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/dataai-interview.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_1.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/xg_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_2.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/shujuyaosudajiatan_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_3.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/hyzy_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_4.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/xiaolinshuo_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_5.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/xty-damoxinghunheyun_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_6.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/shuziluansheng-_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_7.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/shengtaihuoban_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_8.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/fxs-zhujishangyun_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_9.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/fxs-gongyehulianwang-_batch.mp4" />
+                        </div>
+                        <div class="guest-item swiper-slide">
+                            <div class="mask"></div>
+                            <img class="guest-img"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest/guest-img_10.png"
+                                alt="" />
+                            <img class="guest-play-btn"
+                                src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/guest-play-btn.png"
+                                alt="" data-show="player"
+                                data-src="https://res-video.hc-cdn.com/cloudbu-site/china/zh-cn/HuaweiCloudStack/xianfeng100/alw-damoxinghunheyun-batch.mp4" />
+                        </div>
+                    </div>
+                </div>
+                <div class="guest-btn-prev"></div>
+                <div class="guest-btn-next"></div>
+                <div class="guest-pagination swiper-pagination mb"></div>
+            </div>
+        </div>
+        <div class="case section" id="case">
+            <div class="safeplace">
+                <div class="section-title">
+                    <span class="en">SELECTED CASES</span>
+                    <span class="cn">行业实践，践行深度用云</span>
+                </div>
+                <div class="case-group-list">
+                    <div class="case-group-item active">
+                        <span>政务</span>
+                    </div>
+                    <div class="case-group-item">
+                        <span>金融 </span>
+                    </div>
+                    <div class="case-group-item">
+                        <span>大企业</span>
+                    </div>
+                    <div class="case-group-item">
+                        <span>其他</span>
+                    </div>
+                </div>
+                <!-- <div class="type-list active">
+                      <div class="type-item active">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/zhengfu.png" alt="">
+                          <span>政府</span>
+                      </div>
+                      <div class="type-item">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/buwei.png" alt="">
+                          <span>部委</span>
+                      </div>
+                  </div> -->
+                <!-- <div class="type-list">
+                      <div class="type-item">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/yinhang.png" alt="">
+                          <span>银行</span>
+                      </div>
+                      <div class="type-item">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/baoxian.png" alt="">
+                          <span>保险证券</span>
+                      </div>
+                  </div> -->
+                <!-- <div class="type-list">
+                      <div class="type-item">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/nengyuan.png" alt="">
+                          <span>能源</span>
+                      </div>
+                      <div class="type-item">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/jiaotong.png" alt="">
+                          <span>交通</span>
+                      </div>
+                      <div class="type-item">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/meikuang.png" alt="">
+                          <span>煤矿</span>
+                      </div>
+                      <div class="type-item">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/daqiye.png" alt="">
+                          <span>大企业</span>
+                      </div>
+                      <div class="type-item">
+                          <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/icon/yiliao.png" alt="">
+                          <span>教育医疗</span>
+                      </div>
+                  </div> -->
+                <div class="case-group active">
+                    <div class="case-list">
+                        <a class="case-item active" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/shenzhenfutianzhengwuyun.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">深圳市政务云</span>
+                                    <span
+                                        class="case-content">通过华为云Stack的统一云管理平台为全市各部门提供按需、弹性的云服务，实现市政务云与省、区对接，及市与区间的资源共享容灾。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/shanghaizhengwu.jpg"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">上海市政务云</span>
+                                    <span class="case-content">上海市政府携手华为云Stack
+                                        构建面向未来的智慧政府云平台，实现一号申请、一窗受理、一网通办。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/nanjingshizhengwuyun.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">南京市政务云</span>
+                                    <span class="case-content">南京市依托华为云Stack构建南京市新一代政务云，为全市117个单位的1108个信息系统提供云服务。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/jiangsucaizheng.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">江苏财政</span>
+                                    <span class="case-content">从上云到深度用云，江苏财政携手华为云Stack全面提升资金管理质效。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/shanxicaizheng.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">陕西财政</span>
+                                    <span class="case-content">陕西财政通过华为云 Stack 构建全省集中的、
+                                        一站式服务化的云平台，实现了基础设施标准化、应用架构标准化、数据集成标准化和交付过程标准化。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/sichuanlincao.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">四川林业和草原局</span>
+                                    <span class="case-content">四川林业和草原局基于华为云
+                                        Stack打造全天候、全领域、全联接的天空地人一体化监测预警平台。</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="tips mb">左右滑动查看更多</span>
+                    <div class="group">
+                        <div class="other-list">
+                            <a class="other-item"
+                                href=""
+                                target="_blank">
+                                <span class="case-title">上海数据集团</span>
+                                <span class="case-content">上海数据集团联合华为云打造城市数据空间新范式，为城市级数据畅通体系大循环奠定基础条件。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">福建人社</span>
+                                <span class="case-content">华为云Stack与福建省人力资源与社会保障厅构建人社业务一朵云，提升人力资源保障线上公共服务水平。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">北京政务云</span>
+                                <span class="case-content">北京政务云基于华为云Stack，建设全栈自主创新云平台，为复杂业务提供多元算力支撑。</span>
+                            </a>
+                            <a class="other-item" href="" target="_blank">
+                                <span class="case-title">成都智算中心</span>
+                                <span class="case-content">华为云Stack助力成都建设国家一体化大数据中心成渝枢纽节点，加速智慧蓉城建设。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">国家气象局</span>
+                                <span class="case-content">华为云Stack为中国气象局气象雷达数值预报数据支撑子系统提供云平台支撑，强有力的支撑数值预报的研发试验。</span>
+                            </a>
+                            <!-- <a class="other-item" href="https://mp.weixin.qq.com/s/IbIdOxqEw0fzLav_9IP2-Q"
+                                  target="_blank">
+                                  <span class="case-title">西藏政务云</span>
+                                  <span class="case-content">西藏自治区基于华为云Stack打造政务云平台，实现数据协同、服务协同、资源协同、能力共享。</span>
+                              </a> -->
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">许昌智慧城市</span>
+                                <span class="case-content">基于华为云Stack打造城市智能中枢，为许昌市带来城市治理、企业服务、便民应用等新型智慧城市场景。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">佛山禅城政务云</span>
+                                <span class="case-content">携手华为云Stack，依托云、大数据、AI等创新技术打造“一网统管”，让城市变得更“聪明”。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">深圳福田政务云</span>
+                                <span class="case-content">依托华为云Stack云平台提供的城市智能中枢方案，福田区上线运行“一网统管民意速办”群众诉求解决平台。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">浙江安吉政务云</span>
+                                <span class="case-content">在华为云Stack的支持下，搭建了应用支撑体系、数据资源体系、基础设施体系为一体的智能化公共数据平台。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">广西政务云</span>
+                                <span
+                                    class="case-content">华为云Stack参与广西政务云、行业云、地市云建设，助力“壮美广西·政务云”升级，服务民众办事，推动生态经济转型，打造数字丝路高地，共建云上新壮乡。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">国家统计局</span>
+                                <span class="case-content">国家统计局联合华为云 Stack 打造自主创新统计云工程，华为云
+                                    Stack凭借先进混合云架构、敏捷云原生技术、高性能 GaussDB
+                                    数据库，助力国民经济 “体检” 高效推进 。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">绍兴政务大模型</span>
+                                <span
+                                    class="case-content">绍兴市借助华为云Stack大模型混合云推进数字化转型，率先落地政务大模型，打造AI赋能的政务服务智能导办、公文行文助手及知识中心，提升政务智能化水平。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">广州政务大模型</span>
+                                <span
+                                    class="case-content">广州市政数局依托数字广州创新实验室与华为云Stack大模型混合云搭建智能导办应用，借意图理解和文本生成能力提供办事问答、政策咨询服务，适配多端实现线上线下智能化。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">中经社</span>
+                                <span class="case-content">中国经济信息社携手华为云Stack构建经济信息领域技术生态蓝图，打造国家级经济信息旗舰。</span>
+                            </a>
+                        </div>
+                        <span class="tips mb">左右滑动查看更多</span>
+                    </div>
+                    <div class="more-btn">
+                        <span>查看更多</span>
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+                <div class="case-group">
+                    <div class="case-list">
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/tianjinhaibinnongshangyinhang.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">天津滨海农商银行</span>
+                                    <span
+                                        class="case-content">天津滨海农商银行选择华为主机上云解决方案，基于华为云Stack完成全栈主机技术栈升级，支撑新核心全面上云。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/zhongguotaiping.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">中国太平</span>
+                                    <span class="case-content">中国太平选择华为云Stack打造全栈创新金融云平台，夯实数字化转型云底座。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/zhongguorenshou.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">中国人寿</span>
+                                    <span class="case-content">中国人寿基于华为云Stack构建“国寿混合云”，统一云平台，资源整合。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item active" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/jiaotongyinhang.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">交通银行</span>
+                                    <span class="case-content">交通银行选用华为云Stack深度构建湖仓一体的数据平台，实现高质量发展。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/guangdayinhang.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">光大银行</span>
+                                    <span class="case-content">光大银行携手华为云Stack，共同进行全栈云平台的规划、设计和建设，多套应用已上线全栈云平台。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/zheshangyinhang.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">浙商银行</span>
+                                    <span class="case-content">基于华为云Stack构建全栈金融云，打通产业链资金“堵点”，并通过构建创新业务，惠及更多的小微企业。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/guangdongnongxin.jpg"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">广东农信</span>
+                                    <span class="case-content">华为云Satck助力广东农信打造金融科技新基座，推动广东农信数字化转型向“数智化”迈进。</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="tips mb">左右滑动查看更多</span>
+                    <!-- <div class="more-btn">
+                          <span>查看更多</span>
+                      </div>
+                      <div class="other-list">
+                          <div class="other-item">
+                              <span class="case-title"></span>
+                              <span class="case-content"></span>
+                          </div>
+                      </div> -->
+                </div>
+                <div class="case-group">
+                    <div class="case-list">
+                        <a class="case-item active" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/xiangtangangtiejituan.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">湘潭钢铁集团</span>
+                                    <span
+                                        class="case-content">湘钢基于华为云Stack大模型混合云，已完成首批人工大模型开发上线，落地涵盖钢铁生产流程中的焦化、烧结、炼铁、炼钢等环节，实现全流程、全业务数字化。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/xinanyouqitian.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">西南油气田</span>
+                                    <span class="case-content">华为云Stack＆西南油气田，打造统一算力中心，助力智能勘探。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/sanxaijituan.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">三峡集团</span>
+                                    <span class="case-content">携手华为云Stack借助数字化手段将大坝搬迁“上云”，实时守护大坝的安全运行，提升生产效率。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/hongliulin.jpg"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">红柳林矿业</span>
+                                    <span class="case-content">华为云Stack深度融合矿业OT生产和IT支撑系统，打造了行业首个矿山工业互联网平台。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/guojiaguanwang.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">国家管网</span>
+                                    <span class="case-content">国家管网携手华为云Stack建设国家管网数字平台，实现所有统建的应用系统快速开发、部署。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/yiqidazhong.jpg"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">中国一汽</span>
+                                    <span class="case-content">中国一汽联合华为云Stack构建数字化转型底座，实现信息基础设施的成本优化40%。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/shenzhenjichang.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">深圳机场</span>
+                                    <span class="case-content">深圳机场集团依托华为云Stack，打造高效、安全、卓越体验的智慧未来机场。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/henandianli.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">国网河南电力</span>
+                                    <span class="case-content">携手华为云Stack打造电网数字化平台，基于大数据能力实现光伏和风电新能源参与电力平衡的精准计算。</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="tips mb">左右滑动查看更多</span>
+                    <div class="group">
+                        <div class="other-list">
+                            <!-- <a class="other-item" href="https://www.huaweicloud.com/cases/shenzhenjichang.html"
+                                  target="_blank">
+                                  <span class="case-title">深圳机场</span>
+                                  <span class="case-content">深圳机场集团依托华为云Stack，打造高效、安全、卓越体验的智慧未来机场</span>
+                              </a> -->
+                            <a class="other-item"
+                                href=""
+                                target="_blank">
+                                <span class="case-title">山东能源集团</span>
+                                <span class="case-content">山东能源基于华为混合云平台构建业界首个矿山大模型，引领煤炭行业智能升级。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">天津港（集团）有限公司</span>
+                                <span class="case-content">在华为云Stack助力下建立分布式云数据中心和云化平台，实现配置可控、弹性扩展，数据资源融合和数据驱动。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">大兴机场</span>
+                                <span class="case-content">华为云Stack为北京大兴国际机场运行主体和驻场单位提供全方位数据共享和协同稳定可靠信息化平台。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">云南交投</span>
+                                <span class="case-content">通过华为云stack搭建集团统一的产业级大数据平台，实现各个业务部门、业务系统之间的数据统一接入及互通互享。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">青岛城运</span>
+                                <span class="case-content">青岛城运基于华为云Stack打造青岛城运大交通格局，从精细运营向数智运营升级。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">山东港口集团</span>
+                                <span class="case-content">得益于华为云Stack的全栈式助力，山东港口实现了集团信息化资源的云化、服务化、流程化和标准化。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">内蒙古中天合创</span>
+                                <span class="case-content">内蒙古中天合创煤矿携手华为云Stack打造矿山“一朵云”，为矿山运营调度中心构建智慧底座。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">红庆河煤矿</span>
+                                <span
+                                    class="case-content">在统一的万兆工业承载网+矿山工业互联网平台（华为云Stack+数字平台）的数字技术加持下，实现端到端业务流程智能化升级。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">长安汽车</span>
+                                <span
+                                    class="case-content">长安汽车渝北新工厂依托华为云Stack打造集团+工厂的云边端协同架构，赋能工厂智能化应用，实现C2M柔性制造。</span>
+                            </a>
+                            <a class="other-item" href=""
+                                target="_blank">
+                                <span class="case-title">东风汽车</span>
+                                <span class="case-content">东风公司依托华为云 Stack 打造东风云
+                                    2.0，构建武汉、十堰两地三中心云底座。基于混合云架构，丰富算力，建设数据与
+                                    AI 训练服务，上线超 70 项云服务 。</span>
+                            </a>
+                            <!-- <a class="other-item" href="https://www.huaweicloud.com/cases/faw.html" target="_blank">
+                                  <span class="case-title">中国一汽</span>
+                                  <span class="case-content">中国一汽联合华为云Stack构建数字化转型底座，实现信息基础设施的成本优化40%</span>
+                              </a> -->
+                        </div>
+                        <span class="tips mb">左右滑动查看更多</span>
+                    </div>
+                    <div class="more-btn">
+                        <span>查看更多</span>
+                        <div class="arrow"></div>
+                    </div>
+                </div>
+                <div class="case-group">
+                    <div class="case-list">
+                        <a class="case-item active" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/shenshanzhongxinyiyuan.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">深汕中心医院</span>
+                                    <span class="case-content">深汕中心医院依托华为云Stack建设全新智慧医院，实现全流程电子化的“智慧服务”。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/beijingyiyuan.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">北京医院</span>
+                                    <span class="case-content">基于华为云Stack构建混合云架构，实现诊前、诊中、诊后及医疗资源管理系统等全业务云化方案。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/dongnandaxue.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">东南大学</span>
+                                    <span class="case-content">华为云Stack为东南大学构建了校级计算、存储、网络统一资源平台，支撑校内各种系统及应用的运行。
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href=""
+                            target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/nankaidaxue.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">南开大学</span>
+                                    <span class="case-content">携手华为云Stack打造校园云平台，实现敏捷开发，使业务上线更快，为持续演进打下了坚实的基础。</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="case-item" href="" target="_blank">
+                            <div class="box">
+                                <img class="case-img"
+                                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/case/qinghuadaxue.png"
+                                    alt="" />
+                                <div class="case-message">
+                                    <span class="case-title">清华大学</span>
+                                    <span class="case-content">清华大学携手华为云Stack
+                                        FusionInsight智能数据湖团队，持续探索商业化的软件创新模式。</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <span class="tips mb">左右滑动查看更多</span>
+                    <div class="group">
+                        <div class="other-list">
+                            <a class="other-item yhgf" href="https://mp.weixin.qq.com/s/XHj3v6ZwCg9LN0qdTBxNSQ"
+                                target="_blank">
+                                <span class="case-title">洋河股份</span>
+                                <span class="case-content">洋河股份依托华为云
+                                    Stack，达成业务异构跨云灾备，保障云上业务数据安全，满足可靠与安全需求。灾备能力升级的同时，华为助力洋河加速企业一朵云、应用现代化、生产数智化落地
+                                    。</span>
+                            </a>
+                        </div>
+                        <span class="tips mb">左右滑动查看更多</span>
+                    </div>
+                    <div class="more-btn">
+                        <span>查看更多</span>
+                        <div class="arrow"></div>
+                    </div>
+                    <!-- <div class="more-btn">
+                          <span>查看更多</span>
+                      </div>
+                      <div class="other-list">
+                          <div class="other-item">
+                              <span class="case-title"></span>
+                              <span class="case-content"></span>
+                          </div>
+                      </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="partner section">
+            <div class="safeplace">
+                <img class="partner-intro pc"
+                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner-text.png"
+                    alt="" />
+                <img class="partner-intro mb"
+                    src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner-text-mb.png"
+                    alt="" />
+                <div class="partner-list pc">
+                    <div class="partner-row">
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_1.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_2.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_3.png"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div class="partner-row">
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_4.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_5.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_6.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_7.png"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div class="partner-row">
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_8.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_9.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_22.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_11.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_12.png"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div class="partner-row">
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_13.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_14.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_15.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_16.png"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div class="partner-row">
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_17.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_10.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_19.png"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div class="partner-row">
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_20.png"
+                                alt="" />
+                        </div>
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_21.png"
+                                alt="" />
+                        </div>
+                    </div>
+                    <div class="partner-row">
+                        <div class="partner-item">
+                            <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_18.png"
+                                alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="partner-list mb">
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_1.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_2.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_3.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_22.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_5.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_6.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_7.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_8.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_9.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_10.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_11.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_12.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_13.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_14.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_15.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_16.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_17.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_18.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_19.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_20.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item" style="visibility: hidden"></div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_21.png"
+                            alt="" />
+                    </div>
+                    <div class="partner-item" style="visibility: hidden"></div>
+                    <div class="partner-item">
+                        <img src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/images/partner/partner-img_4.png"
+                            alt="" />
+                    </div>
+                </div>
+                <div class="mark"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/cases/pioneers100-2025/js/index_1.js"></script>
+</body>
+	
+	<script> window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/pep-htmlcomponent', data : {"packages":{"@cloud/pep-htmlcomponent":{"path":"//res.hc-cdn.com/cnpm-pep-htmlcomponent/1.0.2/","version":"1.0.2"},"@cloud/lazyload":{"path":"//res.hc-cdn.com/cnpm-lazyload/2.0.8/","version":"2.0.8"},"@cloud/link-to":{"path":"//res.hc-cdn.com/cnpm-link-to/1.0.16/","version":"1.0.16"},"@cloud/xtemplate-runtime":{"path":"//res.hc-cdn.com/cnpm-xtemplate-runtime/1.0.1/","version":"1.0.1"}}} })</script>
+
+</div>
+
+
+</div>
+      <script>
+          window.gConfig = window.gConfig || {};
+          window.gConfig.seed = window.gConfig.seed || [];
+          window.$devPath = {"@cloud/pep-htmlcomponent":{"path":"https://res.hc-cdn.com/cnpm-pep-htmlcomponent/1.0.2"}};
+          for(var i = 0; i < window.gConfig.seed.length; i++) {
+            var tmpSeed = window.gConfig.seed[i].data;
+            var name = window.gConfig.seed[i].name;
+            if(tmpSeed && tmpSeed.packages && window.$devPath[name]) {
+              tmpSeed.packages[name] = window.$devPath[name];
+            }
+          }
+        </script>
+      
+            </div>
+        </div>
+
+        <script>
+            var components = $("#common-components-container").children("div:not([data-mod-id='pep-empty-page'])");
+            var count = 0;
+            for (var i = 0; i < components.length; i++) {
+                var tempComponent = $(components[i]);
+                if(tempComponent.children().length > 0){
+                    tempComponent.attr("id", "section-" + count);
+                    count++;
+                }
+                
+                tempComponent = null;
+            }
+        </script>
+
+        
+        
+    
+        <div id="register"></div>
+    
+
+
+        
+    
+        <div id="service"></div>
+    
+
+
+        
+    
+        
+
+    
+
+
+
+    
+
+
+
+<script>
+    var originsWhiteList = ['https://www.huaweicloud.com','https://activity.huaweicloud.com','https://support.huaweicloud.com','https://beian.huaweicloud.com'];
+    var currentOrigin = originsWhiteList.includes(window.location.origin)?window.location.origin:'https://www.huaweicloud.com';
+    var url = currentOrigin+"/common/header-footer-china-zh-2023.html";
+    var $tmpForPEP = document.createElement("div");
+    $.ajax({
+        url: url,
+        async: true,
+        timeout: 10000,
+        success: function(response) {
+            $tmpForPEP.innerHTML = response;
+            // 下拉部分
+            $("#footer").append($tmpForPEP.querySelector("#edit-header-drop").innerHTML);           
+            var scripts = [
+                "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.46/header-and-footer-china.umd.js?sttl=1.2.3&ttr=1.2.3",
+                "https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/js/portalLogin.min.js?sttl=1.2.3&ttr=1.2.3"
+            ];
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            }
+        },
+        error: function(response) {
+          var scripts = [
+                "https://portal.hc-cdn.com/cpage-pep-header-and-footer-china/2.0.46/header-and-footer-china.umd.js?sttl=1.2.3&ttr=1.2.3",
+                "https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/js/portalLogin.min.js?sttl=1.2.3&ttr=1.2.3"
+            ]
+            for(var i = 0; i < scripts.length; i++) {
+                var script = document.createElement('script');
+                script.type = 'text/javaScript';
+                script.setAttribute('crossorigin','anonymous');
+                script.src = scripts[i];
+                document.getElementsByTagName('body')[0].appendChild(script);
+            }
+        }
+    });
+
+
+    if (!window.gConfig) {
+        window.gConfig = {}
+    }
+    window.gConfig.isApp = /galaxy/i.test(navigator.userAgent) && window.galaxy;
+    // 初始化全局变量
+    var jsonParamInit = {}
+    var jsonParamView = {}
+    var jsonParamEvent = {}
+    jsonParamInit['UserAccount'] = 'host'
+    jsonParamEvent['rec_account'] = getUaCookie('ua')
+    jsonParamView['rec_account'] = getUaCookie('ua')
+    var portalDomain = 'https://portal.huaweicloud.com',
+    ssoDomain = 'https://auth.huaweicloud.com'
+    var isVerified = false
+    var isLogin = false
+    var totalMsg = 0;
+    function getUaCookie(c_name) {
+        if (document.cookie.length > 0) {
+            var c_start = document.cookie.indexOf(c_name + '=')
+            if (c_start != -1) {
+            c_start = c_start + c_name.length + 1
+            var c_end = document.cookie.indexOf(';', c_start)
+            if (c_end == -1) c_end = document.cookie.length
+            return decodeURI(document.cookie.substring(c_start, c_end))
+            }
+        }
+        return ''
+    }
+</script>
+
+    
+
+        
+
+        
+            
+                <script>
+                    if(window.location.href.indexOf('subsite')<0) {
+                        window.addEventListener('DOMContentLoaded',function(event){
+                            if(/pcloudApp/i.test(navigator.userAgent)){
+                                $("#footer").css('display', 'none');
+                            }else{
+                                $("#footer").css('display', 'block');
+                            }
+                        })
+                    }
+                </script>
+            
+
+        
+
+        
+        <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/ViewMotion.min.1.2.js?sttl=1.2.3"></script>
+        <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/v2/dcSlideShow.min.js?20171012&sttl=1.2.3"></script>
+        <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/web_resoure/cms/static/js/swiper-3.4.2.jquery.min.js?20171012&sttl=1.2.3"></script>  
+        <script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/product/js/checkURL.js?sttl=1.2.3"></script>
+        <div class="por-modal por-modal-player" data-hide="modal" id="common-video-play-modal">
+            <div class="por-player">
+                <video class="por-native" controls="" src=""></video>
+                <i class="por-player-close" data-hide="modal"></i>
+            </div>
+        </div>
+        <script>
+            // 链接为视频链接，处理统一使用portalUI播放器打开
+            $("[href*='mp4']").on('click',function(event) {
+                if($(event.target).closest("[data-show],[data-src],[video-src]").length === 0){
+                    var $target = $(event.target).closest("[href*='mp4']");
+                    // 当前触发target的href属性为视频链接
+                    var targetHref = $target.attr('href');
+                    if(targetHref && targetHref.includes('mp4')){
+                        var $videoModal = $('#common-video-play-modal');
+                        var $videoInModal = $('#common-video-play-modal video');
+                        if($videoModal.length && $videoInModal.length) {
+                            event.preventDefault();
+                            $videoInModal.attr('src',targetHref)
+                            $videoModal.porModal('show')
+                            event.stopPropagation();
+                        }
+                    }
+                }
+            });
+        </script>
+        <style type="text/css">
+            #header {
+                height: 100px;
+            }
+        
+            @media (max-width: 768px) {
+                #header {
+                    height: 44px;
+                }
+            }
+        </style>
+        <script>
+            function dealWithImageHTL() {
+                if (/pcloudApp/i.test(navigator.userAgent)) {
+                    $("[data-pep-src]").hide();
+                    return;
+                } else {
+                    var str = window.location.search;
+                    var suband = "type=android";
+                    var subios = "type=ios";
+                    if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+                        $("[data-pep-src]").hide();
+                        return;
+                    }
+                }
+                $("[data-pep-src]").each(function () {
+                    $(this).attr("src", $(this).attr("data-pep-src"));
+                });
+            }
+        
+            dealWithImageHTL();
+        </script>
+
+
+        <script>
+            //display video for product-VideoTutorials-v5
+            $('.product-video-list li').each(function () {
+                var pcUrl = $(this).attr("data-vedio-pc-url") || '';
+                var mbUrl = $(this).attr("data-video-mb-url") || pcUrl || '';
+                var ua = navigator && navigator.userAgent;
+                if ((/Android|webOS|iPhone|iPod|Windows Phone|(BlackBerry).*Version|(BB10).*Version|IEMobile|Opera Mini/i).test(ua)) {
+                    $(this).find(".product-play-btn2").on('click', function () {
+                        play(encodeURI(mbUrl), '')
+                    })
+                } else {
+                    $(this).find(".product-play-btn2").on('click', function () {
+                        play(encodeURI(pcUrl), '')
+                    })
+                }
+            })
+            window.channelFrom = $('#content').attr('data-channelFrom');
+            window.hrefName = $('#content').attr('data-hrefName');
+            if ($('#content').attr('data-site') == 'hk') {
+                localStorage.setItem('currentActivitySite', 'hk');
+            }
+            else {
+                localStorage.setItem('currentActivitySite', 'china');
+            }
+        </script>
+
+        
+        
+        
+
+<script>
+  var furionAppCode = '';
+  var $currentUrl = location.href;
+  if($currentUrl.indexOf("/price_detail.html") != -1 || $currentUrl.indexOf("/pricing.html") != -1 || $currentUrl.indexOf("/pricing/index.html") != -1){
+    furionAppCode = 'D00903385CF649FCA048B5DE1C1E6D4E';
+  }else if($currentUrl.indexOf("https://activity.huaweicloud.com") == 0) {
+    furionAppCode = '51D7385A7D2B4937BB45DC755E82C48C';
+  } else if ($currentUrl.indexOf("https://www.huaweicloud.com") == 0) {
+    furionAppCode = '7D9AB7C5E01D4698B7B918065C762796';
+  } else if ($currentUrl.indexOf("https://support.huaweicloud.com") == 0) {
+    furionAppCode = '1C04D12EB0F8479A9DA9A24639FCA81C';
+  }
+  if(!window.__fr && furionAppCode){
+    !function(x, n) {
+      window[n] = window[n] || {};
+      window[n].config = {
+          appId: furionAppCode,setting: "api,jsTrack,uba,longtask,rtti",hashMode: true,closeReportFMP: true,
+      };
+      var o = document.createElement('script');
+      o.src = x, o.async = !0;
+      var d = document.body.firstChild;
+      document.body.insertBefore(o, d);
+    }('https://portal.hc-cdn.com/FurionSdkStatic/3.6.55/furion-cdn.min.js', '__fr');
+  }
+</script>
+
+<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.1.16/js/bi_new.js?sttl=1.2.3"></script>
+
+<script src="https://portal.hc-cdn.com/cnpm-baseui/3.0.17/theme-token.js?sttl=1.2.3&ttr=1.2.3" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://res-static.hc-cdn.cn/aem/content/cloudbu-site/resource/common/feloader.js?sttl=1.2.3&ttr=1.2.3" crossorigin="anonymous"></script>
+<script src="https://portal.hc-cdn.com/cnpm-global-resources/1.2.3/js/global.min.js" crossorigin="anonymous"></script>
+<div class="hide-sttl" style="height:0;width:0" data-sttl="1.2.3"></div>
+<script>
+  window.sttlVersion = $('.hide-sttl').attr('data-sttl') || '2020';
+</script>
+
+
+
+  
+      <script>
+          $('body').addClass('header-white');
+
+          if (!/pcloudApp/i.test(navigator.userAgent)) {
+            $("#header").css("display", "block");
+          }
+      </script>
+  
+
+
+<script>
+  // edit--china--en-us--declaration
+  var $ts_site = "china";
+  var $ts_lang = "zh-cn".replace("_", "-");
+  var $lang_site_gate  = $ts_site !== "eu" && $ts_lang !== "tr-tr";
+  var $ts_domain = window.location.host.split('.')[1] ? window.location.host.split('.')[0] : 'localhost';
+  var $pepchannel = "cases/pioneers100.html".split("/").join("_").replace(".html","");
+  window.matedataDomain = $ts_domain;
+
+  // if open in app, should change ts_domain in to "app"
+  if (/pcloudApp/i.test(navigator.userAgent)) {
+      window.matedataDomain = "app";
+  } else {
+      var str = window.location.search;
+      var suband = "type=android";
+      var subios = "type=ios";
+      if (str.indexOf(subios) != -1 || str.indexOf(suband) != -1) {
+        window.matedataDomain = "app";
+      }
+  }
+
+  // 新系统中生成的方式需要改下
+  window.pageMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + ".click.";
+  window.headerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_navigation.click.";
+  window.footerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_footer.click.";
+  window.registerMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_register.click.";
+  window.serviceMatedataPrefix = window.matedataDomain + "_" + $ts_site + "_" + $ts_lang + "_" + $pepchannel + "_service.click.";
+  window.pep_uaid = ($ts_site=="china") ? "UA-55836286-1" : "UA-55836286-39";
+  window.mate_data_ts_pageType = $pepchannel;
+
+</script>
+
+
+<script>
+function showFooter() {
+  if (window.matedataDomain != "app") {
+      $("#footer .footer-nav").css('display', 'block');
+      $("#footer .footer-copyright-container").css('display', 'block');
+      $(".footer-service .footer-wrapper").css('display', 'block');
+      $("#footer #videoDiv").css('display', 'none');
+  }
+}
+if (window.feloader) {
+  feloader.onLoad(function () {
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css');
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css');
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js?sttl=' + window.sttlVersion);
+    feloader.getScript('https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=' + new Date().getTime());
+    showFooter();
+  })
+} else {
+  document.write("<script src='https://res-static.hc-cdn.cn/aem/etc/clientlibs/cloudbu-site/clientlib-basic-footer/js/gray.js'><\/script>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/product-icons.css'>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/static/v2_resources/css/iconFont-solution.css'>");
+  document.write("<link rel='stylesheet' href='https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/activity/commons/js/errMsg_portal.min.js?sttl=" + new Date().getTime() + "'>");
+  showFooter();
+}
+
+</script>
+
+
+  <script src="https://portal.hc-cdn.com/bi/uba.in.js?v=2.17"></script>
+
+
+
+	
+
+
+
+<script>
+
+function guidGenerator() {
+      var d = (new Date).getTime();
+      var uuid = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, function (c) {
+        var r = (d + Math.random() * 16) % 16 | 0;
+        d = Math.floor(d / 16);
+        return (c == "x" ? r : r & 3 | 8).toString(16)
+      });
+      return uuid
+}
+    
+
+
+var _ubaParams = _ubaParams || {};
+    _ubaParams.cloudBIType = 2;
+    _ubaParams.download;
+    _ubaParams.download_suc = 1;
+    _ubaParams.Num2 = 2;
+    _ubaParams.Num4 = 4;
+    _ubaParams.sdkGaUpload = "2";
+    _ubaParams.biReqQueue = _ubaParams.biReqQueue || [];
+    _ubaParams.gaReqQueue = _ubaParams.gaReqQueue || [];
+    _ubaParams.isGAReady = false;
+    _ubaParams.isGAUpload = false;
+    _ubaParams.userAccount;
+    _ubaParams.pageViewID = _ubaParams.pageViewID || guidGenerator();
+    _ubaParams.bi_C1_20 = ["C1", "C2", "C3", "C4", "C5", "C6", "C7", "C8", "C9", "C10", "C11", "C12", "C13", "C14", "C15", "C16", "C17", "C18", "C19", "C20"];
+    _ubaParams.bi_D1_20 = ["D1", "D2", "D3", "D4", "D5", "D6", "D7", "D8", "D9", "D10", "D11", "D12", "D13", "D14", "D15", "D16", "D17", "D18", "D19", "D20"];
+    _ubaParams.timinhObj = window.performance ? window.performance.timing : "";
+    _ubaParams.memberID = "";
+    _ubaParams.siteId = "";
+    _ubaParams.companyID = "";
+    _ubaParams.downloadHeat;
+    _ubaParams.downloadHeat_suc = 1;
+    _ubaParams.ReqQueueSend = function (ReqQueue) {
+      if (ReqQueue && ReqQueue.length > 0) {
+        while (ReqQueue.length > 0) {
+          var req = ReqQueue.pop();
+          if (typeof req == "object") {
+            if (req.type == "event") {
+              if (req.jp) {
+                req.jp.transport = "beacon"
+              }
+              ga("send", "event", req.ec, req.ea, req.el, req.ev, req.jp)
+            } else if (req.type == "pageview") {
+              if (req.jp) {
+                req.jp.transport = "beacon"
+              }
+              ga("send", "pageview", req.page, req.jp)
+            } else if (req.type == "sendPageView") {
+              _sendPageView(req.page, req.jp)
+            } else if (req.type == "sendEvent") {
+              _sendEvent(req.en, req.ec, req.ea, req.el, req.ev, req.jp)
+            }
+          }
+        }
+      }
+    };
+
+  window.ifInitBi = false;
+
+  function getGrayCookie(name) {
+    var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+    if (arr = document.cookie.match(reg))
+        return unescape(arr[2]);
+    else
+        return '';
+}
+
+  if ((document.referrer && document.referrer.indexOf('huaweicloud') === -1) || // 渠道来源，立即上报
+   window.location.search.indexOf('pageviewNow')!==-1) { // 强制上报，也进行
+   if($lang_site_gate){
+    pageViewNow();
+    // 然后引入ubajs，保证页面埋点事件的正常上报
+    var isGray = getGrayCookie("gpbc");
+    var ubajs = "https://portal.hc-cdn.com/bi/uba.js";
+    if (isGray && isGray.length > 10) {
+        ubajs = "https://portal.hc-cdn.com/bi/alpha/uba.js"
+    }
+    $(document).ready(function() {
+        $.getScript(ubajs, function() {});
+    });
+   }
+    
+  }
+
+  window.cnpmDefaultLoginCallback = function (_loginData) {
+    if (!window.ifInitBi) {
+      window.ifInitBi = true;
+      try {
+        if (typeof window.initBi === 'function') {
+          window.initBi(window.jsonParamInit, window.jsonParamView, window.jsonParamEvent);
+        }
+        if (!window.isLogin) {
+          window.promptQueryIP && window.promptQueryIP();
+        }
+      } catch (e) { }
+    }
+  };
+
+
+
+
+    function init(statType, appKey, gaid, jsonParam) {
+      if (arguments.length != _ubaParams.Num4) {
+        return
+      }
+      if (!(jsonParam.UserAccount && typeof appKey == "string")) {
+        return
+      }
+      if (jsonParam && jsonParam.siteId) {
+        _ubaParams.siteId = jsonParam.siteId
+      }
+      if (jsonParam && jsonParam.companyID) {
+        _ubaParams.companyID = jsonParam.companyID
+      }
+      _ubaParams.memberID = jsonParam.MemberID || "";
+      _ubaParams.userAccount = jsonParam.UserAccount;
+      if (_ubaParams.download === _ubaParams.download_suc) {
+        _initCloudBI(appKey, jsonParam)
+      } else {
+        _initCloudBI(appKey, jsonParam);
+        _ubaParams.download = _ubaParams.download_suc;
+        _ubaParams.ReqQueueSend(_ubaParams.biReqQueue)
+      }
+    }
+
+    var initCBISDK = init;
+
+    function isLoadStarted() {
+      var flag = true;
+      return flag
+    }
+
+    function onEvent(eventCategory, eventAction, eventLabel, eventValue, jsonParam) {
+      if (arguments.length < _ubaParams.Num2) {
+        return
+      }
+      if (!(eventCategory && typeof eventCategory == "string")) {
+        return
+      }
+      if (!(eventAction && typeof eventAction == "string")) {
+        return
+      }
+      var eventName = eventCategory + "_" + eventAction;
+      if (jsonParam && jsonParam.eventPrivacyName) {
+        eventName = jsonParam.eventPrivacyName
+      }
+      if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+        _sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+      } else if (_ubaParams.download == _ubaParams.download_suc && !isLoadStarted()) {
+        window.addEventListener("load", function (event) {
+          _sendEvent(eventName, eventCategory, eventAction, eventLabel, eventValue, jsonParam)
+        })
+      } else {
+        _ubaParams.biReqQueue.push({
+          type: "sendEvent",
+          en: eventName,
+          ec: eventCategory,
+          ea: eventAction,
+          el: eventLabel,
+          ev: eventValue,
+          jp: jsonParam
+        })
+      }
+    }
+
+    function onPageView(page, jsonParam) {
+      if (_ubaParams.download == _ubaParams.download_suc && isLoadStarted()) {
+        _sendPageView(page, jsonParam)
+      } else {
+        _ubaParams.biReqQueue.push({
+          type: "sendPageView",
+          page: page,
+          jp: jsonParam
+        });
+        _ubaParams.ReqQueueSend(_ubaParams.biReqQueue);
+      }
+    }
+    function onDmpa(userId, jsonParam) { }
+    function onException(exceptionMessage, exceptionStack, jsonParam) { }
+
+  function pageViewNow() {
+    // uba.js start
+    
+    if (!Array.prototype.indexOf) {
+      Array.prototype.indexOf = function (val) {
+        var value = this;
+        for (var i = 0; i < value.length; i++) {
+          if (value[i] == val)
+            return i
+        }
+        return -1
+      }
+    }
+    // uba.js end
+    if (!window.ifInitBi) {
+      window.ifInitBi = true;
+      var $ts_site = "china";
+      window.pep_uaid = ($ts_site == "china") ? "UA-55836286-1" : "UA-55836286-39";
+
+      init(2, "c9770c4dac06fe3b76ec9c7ad47273d0", window.pep_uaid, jsonParamInit);
+      var domain_pre = (window.location.host || "").split(".")[0] || "";
+      autoEventTracking(domain_pre, jsonParamEvent)
+      if (window.ab_test) {
+        jsonParamView.ab_test = window.ab_test
+      }
+      if (window.ab_version) {
+        jsonParamView.ab_version = window.ab_version
+      }
+      window.channelFrom = window.channelFrom || $('#content').attr('data-channelFrom');
+      if (typeof channelFrom != "undefined") {
+        if (channelFrom) {
+          jsonParamInit["D17"] = channelFrom;
+          jsonParamView["D17"] = channelFrom;
+        }
+      }
+
+      jsonParamView['rec_account'] = getUaCookie('ua')
+      jsonParamView["C1"] = $(document).attr("title");
+      jsonParamView["D15"] = "HC";
+
+      onPageView(window.location.pathname + window.location.search, jsonParamView);
+
+    }
+  }
+
+
+</script>
+
+
+
+<script>
+    if (window.$aioList && window.$aioList.length > 0) {
+        for (var i = 0; i < window.$aioList.length; i++) {
+            var tmpComponent = window.$aioList[i];
+            if (tmpComponent) {
+                var tmpComponentInfo = tmpComponent.split("/");
+                if (tmpComponentInfo.length == 2) {
+                    var name = tmpComponentInfo[0];
+                    var version = tmpComponentInfo[1];
+                    var tmpComponentWrapperEle = $('[data-mod-name="' + name + '"]');
+                    var eleVersionAttr = tmpComponentWrapperEle.attr("data-mod-version");
+                    if (eleVersionAttr && eleVersionAttr != version) {
+                        var linkEle = $('head link[href*="' + name + '/' + version + '"]');
+                        linkEle.attr("href", linkEle.attr("href").replace(version, eleVersionAttr));
+                    }
+                }
+            }
+        }
+    }
+</script>
+<script>
+    // document.referrer可以获取浏览器上一次地址，如果document.referrer是空字符串，则不为语言切换场景
+    window.refLan = "";
+    window.$PEP = true;
+
+    function getSiteFromURL() {
+        url = window.location.host;
+        urlArr = url.split(".");
+        if (urlArr[0] == "www") {
+            reg = "CN";
+        } else {
+            reg = "HK"
+        }
+        return reg;
+    }
+    var siteStr = $('html').attr("site")
+    if (siteStr) {
+        window.reg = siteStr == "china" ? "CN" : siteStr.toUpperCase();
+    } else {
+        window.reg = getSiteFromURL();
+    }
+
+    window.promptLan = $('html').attr("lang");
+
+    if (document.referrer != "") {
+        if (document.referrer.indexOf("/authui/login") == -1) {
+            if (document.referrer.indexOf(".com/intl") != -1) {
+                window.refLan = (document.referrer.indexOf(".com/intl/zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf(".com/intl/en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = (document.referrer.indexOf(".com/en-us") != -1) ? "en-US" : "zh-CN";
+            }
+        } else {
+            //window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : "en-US";
+            if (document.referrer.indexOf("locale=") != -1) {
+                window.refLan = (document.referrer.indexOf("locale=zh-cn") != -1) ? "zh-CN" : ((document.referrer.indexOf("locale=en-us") != -1) ? "en-US" : "es-US");
+            } else {
+                window.refLan = window.promptLan;
+            }
+        }
+    } else {
+        window.refLan = window.promptLan;
+    }
+</script>
+<!--/* 55 trace for some special page */-->
+<script>
+    !function ($) {
+        if (window.dataLayer && window.dataLayer.push) {
+
+            if (window.location.pathname == "/consultation/") {
+                $("#submitBtn").click(function (e) {
+                    window.dataLayer.push({
+                        "event": "consultSubmit",
+                        "productName": $("#applicationscene").val()
+                    });
+                })
+            }
+
+            $("#header .header-login").click(function (e) {
+                window.dataLayer.push({
+                    "event": "loginIntention"
+                })
+            });
+
+            $("#header .header-register").click(function (e) {
+                window.dataLayer.push({
+                    "event": "creationIntention",
+                    "pageType": window.mate_data_ts_pageType,
+                    "pagePosition": "Header"
+                })
+            });
+
+
+        }
+    }(jQuery);
+</script>
+
+
+<script src="https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/commons/apm/wise_trace.min.js?sttl=1.2.3"></script>
+
+<script>
+    $("a[href*='/pep-dialog/']").each(function () {
+        var ele = $(this);
+        var href = ele.attr("href");
+        var path = href.replace(/.html/g, "");
+        var ajaxPath = path.indexOf("activity/") == -1 ? path : path.split("activity/")[1];
+        var arr = path.split("/");
+        var dialogName = arr[arr.length - 1];
+        var location_lang = $('html').attr('lang').toLowerCase();
+        var site = $('html').attr('site').toLowerCase() == 'china' ? 'china' : 'hk';  //  站点判断，国内：china；国际站：hk
+        var dialogUrl = (window.location.host.indexOf(".com") != -1 && window.location.host.indexOf("pep.huaweicloud.com") == -1) ? "https://" + window.location.host + "/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled" : "/content/cloudbu-site/" + site + "/" + location_lang + "/activity/" + ajaxPath + "/jcr:content/dialog.html?wcmmode=disabled";
+        ele.css('pointer-events', 'auto');
+        ele.on("click", function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            if ($("body [data-pep-path*='" + dialogName + "']").length !== 0) {
+                $("body [data-pep-path*='" + dialogName + "']").remove();
+            }
+            // dialog for activity
+            $.ajax({
+                url: dialogUrl,
+                success: function (data) {
+                    if (data) {
+                        data = data.replace('block', 'none');
+                        $("body").append(data);
+                        $("#modal-rule").html($("body [data-pep-path*='" + dialogName + "']").html());
+                        window.activityModal.show('#modal-rule', true);
+                    }
+                }
+            })
+        });
+    });
+</script>
+
+        
+    </body>
+</html>
+ </div>
+
+{% endblock %}
+
+
+      
+      

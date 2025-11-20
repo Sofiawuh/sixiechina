@@ -9,7 +9,7 @@ from werkzeug.middleware.proxy_fix import ProxyFix  # 添加这行
 
 app = Flask(__name__)
 
-# 添加代理支持 - 在应用定义后立即添加
+# 添加代理支持 - 在应用定义后立即添加 主要显示访问IP
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_port=1)
 # 配置日志
 LOG_FILE = 'ai_conversations.log'

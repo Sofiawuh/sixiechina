@@ -2,9 +2,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}我的网站{% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>{% block title %}框架{% endblock %}</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
     <style>
         /* MaaS悬浮按钮样式 */
         .maas-float-btn {
@@ -93,52 +93,52 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-in">
-            <div class="logo">
-                <a href="/">
-                    <img src="{{ url_for('static', filename='img/sixie.png') }}" alt="Logo">
-                </a>
-            </div>
-            <nav class="mheader-nav">
-                <ul>
-                    <li><a href="/">首页<span></span></a></li>
-                    <li><a href="/product">产品<span></span></a></li>
-                    <li><a href="/case/">案例<span></span></a></li>
-                    <li><a href="/service/">服务<span></span></a></li>
-                    <li><a href="/about/">关于<span></span></a></li>
-                    <li><a href="/news/">新闻<span></span></a></li>
-                    <li><a href="/contact/">联系<span></span></a></li>
-                </ul>
-            </nav>
+<header class="header">
+    <div class="header-in">
+        <div class="logo">
+            <a href="/">
+                <img alt="Logo" src="{{ url_for('static', filename='img/sixie.png') }}">
+            </a>
         </div>
-    </header>
+        <nav class="mheader-nav">
+            <ul>
+                <li><a href="/">首页<span></span></a></li>
+                <li><a href="/product">产品<span></span></a></li>
+                <li><a href="/case/">案例<span></span></a></li>
+                <li><a href="/service/">服务<span></span></a></li>
+                <li><a href="/about/">关于<span></span></a></li>
+                <li><a href="/news/">新闻<span></span></a></li>
+                <li><a href="/contact/">联系<span></span></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
-    {% block content %}{% endblock %}
+{% block content %}{% endblock %}
 
-    <footer>
-        <div class="footer-content" style="text-align: center; padding: 15px 0; color: #666;">
-            <p style="margin: 0;">
-                <span>TEL：0755-26406163</span>
-                <span style="margin: 0 10px;">|</span>
-                <a href="https://beian.miit.gov.cn/" target="_blank" style="color: #666; text-decoration: none;">
-                    粤ICP备20052426号-1
-                </a>
-            </p>
-        </div>
-    </footer>
+<footer>
+    <div class="footer-content" style="text-align: center; padding: 15px 0; color: #666;">
+        <p style="margin: 0;">
+            <span>TEL：0755-26406163</span>
+            <span style="margin: 0 10px;">|</span>
+            <a href="https://beian.miit.gov.cn/" style="color: #666; text-decoration: none;" target="_blank">
+                粤ICP备20052426号-1
+            </a>
+        </p>
+    </div>
+</footer>
 
-    <!-- MaaS悬浮按钮 -->
-    <button class="maas-float-btn maas-pulse" onclick="openMaaS()" title="AI智能助手">
-        <div class="maas-icon">AI</div>
-        <div class="maas-tooltip">智能助手</div>
-    </button>
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<!-- MaaS悬浮按钮 -->
+<button class="maas-float-btn maas-pulse" onclick="openMaaS()" title="AI智能助手">
+    <div class="maas-icon">AI</div>
+    <div class="maas-tooltip">智能助手</div>
+</button>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
-    <script>
-        function openMaaS() {
-            window.open('/maas/', '_blank');
-        }
-    </script>
+<script>
+    function openMaaS() {
+        window.open('/maas/', '_blank');
+    }
+</script>
 </body>
 </html>

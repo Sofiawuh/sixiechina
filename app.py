@@ -6,7 +6,6 @@ import logging
 import requests
 from werkzeug.middleware.proxy_fix import ProxyFix  # 添加这行
 
-
 app = Flask(__name__)
 
 # 添加代理支持 - 在应用定义后立即添加
@@ -111,9 +110,12 @@ def call_ai_api(user_message, conversation_history):
 def index():
     return render_template('index.html')
 
+
 @app.route('/product')
 def product():
     return render_template('product.html')
+
+
 @app.route('/case/')
 def case():
     return render_template('case.html')
@@ -145,41 +147,53 @@ def contact():
 def ethiotelecomcloud():
     return render_template('ethiotelecomcloud.html')
 
+
 @app.route('/xg/')
 def xg():
     return render_template('xg.html')
+
 
 @app.route('/southwest/')
 def southwest():
     return render_template('southwest.html')
 
+
 @app.route('/eerduosi/')
 def eerduosi():
     return render_template('eerduosi.html')
+
 
 @app.route('/sanxia/')
 def sanxia():
     return render_template('sanxia.html')
 
+
 @app.route('/shenzhenjichang/')
 def shenzhenjichang():
     return render_template('shenzhenjichang.html')
+
+
 @app.route('/insight/')
 def insight():
     return render_template('insight.html')
+
 
 # ========== 新闻详情页路由 ==========
 
 @app.route('/20250702/')
 def news_20250702():
     return render_template('20250702.html')
+
+
 @app.route('/20251114/')
 def news_20251114():
     return render_template('20251114.html')
 
+
 @app.route('/20250929/')
 def news_20250929():
     return render_template('20250929.html')
+
 
 @app.route('/20250626/')
 def news_20250626():
@@ -195,9 +209,11 @@ def news_20250625():
 def news_20250624():
     return render_template('20250624.html')
 
+
 @app.route('/youyun/')
 def youyun():
     return render_template('youyun.html')
+
 
 @app.route('/pioneers100/')
 def pioneers100():
@@ -227,6 +243,7 @@ def news_20250604():
 @app.route('/20250529/')
 def news_20250529():
     return render_template('20250529.html')
+
 
 @app.route('/20250812/')
 def news_20250812():

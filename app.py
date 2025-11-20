@@ -6,7 +6,7 @@ import logging
 import requests
 from werkzeug.middleware.proxy_fix import ProxyFix  # 添加这行
 
-#1#
+
 app = Flask(__name__)
 
 # 添加代理支持 - 在应用定义后立即添加

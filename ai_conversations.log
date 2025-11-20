@@ -6562,3 +6562,16 @@ Let me know how I can assist!
 2025-11-20 17:46:51,437 - Token使用: {'prompt_tokens': 22, 'total_tokens': 151, 'completion_tokens': 129}
 2025-11-20 17:46:51,438 - --------------------------------------------------
 2025-11-20 17:46:51,438 - 127.0.0.1 - - [20/Nov/2025 17:46:51] "POST /api/maas/chat HTTP/1.1" 200 -
+2025-11-20 17:52:37,292 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-20 17:52:37,293 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-20 17:52:37,293 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-20 17:52:37,293 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-20 17:52:37,762 -  * Restarting with watchdog (windowsapi)
+2025-11-20 17:52:38,234 -  * Debugger is active!
+2025-11-20 17:52:38,238 -  * Debugger PIN: 262-282-285
+2025-11-20 17:53:15,103 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-20 17:53:15,103 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-20 17:53:15,103 -  * Detected change in 'D:\\Sixie\\py\\sixiechina\\app.py', reloading
+2025-11-20 17:53:15,339 -  * Restarting with watchdog (windowsapi)
+2025-11-20 17:53:16,029 -  * Debugger is active!
+2025-11-20 17:53:16,035 -  * Debugger PIN: 262-282-285
